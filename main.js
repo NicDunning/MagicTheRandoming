@@ -40,7 +40,7 @@ var cards = {
 	"Ravenous Lindwurm" : {name:"Ravenous Lindwurm", color:"Green", cost:"4GG", type:"Creature — Wurm", rarity:"Common", abilities:1, power:6, toughness:6, converted:6},
 	"Sarulf's Packmate" : {name:"Sarulf's Packmate", color:"Green", cost:"3G", type:"Creature — Wolf", rarity:"Common", abilities:2, power:3, toughness:3, converted:4},
 	"Sculptor of Winter" : {name:"Sculptor of Winter", color:"Green", cost:"1G", type:"Snow Creature — Elf Rogue", rarity:"Common", abilities:1, power:2, toughness:2, converted:2},
-	"Scorn Effigy" : {name:"Scorn Effigy", color:"Artifact", cost:"3", type:"Creature — Scarecrow", rarity:"Common", abilities:1, power:2, toughness:3, converted:3}
+	"Scorn Effigy" : {name:"Scorn Effigy", color:"Blue", cost:"3", type:"Creature — Scarecrow", rarity:"Common", abilities:1, power:2, toughness:3, converted:3}
 
 	// "" : {name:"", color:"", cost:"", type:"—", rarity:"", abilities:, power:, toughness:, converted:}
 };
