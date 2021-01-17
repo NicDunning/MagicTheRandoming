@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Beleren';
+    src: url('Beleren-Bold.eot');
+    src: url('Beleren-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Beleren-Bold.woff2') format('woff2'),
+        url('Beleren-Bold.woff') format('woff'),
+        url('Beleren-Bold.ttf') format('truetype'),
+        url('Beleren-Bold.svg#Beleren-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MPlantin';
+    src: url('MPlantin.eot');
+    src: url('MPlantin.eot?#iefix') format('embedded-opentype'),
+        url('MPlantin.woff2') format('woff2'),
+        url('MPlantin.woff') format('woff'),
+        url('MPlantin.ttf') format('truetype'),
+        url('MPlantin.svg#MPlantin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+#mainContainer{
+	transform: scale(0.999, 1.0);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#topSlice{
+	float: left;
+	clear: left;
+	display: flex;
+	background-image: url("");
+	height: 57px;
+	width: 375px;
+}
+
+#topSlice > p {
+	float: left;
+	clear: left;
+	font-family: 'Beleren';
+	font-weight: bold;
+	font-size: 19px;
+	transform: scale(1.1, 1.0);
+	padding-top: 9.5px;
+	padding-left: 35px;
+}
+
+.cost{
+	margin-left: auto;
+	margin-right: 40px;
+}
+
+p > img {
+	width: 18px;
+	height: 20px;
+}
+
+#cardArt{
+	float: left;
+	clear: left;
+	background-image: url("");
+	height: 236px;
+	width: 375px;
+}
+
+#typeBar{
+	float: left;
+	clear: left;
+	background-image: url("");
+	margin: 0px;
+	width: 375px;
+	height: 36px;
+}
+
+#typeBar > p{
+	float: left;
+	clear: left;
+	font-family: "Beleren";
+	font-size: 17px;
+	transform: scale(1.05, 1.0);
+	margin-top: 4.5px;
+	margin-left: 30px;
+}
+
+#textContainer{
+	float: left;
+	clear: left;
+	background-image: url("");
+	min-height: 177px;
+	/* background Image is 117 px height.*/
+	width: 375px;
+	background-repeat: repeat-y;
+}
+
+#textContainer > p {
+	float: left;
+	clear: left;
+/*	display: flex;
+	justify-content: center;*/
+	font-family: 'MPlantin';
+	font-weight: 590;
+	font-size: 17px;
+	line-height: 95%;
+	padding-left: 31.5px;
+	padding-top: 10px;
+	max-width: 315px;
+	margin-top: 0px;
+}
+
+#textContainer p:nth-of-type(1){
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#bottomSlice{
+	float: left;
+	clear: left;
+	margin-top: -50px;
+	background-image: url("");
+	background-color: transparent;
+	height: 77px;
+	width: 375px;
+}
+
+#bottomSlice > p{
+	clear: right;
+	float: right;
+	font-family: "Beleren";
+	font-size: 23px;
+	letter-spacing: 3px;
+	margin-right: 39px;
+	margin-top: 23px;
+}
+
+/* 
+*/
