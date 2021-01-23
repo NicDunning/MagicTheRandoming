@@ -24,12 +24,229 @@
     font-display: swap;
 }
 
+#mainWrapper{
+	display: flex;
+}
+
 #mainContainer{
 	transform: scale(0.999, 1.0);
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10px;
+	/*margin-right: auto;*/
 	margin-top: 20px;
+}
+
+#rsOptionsContainer{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: auto;
+}
+
+.options{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.options > p{
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.options > input{
+	margin-bottom: 10px;
+}
+
+#num{
+	margin-left: 5px;
+}
+
+#numInput{
+	width: 40px;
+}
+
+.options > div{
+	display: flex;
+	justify-content: center;
+}
+
+.options > div > input{
+	margin-top: -2px;
+}
+
+.options > div > label{
+	margin-top: -4px;
+}
+
+#setSelector > p{
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#sets{
+	display: grid;
+	display: none;
+	position: absolute;
+	grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+div > label{
+	margin-right: 5px;
+}
+
+#coreSets{
+	grid-row: 1/7;
+}
+
+#preBlock{
+	grid-row: 1/4;
+}
+
+#mirageBlock{
+	grid-row: 4/5;
+}
+
+#tempestBlock{
+	grid-row: 5/6
+}
+
+#urzasBlock{
+	grid-row: 6/7
+}
+
+#masquesBlock{
+	grid-row: 1/2;
+}
+
+#invasionBlock{
+	grid-row: 2/3;
+}
+
+#odyessyBlock{
+	grid-row: 3/4;
+}
+
+#onslaughtBlock{
+	grid-row: 4/5;
+}
+
+#mirrodinBlock{
+	grid-row: 5/6;
+}
+
+#kamigawaBlock{
+	grid-row: 6/7;
+}
+
+#ravnicaBlock{
+	grid-row: 1/2;
+}
+
+#coldsnapBlock{
+	grid-row: 2/3;
+}
+
+#timespiralBlock{
+	grid-row: 3/4;
+}
+
+#lorwynBlock{
+	grid-row: 4/5;
+}
+
+#shadowmoorBlock{
+	grid-row: 5/6;
+}
+
+#alaraBlock{
+	grid-row: 6/7;
+}
+
+#zendikarBlock{
+	grid-row: 1/2;
+}
+
+#scarsBlock{
+	grid-row: 2/3;
+}
+
+#innistradBlock{
+	grid-row: 3/4;
+}
+
+#rtrBlock{
+	grid-row: 4/5;
+}
+
+#therosBlock{
+	grid-row: 5/6;
+}
+
+#khansBlock{
+	grid-row: 6/7;
+}
+
+#bfzBlock{
+	grid-row: 1/2;
+}
+
+#shadowsBlock{
+	grid-row: 2/3;
+}
+
+#kaladeshBlock{
+	grid-row: 3/4;
+}
+
+#amokhetBlock{
+	grid-row: 4/5;
+}
+
+#ixalanBlock{
+	grid-row: 5/6;
+}
+
+#dominariaBlock{
+	grid-row: 6/7;
+}
+
+#guildsBlock{
+	grid-row: 1/2;
+}
+
+#throneBlock{
+	grid-row: 2/3;
+}
+
+#zenrisingBlock{
+	grid-row: 3/4;
+}
+
+/*New blocks go here*/
+
+/*#amokhetBlock{
+	grid-row: 4/5;
+}
+
+#ixalanBlock{
+	grid-row: 5/6;
+}
+
+#dominariaBlock{
+	grid-row: 6/7;
+}*/
+
+#sets > div{
+	border: 1px solid black;
 }
 
 #topSlice{
@@ -46,7 +263,7 @@
 	clear: left;
 	font-family: 'Beleren';
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 18px;
 	transform: scale(1.1, 1.0);
 	padding-top: 9.5px;
 	padding-left: 35px;
@@ -73,6 +290,7 @@ p > img {
 #typeBar{
 	float: left;
 	clear: left;
+	font-size: 15px;
 	background-image: url("");
 	margin: 0px;
 	width: 375px;
@@ -83,10 +301,10 @@ p > img {
 	float: left;
 	clear: left;
 	font-family: "Beleren";
-	font-size: 17px;
+	font-size: 15px;
 	transform: scale(1.05, 1.0);
 	margin-top: 4.5px;
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 #textContainer{
@@ -109,14 +327,18 @@ p > img {
 	font-size: 17px;
 	line-height: 95%;
 	padding-left: 31.5px;
-	padding-top: 10px;
-	max-width: 315px;
+	padding-top: 5px;
+	max-width: 313px;
 	margin-top: 0px;
 }
 
-#textContainer p:nth-of-type(1){
-	padding-top: 10px;
+#textContainer > p:nth-of-type(1){
+/*	padding-top: 10px;*/
 	margin-bottom: 5px;
+}
+
+#textContainer > p:last-child{
+	padding-bottom: 20px;
 }
 
 #bottomSlice{
@@ -141,3 +363,4 @@ p > img {
 
 /* 
 */
+

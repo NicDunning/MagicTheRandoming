@@ -6,22 +6,259 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div id="mainContainer">
-			<div id="topSlice">
-				<p></p>
-				<p class="cost"> 2B</p>
+		<div id="mainWrapper">
+			<div id="mainContainer">
+				<div id="topSlice">
+					<p></p>
+					<p class="cost"> 2B</p>
+				</div>
+				<div id="cardArt">
+				</div>
+				<div id="typeBar">
+					<p></p>
+				</div>
+				<div id="textContainer">
+				</div>
+				<div id="bottomSlice">
+					<p></p>
+				</div>
 			</div>
-			<div id="cardArt">
+			<div id="rsOptionsContainer">
+				<div id="raritySelector" class="options">
+					<!--  -->
+					<p>Rarities to be displayed</p>
+					<input type="checkbox" name="rarity" value="Common" class="raritiesSelected" checked>
+					<label for="Common"></label>Common<br>
+					<input type="checkbox" name="rarity" value="Uncommon" class="raritiesSelected">
+					<label for="Uncommon"></label>Uncommon<br>
+					<input type="checkbox" name="rarity" value="Rare" class="raritiesSelected">
+					<label for="Rare"></label>Rare<br>
+					<input type="checkbox" name="rarity" value="Mythic" class="raritiesSelected">
+					<label for="Mythic">Mythic</label><br>
+					<!--  -->
+<!-- 					<p>Mix abilities among rarities?</p>
+					<div>
+						<input type="radio" name="mixed" value="yes" checked>
+						<label for="yes">Yes</label><br>
+						<input type="radio" name="mixed" value="no">
+						<label for="no">No</label><br>
+					</div> -->
+				</div>
+				<!-- <div id="numberAbilites" class="options">
+					<p>Number of Abilities</p>
+					<label for="numAbility" id="num"># (Min 0 Max 20) : </label>
+					<input type="number" name="numAbility" id="numInput" min="0" max="20"><br>
+					<input type="checkbox" name="numAbility" value="rand">
+					<label for="rand">Random (Min 0 Max 20)</label><br>
+					<input type="checkbox" name="numAbility" value="norm">
+					<label for="norm">Use original number of abilities.</label>
+				</div>
+				<div id="original" class="options">
+					<p>Show original card</p>
+					<div>
+						<input type="radio" name="showOriginal" value="yes">
+						<label for="yes">Yes</label><br>
+						<input type="radio" name="showOriginal" value="no" checked>
+						<label for="no">No</label><br>
+					</div>
+				</div> -->
+				<div id="numberSets" class="options">
+					<p>Selected sets.<!-- Use all sets? --></p>
+					<!-- <div>
+						<input type="radio" name="setsUsed" value="yes">
+						<label for="yes">Yes</label><br>
+						<input type="radio" name="setsUsed" value="no" checked>
+						<label for="no">No</label><br>
+					</div> -->
+				</div>
+				<div id="setSelector">
+					<p onclick="toggleSets()">Click here to select sets.</p>
+					<div id="sets">
+						<div id="coreSets">
+							<input type="checkbox" name="set" class="set" value="LEA"><label for="LEA">LEA</label><br>
+							<input type="checkbox" name="set" class="set" value="LEB"><label for="LEB">LEB</label><br>
+							<input type="checkbox" name="set" class="set" value="2ED"><label for="2ED">2ED</label><br>
+							<input type="checkbox" name="set" class="set" value="3ED"><label for="3ED">3ED</label><br>
+							<input type="checkbox" name="set" class="set" value="4ED"><label for="4ED">4ED</label><br>
+							<input type="checkbox" name="set" class="set" value="5ED"><label for="5ED">5ED</label><br>
+							<input type="checkbox" name="set" class="set" value="6ED"><label for="6ED">6ED</label><br>
+							<input type="checkbox" name="set" class="set" value="7ED"><label for="7ED">7ED</label><br>
+							<input type="checkbox" name="set" class="set" value="8ED"><label for="8ED">8ED</label><br>
+							<input type="checkbox" name="set" class="set" value="9ED"><label for="9ED">9ED</label><br>
+							<input type="checkbox" name="set" class="set" value="10E"><label for="10E">10E</label><br>
+							<input type="checkbox" name="set" class="set" value="m10"><label for="m10">M10</label><br>
+							<input type="checkbox" name="set" class="set" value="m11"><label for="m11">M11</label><br>
+							<input type="checkbox" name="set" class="set" value="m12"><label for="m12">M12</label><br>
+							<input type="checkbox" name="set" class="set" value="m13"><label for="m13">M13</label><br>
+							<input type="checkbox" name="set" class="set" value="m14"><label for="m14">M14</label><br>
+							<input type="checkbox" name="set" class="set" value="m15"><label for="m15">M15</label><br>
+							<input type="checkbox" name="set" class="set" value="ORI"><label for="ORI">ORI</label><br>
+							<input type="checkbox" name="set" class="set" value="m19"><label for="m19">M19</label><br>
+							<input type="checkbox" name="set" class="set" value="m20"><label for="m20">M20</label><br>
+							<input type="checkbox" name="set" class="set" value="m21"><label for="m21">M21</label>
+						</div>
+						<div id="preBlock">
+							<input type="checkbox" name="set" class="set" value="ARN"><label for="ARN"></label>ARN<br>
+							<input type="checkbox" name="set" class="set" value="ATQ"><label for="ATQ">ATQ</label><br>
+							<input type="checkbox" name="set" class="set" value="LEG"><label for="LEG">LEG</label><br>
+							<input type="checkbox" name="set" class="set" value="DRK"><label for="DRK">DRK</label><br>
+							<input type="checkbox" name="set" class="set" value="FEM"><label for="FEM">FEM</label><br>
+							<input type="checkbox" name="set" class="set" value="ICE"><label for="ICE">ICE</label><br>
+							<input type="checkbox" name="set" class="set" value="HML"><label for="HML">HML</label><br>
+							<input type="checkbox" name="set" class="set" value="ALL"><label for="ALL">ALL</label>
+						</div>
+						<div id="mirageBlock">
+							<input type="checkbox" name="set" class="set" value="MIR"><label for="MIR">MIR</label><br>
+							<input type="checkbox" name="set" class="set" value="VIS"><label for="VIS">VIS</label><br>
+							<input type="checkbox" name="set" class="set" value="WTH"><label for="WTH">WTH</label>
+						</div>
+						<div id="tempestBlock">
+							<input type="checkbox" name="set" class="set" value="TMP"><label for="TMP">TMP</label><br>
+							<input type="checkbox" name="set" class="set" value="STH"><label for="STH">STH</label><br>
+							<input type="checkbox" name="set" class="set" value="EXO"><label for="EXO">EXO</label><br>
+						</div>
+						<div id="urzasBlock">
+							<input type="checkbox" name="set" class="set" value="USG"><label for="USG">USG</label><br>
+							<input type="checkbox" name="set" class="set" value="ULG"><label for="ULG">ULG</label><br>
+							<input type="checkbox" name="set" class="set" value="UDS"><label for="UDS">UDS</label><br>
+						</div>
+						<div id="masquesBlock">
+							<input type="checkbox" name="set" class="set" value="MMQ"><label for="MMQ">MMQ</label><br>
+							<input type="checkbox" name="set" class="set" value="NEM"><label for="NEM">NEM</label><br>
+							<input type="checkbox" name="set" class="set" value="PCY"><label for="PCY">PCY</label><br>
+						</div>
+						<div id="invasionBlock">
+							<input type="checkbox" name="set" class="set" value="INV"><label for="INV">INV</label><br>
+							<input type="checkbox" name="set" class="set" value="PLS"><label for="PLS">PLS</label><br>
+							<input type="checkbox" name="set" class="set" value="APC"><label for="APC">APC</label>
+						</div>
+						<div id="odyessyBlock">
+							<input type="checkbox" name="set" class="set" value="ODY"><label for="ODY">ODY</label><br>
+							<input type="checkbox" name="set" class="set" value="TOR"><label for="TOR">TOR</label><br>
+							<input type="checkbox" name="set" class="set" value="JUD"><label for="JUD">JUD</label>
+						</div>
+						<div id="onslaughtBlock">
+							<input type="checkbox" name="set" class="set" value="ONS"><label for="ONS">ONS</label><br>
+							<input type="checkbox" name="set" class="set" value="LGN"><label for="LGN">LGN</label><br>
+							<input type="checkbox" name="set" class="set" value="SCG"><label for="SCG">SCG</label>
+						</div>
+						<div id="mirrodinBlock">
+							<input type="checkbox" name="set" class="set" value="MRD"><label for="MRD">MRD</label><br>
+							<input type="checkbox" name="set" class="set" value="DST"><label for="DST">DST</label><br>
+							<input type="checkbox" name="set" class="set" value="5DN"><label for="5DN">5DN</label>
+						</div>
+						<div id="kamigawaBlock">
+							<input type="checkbox" name="set" class="set" value="CHK"><label for="CHK">CHK</label><br>
+							<input type="checkbox" name="set" class="set" value="BOK"><label for="BOK">BOK</label><br>
+							<input type="checkbox" name="set" class="set" value="SOK"><label for="SOK">SOK</label>
+						</div>
+						<div id="ravnicaBlock">
+							<input type="checkbox" name="set" class="set" value="RAV"><label for="RAV">RAV</label><br>
+							<input type="checkbox" name="set" class="set" value="GPT"><label for="GPT">GPT</label><br>
+							<input type="checkbox" name="set" class="set" value="DIS"><label for="DIS">DIS</label>
+						</div>
+						<div id="coldsnapBlock">
+							<input type="checkbox" name="set" class="set" value="CSP"><label for="CSP">CSP</label>
+						</div>
+						<div id="timespiralBlock">
+							<input type="checkbox" name="set" class="set" value="TSP"><label for="TSP">TSP</label><br>
+							<input type="checkbox" name="set" class="set" value="PLC"><label for="PLC">PLC</label><br>
+							<input type="checkbox" name="set" class="set" value="FUT"><label for="FUT">FUT</label>
+						</div>
+						<div id="lorwynBlock">
+							<input type="checkbox" name="set" class="set" value="LRW"><label for="LRW">LRW</label><br>
+							<input type="checkbox" name="set" class="set" value="MOR"><label for="MOR">MOR</label>
+						</div>
+						<div id="shadowmoorBlock">
+							<input type="checkbox" name="set" class="set" value="SHM"><label for="SHM">SHM</label><br>
+							<input type="checkbox" name="set" class="set" value="EVE"><label for="EVE">EVE</label>
+						</div>
+						<div id="alaraBlock">
+							<input type="checkbox" name="set" class="set" value="ALA"><label for="ALA">ALA</label><br>
+							<input type="checkbox" name="set" class="set" value="CON"><label for="CON">CON</label><br>
+							<input type="checkbox" name="set" class="set" value="ARB"><label for="ARB">ARB</label>
+						</div>
+						<div id="zendikarBlock">
+							<input type="checkbox" name="set" class="set" value="ZEN"><label for="ZEN">ZEN</label><br>
+							<input type="checkbox" name="set" class="set" value="WWK"><label for="WWK">WWK</label><br>
+							<input type="checkbox" name="set" class="set" value="ROE"><label for="ROE">ROE</label>
+						</div>
+						<div id="scarsBlock">
+							<input type="checkbox" name="set" class="set" value="SOM"><label for="SOM">SOM</label><br>
+							<input type="checkbox" name="set" class="set" value="MBS"><label for="MBS">MBS</label><br>
+							<input type="checkbox" name="set" class="set" value="NPH"><label for="NPH">NPH</label>
+						</div>
+						<div id="innistradBlock">
+							<input type="checkbox" name="set" class="set" value="INN"><label for="INN">INN</label><br>
+							<input type="checkbox" name="set" class="set" value="DKA"><label for="DKA">DKA</label><br>
+							<input type="checkbox" name="set" class="set" value="AVR"><label for="AVR">AVR</label>
+						</div>
+						<div id="rtrBlock">
+							<input type="checkbox" name="set" class="set" value="RTR"><label for="RTR">RTR</label><br>
+							<input type="checkbox" name="set" class="set" value="GTC"><label for="GTC">GTC</label><br>
+							<input type="checkbox" name="set" class="set" value="DGM"><label for="DGM">DGM</label>
+						</div>
+						<div id="therosBlock">
+							<input type="checkbox" name="set" class="set" value="THS"><label for="THS">THS</label><br>
+							<input type="checkbox" name="set" class="set" value="BNG"><label for="BNG">BNG</label><br>
+							<input type="checkbox" name="set" class="set" value="JOU"><label for="JOU">JOU</label>
+						</div>
+						<div id="khansBlock">
+							<input type="checkbox" name="set" class="set" value="KTK"><label for="KTK">KTK</label><br>
+							<input type="checkbox" name="set" class="set" value="FRF"><label for="FRF">FRF</label><br>
+							<input type="checkbox" name="set" class="set" value="DTK"><label for="DTK">DTK</label>
+						</div>
+						<div id="bfzBlock">
+							<input type="checkbox" name="set" class="set" value="BFZ"><label for="BFZ">BFZ</label><br>
+							<input type="checkbox" name="set" class="set" value="OGW"><label for="OGW">OGW</label>
+						</div>
+						<div id="shadowsBlock">
+							<input type="checkbox" name="set" class="set" value="SOI"><label for="SOI">SOI</label><br>
+							<input type="checkbox" name="set" class="set" value="EMN"><label for="EMN">EMN</label>
+						</div>
+						<div id="kaladeshBlock">
+							<input type="checkbox" name="set" class="set" value="KLD"><label for="KLD">KLD</label><br>
+							<input type="checkbox" name="set" class="set" value="AER"><label for="AER">AER</label>
+						</div>
+						<div id="amokhetBlock">
+							<input type="checkbox" name="set" class="set" value="AKH"><label for="AKH">AKH</label><br>
+							<input type="checkbox" name="set" class="set" value="HOU"><label for="HOU">HOU</label>
+						</div>
+						<div id="ixalanBlock">
+							<input type="checkbox" name="set" class="set" value="XLN"><label for="XLN">XLN</label><br>
+							<input type="checkbox" name="set" class="set" value="RIX"><label for="RIX">RIX</label>
+						</div>
+						<div id="dominariaBlock">
+							<input type="checkbox" name="set" class="set" value="DOM"><label for="DOM">DOM</label>
+						</div>
+						<div id="guildsBlock">
+							<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN">GRN</label><br>
+							<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA">RNA</label><br>
+							<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR">WAR</label>
+						</div>
+						<div id="throneBlock">
+							<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD">ELD</label><br>
+							<input type="checkbox" name="set" class="set" value="THB"><label for="THB">THB</label><br>
+							<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO">IKO</label>
+						</div>
+						<div id="zenrisingBlock">
+							<input type="checkbox" name="set" class="set" value="ZNR" checked><label for="ZNR">ZNR</label><br>
+							<input type="checkbox" name="set" class="set" value="KHM" checked><label for="KHM">KHM</label><br>
+							<input type="checkbox" name="set" class="set" value="TBD.."><label for="TBD..">TBD..</label>
+						</div>
+						<!-- <div id="moreComingSoon"></div> -->
+					</div>
+				</div>
+				<div id="buttonContainer">
+					<button id="randomCard">Random Card</button>
+				</div>
 			</div>
-			<div id="typeBar">
-				<p></p>
-			</div>
-			<div id="textContainer">
-			</div>
-			<div id="bottomSlice">
-				<p></p>
-			</div>
+
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="khm.js"> </script>
+		<script type="text/javascript" src="znr.js"> </script>
+
 		<script type="text/javascript" src="main.js" ></script>
 	</body>
 </html>
