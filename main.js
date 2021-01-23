@@ -81,8 +81,10 @@ function selectCard(){
 	setColor();
 	getAbilities();
 	setAbilities(tempName, tempCard, tempRarity, numOfAbilities);
-	getPowTou();
-	setPowTou();
+	// getPowTou();
+	// setPowTou();
+	tempPower = cards[tempCard].power;
+	tempToughness = cards[tempCard].toughness;
 	pT.textContent = tempPower + " " + tempToughness;
 }
 
