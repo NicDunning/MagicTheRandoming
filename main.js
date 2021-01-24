@@ -14,24 +14,22 @@ var raritiesSelected = document.getElementsByClassName("raritiesSelected");
 var setsContainer = document.getElementById("sets");
 var allSets = document.getElementsByName("setsUsed");
 var setsDom = document.getElementsByClassName("set");
+var chosenCard = document.getElementById("cardSelect");
 //Buttons
 var randomCard = document.getElementById("randomCard");
+var chooseCard = document.getElementById("chooseCard");
 var buttonDelay = false;
 
 
 
 var cards = {};
 
-var test1 = {"1": {"asd": "def"}};
-var test2 = {"2": {"ghj": "kl;"}};
-var test3 = {};
 tempData = [];
 
-var tempKeywordss = [];
 var keywords = ["Reach", "Flying", "Vigilance", "Trample", "First Strike", "Lifelink", "Changeling", "Flash", "Haste"];
 var rarities = [];
 var abilities = [];
-var tempCard;
+var tempCard = "";
 var tempPowers = [];
 var tempPower;
 var tempToughnesses = [];
@@ -43,14 +41,15 @@ var tempConverted = 0;
 var tempRarity = "Common";
 var randKeyword = 0;
 var testAbilities = []
+var modeChoose = false;
 
 function toggleSets(){
 	if (setsContainer.style.display === "none"){
 		setsContainer.style.display = 'grid';
-		randomCard.style.display = 'none';
+		// randomCard.style.display = 'none';
 	} else {
 		setsContainer.style.display = 'none';
-		randomCard.style.display = 'block';
+		// randomCard.style.display = 'block';
 	}
 }
 
@@ -58,17 +57,26 @@ function selectCard(){
 	selectRarities();
 	selectSets();
 	selectKeywords();
-
-	//Random number for card
-	var rand =  Math.floor(Math.random() * (Object.keys(cards).length));
-
-	//Make sure the selected card is actually a card, and not just data. (Ex.keywordsRarity).
-	while(!cards[Object.keys(cards)[rand]].hasOwnProperty("name")){
+	if(!modeChoose){
+		//Random number for card
 		var rand =  Math.floor(Math.random() * (Object.keys(cards).length));
+
+		//Make sure the selected card is actually a card, and not just data. (Ex.keywordsRarity).
+		while(!cards[Object.keys(cards)[rand]].hasOwnProperty("name")){
+			var rand =  Math.floor(Math.random() * (Object.keys(cards).length));
+		}
+		// console.log(cards["Koma, Cosmos Serpent"].abilitiesText);
+		//Get card values.
+		tempCard = Object.keys(cards)[rand];
+		console.log(Object.keys(cards));
+	} else {
+		if(cards[chosenCard.value] == undefined){
+			alert("Please choose a valid card!");
+			return
+		}
+		tempCard = cards[chosenCard.value].name;
+		console.log(tempCard);
 	}
-	// console.log(cards["Koma, Cosmos Serpent"].abilitiesText);
-	//Get card values.
-	tempCard = Object.keys(cards)[rand];
 	var tempName = cards[tempCard].name;
 	var tempType = cards[tempCard].type;
 	var tempRarity = cards[tempCard].rarity;
@@ -104,7 +112,6 @@ function selectSets(){
 
 function selectKeywords(){
 	keywords = [];
-	console.log("selectKeywords")
 	for(i=0; i<setsDom.length; i++){
 		if(setsDom[i].checked){
 			for(j=0;j<rarities.length;j++){
@@ -255,8 +262,22 @@ randomCard.addEventListener("click", function(){
 		while(textBox.firstChild){
 			textBox.removeChild(textBox.lastChild);
 		}
+		modeChoose = false;
 		selectCard();
 })
+
+
+chooseCard.addEventListener("click", function(){
+	// reset textBox, removing all children <p> tags.
+
+		while(textBox.firstChild){
+			textBox.removeChild(textBox.lastChild);
+		}
+
+		modeChoose = true;
+		selectCard();
+})
+
 // selectCard();
 selectCard();
 
