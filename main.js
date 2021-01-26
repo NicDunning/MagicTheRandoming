@@ -171,7 +171,7 @@ function setAbilities(name, card, rarity, num){
 	if(!numInput.value.length == 0 && randNumAbility.checked === false){
 		num = numInput.value;
 	} else if (randNumAbility.checked){
-		num = Math.floor(Math.random()*20);
+		num = Math.floor(Math.random()*10);
 	} else if (normalNumAbility.checked){
 	}
 
