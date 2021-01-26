@@ -181,6 +181,10 @@ function setAbilities(name, card, rarity, num){
 		for(i=0; i<num; i++){
 			randKeyword = Math.floor(Math.random() * (keywords.length));
 			randAbility = Math.floor(Math.random() * (abilities.length));
+			//make sure ability is not blank.
+			while (abilities[randAbility] == ""){
+				randAbility = Math.floor(Math.random() * (abilities.length));
+			}
 			if(numKeyword > 0 && !tempKeywords.includes(keywords[randKeyword])){
 				//If still can add keywords and not already selected.
 				tempKeywords.push(keywords[randKeyword]);

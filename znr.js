@@ -6,7 +6,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, target creature you control gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
+      "When This card enters the battlefield, target creature you control gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)",
+      ""
     ],
     "textbox": [
       "When Angelheart Protector enters the battlefield, target creature you control gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
@@ -23,6 +24,7 @@ znrCommon = {
     "type": "Creature \u2014 Kor Warrior",
     "rarity": "Common",
     "abilitiesText": [
+      "",
       ""
     ],
     "textbox": [
@@ -40,7 +42,8 @@ znrCommon = {
     "type": "Creature \u2014 Kor Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "This card has lifelink as long as you control another Cleric."
+      "This card has lifelink as long as you control another Cleric.",
+      ""
     ],
     "textbox": [
       "Vigilance",
@@ -58,7 +61,8 @@ znrCommon = {
     "type": "Creature \u2014 Kor Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you and target opponent each draw a card."
+      "When This card enters the battlefield, you and target opponent each draw a card.",
+      ""
     ],
     "textbox": [
       "When Farsight Adept enters the battlefield, you and target opponent each draw a card."
@@ -75,7 +79,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, target creature gets +1/+1 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, target creature gets +1/+1 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Kabira Outrider enters the battlefield, target creature gets +1/+1 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -92,7 +97,8 @@ znrCommon = {
     "type": "Creature \u2014 Kor Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever This card or another creature enters the battlefield under your control, you gain 1 life."
+      "Whenever This card or another creature enters the battlefield under your control, you gain 1 life.",
+      ""
     ],
     "textbox": [
       "Whenever Kor Celebrant or another creature enters the battlefield under your control, you gain 1 life."
@@ -109,7 +115,8 @@ znrCommon = {
     "type": "Creature \u2014 Ox",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, tap target creature an opponent controls."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, tap target creature an opponent controls."
@@ -126,7 +133,8 @@ znrCommon = {
     "type": "Creature \u2014 Cat",
     "rarity": "Common",
     "abilitiesText": [
-      "As long as it\u2019s not your turn, This card gets +0/+2."
+      "As long as it\u2019s not your turn, This card gets +0/+2.",
+      ""
     ],
     "textbox": [
       "As long as it\u2019s not your turn, Mesa Lynx gets +0/+2."
@@ -143,7 +151,8 @@ znrCommon = {
     "type": "Creature \u2014 Cat Beast",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Vigilance",
@@ -161,7 +170,8 @@ znrCommon = {
     "type": "Creature \u2014 Kor Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "4W: Creatures you control get +1/+1 until end of turn."
+      "4W: Creatures you control get +1/+1 until end of turn.",
+      ""
     ],
     "textbox": [
       "4W: Creatures you control get +1/+1 until end of turn."
@@ -178,7 +188,8 @@ znrCommon = {
     "type": "Creature \u2014 Angel Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you gain 2 life for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, you gain 2 life for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -196,7 +207,8 @@ znrCommon = {
     "type": "Creature \u2014 Bird",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may return a land you control to its owner\u2019s hand."
+      "When This card enters the battlefield, you may return a land you control to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -214,7 +226,8 @@ znrCommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, scry X, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, scry X, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Cascade Seer enters the battlefield, scry X, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -231,7 +244,8 @@ znrCommon = {
     "type": "Creature \u2014 Merfolk Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever This card blocks a creature, that creature doesn\u2019t untap during its controller\u2019s next untap step."
+      "Whenever This card blocks a creature, that creature doesn\u2019t untap during its controller\u2019s next untap step.",
+      ""
     ],
     "textbox": [
       "Whenever Cleric of Chill Depths blocks a creature, that creature doesn\u2019t untap during its controller\u2019s next untap step."
@@ -248,7 +262,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, return up to one other target creature to its owner\u2019s hand."
+      "When This card enters the battlefield, if it was kicked, return up to one other target creature to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Kicker 2U (You may pay an additional 2U as you cast this spell.)",
@@ -266,7 +281,8 @@ znrCommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "As long as you control another Wizard, This card has \u201cWhen this creature dies, draw a card.\u201d"
+      "As long as you control another Wizard, This card has \u201cWhen this creature dies, draw a card.\u201d",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -283,7 +299,9 @@ znrCommon = {
     "cost": "4U",
     "type": "Creature \u2014 Elemental",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Flash",
       "Flying"
@@ -300,7 +318,8 @@ znrCommon = {
     "type": "Creature \u2014 Elemental",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever you cast a kicked spell, This card has base power and toughness 5/5 until end of turn."
+      "Whenever you cast a kicked spell, This card has base power and toughness 5/5 until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever you cast a kicked spell, Risen Riptide has base power and toughness 5/5 until end of turn."
@@ -317,7 +336,8 @@ znrCommon = {
     "type": "Creature \u2014 Merfolk Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "4U: This card gets +1/+0 until end of turn and can\u2019t be blocked this turn. This ability costs 1 less to activate for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "4U: This card gets +1/+0 until end of turn and can\u2019t be blocked this turn. This ability costs 1 less to activate for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "4U: Seafloor Stalker gets +1/+0 until end of turn and can\u2019t be blocked this turn. This ability costs 1 less to activate for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -334,7 +354,8 @@ znrCommon = {
     "type": "Creature \u2014 Squid",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card can attack this turn as though it didn\u2019t have defender."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card can attack this turn as though it didn\u2019t have defender.",
+      ""
     ],
     "textbox": [
       "Defender",
@@ -352,7 +373,8 @@ znrCommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, return target instant or sorcery card from your graveyard to your hand."
+      "When This card enters the battlefield, if it was kicked, return target instant or sorcery card from your graveyard to your hand.",
+      ""
     ],
     "textbox": [
       "Kicker 4 (You may pay an additional 4 as you cast this spell.)",
@@ -370,7 +392,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, up to one target creature gets -2/-0 until end of turn. Its controller mills two cards. (They put the top two cards of their library into their graveyard.)"
+      "When This card enters the battlefield, up to one target creature gets -2/-0 until end of turn. Its controller mills two cards. (They put the top two cards of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -388,7 +411,8 @@ znrCommon = {
     "type": "Creature \u2014 Vampire Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "When Drana\u2019s Silencer enters the battlefield, target creature an opponent controls gets -X/-X until end of turn, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, target creature an opponent controls gets -X/-X until end of turn, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Drana\u2019s Silencer enters the battlefield, target creature an opponent controls gets -X/-X until end of turn, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -405,7 +429,8 @@ znrCommon = {
     "type": "Creature \u2014 Wurm Horror",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, Dreadwurm gains indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
@@ -422,7 +447,8 @@ znrCommon = {
     "type": "Creature \u2014 Vampire Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "This card has deathtouch as long as you control another Rogue."
+      "This card has deathtouch as long as you control another Rogue.",
+      ""
     ],
     "textbox": [
       "Expedition Skulker has deathtouch as long as you control another Rogue."
@@ -439,7 +465,8 @@ znrCommon = {
     "type": "Creature \u2014 Zombie Bat",
     "rarity": "Common",
     "abilitiesText": [
-      "If This card was kicked, it enters the battlefield with two +1/+1 counters on it."
+      "If This card was kicked, it enters the battlefield with two +1/+1 counters on it.",
+      ""
     ],
     "textbox": [
       "Kicker 3B (You may pay an additional 3B as you cast this spell.)",
@@ -458,7 +485,8 @@ znrCommon = {
     "type": "Creature \u2014 Crocodile",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card dies, put a +1/+1 counter on target creature you control."
+      "When This card dies, put a +1/+1 counter on target creature you control.",
+      ""
     ],
     "textbox": [
       "When Guul Draz Mucklord dies, put a +1/+1 counter on target creature you control."
@@ -476,7 +504,8 @@ znrCommon = {
     "rarity": "Common",
     "abilitiesText": [
       "This card enters the battlefield with two +1/+1 counters on it.",
-      "Each creature you control with a +1/+1 counter on it has menace. (A creature with menace can\u2019t be blocked except by two or more creatures.)"
+      "Each creature you control with a +1/+1 counter on it has menace. (A creature with menace can\u2019t be blocked except by two or more creatures.)",
+      ""
     ],
     "textbox": [
       "Hagra Constrictor enters the battlefield with two +1/+1 counters on it.",
@@ -494,6 +523,7 @@ znrCommon = {
     "type": "Creature \u2014 Vampire Warrior",
     "rarity": "Common",
     "abilitiesText": [
+      "",
       ""
     ],
     "textbox": [
@@ -511,7 +541,8 @@ znrCommon = {
     "type": "Creature \u2014 Vampire Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, each opponent loses X life and you gain X life, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, each opponent loses X life and you gain X life, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Malakir Blood-Priest enters the battlefield, each opponent loses X life and you gain X life, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -528,7 +559,8 @@ znrCommon = {
     "type": "Creature \u2014 Vampire Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever you gain life, each opponent loses 1 life."
+      "Whenever you gain life, each opponent loses 1 life.",
+      ""
     ],
     "textbox": [
       "Whenever you gain life, each opponent loses 1 life."
@@ -545,7 +577,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "As long as an opponent has eight or more cards in their graveyard, This card gets +1/+0 and has menace. (It can\u2019t be blocked except by two or more creatures.)"
+      "As long as an opponent has eight or more cards in their graveyard, This card gets +1/+0 and has menace. (It can\u2019t be blocked except by two or more creatures.)",
+      ""
     ],
     "textbox": [
       "As long as an opponent has eight or more cards in their graveyard, Nimana Skitter-Sneak gets +1/+0 and has menace. (It can\u2019t be blocked except by two or more creatures.)"
@@ -562,7 +595,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, target opponent mills two cards. (They put the top two cards of their library into their graveyard.)"
+      "When This card enters the battlefield, target opponent mills two cards. (They put the top two cards of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -581,7 +615,8 @@ znrCommon = {
     "type": "Creature \u2014 Elemental Dog",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, Akoum Hellhound gets +2/+2 until end of turn."
@@ -598,7 +633,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, add R for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, add R for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Ardent Electromancer enters the battlefield, add R for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -615,7 +651,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "This card gets +2/+0 as long as you control another Warrior."
+      "This card gets +2/+0 as long as you control another Warrior.",
+      ""
     ],
     "textbox": [
       "Expedition Champion gets +2/+0 as long as you control another Warrior."
@@ -632,7 +669,8 @@ znrCommon = {
     "type": "Creature \u2014 Goblin Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may discard a card. If you do, draw a card."
+      "When This card enters the battlefield, you may discard a card. If you do, draw a card.",
+      ""
     ],
     "textbox": [
       "When Fissure Wizard enters the battlefield, you may discard a card. If you do, draw a card."
@@ -649,7 +687,8 @@ znrCommon = {
     "type": "Creature \u2014 Goblin Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever This card attacks, it gets +1/+0 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "Whenever This card attacks, it gets +1/+0 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -667,7 +706,8 @@ znrCommon = {
     "type": "Creature \u2014 Hellion",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may return a land you control to its owner\u2019s hand. When you do, This card deals 2 damage to each opponent."
+      "When This card enters the battlefield, you may return a land you control to its owner\u2019s hand. When you do, This card deals 2 damage to each opponent.",
+      ""
     ],
     "textbox": [
       "When Pyroclastic Hellion enters the battlefield, you may return a land you control to its owner\u2019s hand. When you do, Pyroclastic Hellion deals 2 damage to each opponent."
@@ -684,7 +724,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, it gains haste until end of turn."
+      "When This card enters the battlefield, if it was kicked, it gains haste until end of turn.",
+      ""
     ],
     "textbox": [
       "Kicker 1R (You may pay an additional 1R as you cast this spell.)",
@@ -702,7 +743,8 @@ znrCommon = {
     "type": "Creature \u2014 Goblin Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "2, T: Target creature with power 2 or less can\u2019t be blocked this turn."
+      "2, T: Target creature with power 2 or less can\u2019t be blocked this turn.",
+      ""
     ],
     "textbox": [
       "2, T: Target creature with power 2 or less can\u2019t be blocked this turn."
@@ -719,7 +761,8 @@ znrCommon = {
     "type": "Creature \u2014 Lizard",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card deals 1 damage to each opponent."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card deals 1 damage to each opponent.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, Spitfire Lagac deals 1 damage to each opponent."
@@ -736,7 +779,8 @@ znrCommon = {
     "type": "Creature \u2014 Goblin Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "2R: This card gets +2/+0 until end of turn."
+      "2R: This card gets +2/+0 until end of turn.",
+      ""
     ],
     "textbox": [
       "2R: Teeterpeak Ambusher gets +2/+0 until end of turn."
@@ -753,7 +797,8 @@ znrCommon = {
     "type": "Creature \u2014 Wall",
     "rarity": "Common",
     "abilitiesText": [
-      "Creatures you control have haste."
+      "Creatures you control have haste.",
+      ""
     ],
     "textbox": [
       "Defender, reach",
@@ -771,7 +816,8 @@ znrCommon = {
     "type": "Creature \u2014 Beast",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, Canopy Baloth gets +2/+2 until end of turn."
@@ -788,7 +834,8 @@ znrCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, put a +1/+1 counter on target creature."
+      "When This card enters the battlefield, put a +1/+1 counter on target creature.",
+      ""
     ],
     "textbox": [
       "When Dauntless Survivor enters the battlefield, put a +1/+1 counter on target creature."
@@ -806,7 +853,8 @@ znrCommon = {
     "rarity": "Common",
     "abilitiesText": [
       "If This card was kicked, it enters the battlefield with two +1/+1 counters on it.",
-      "Each creature you control with a +1/+1 counter on it has trample."
+      "Each creature you control with a +1/+1 counter on it has trample.",
+      ""
     ],
     "textbox": [
       "Kicker 2G (You may pay an additional 2G as you cast this spell.)",
@@ -825,7 +873,8 @@ znrCommon = {
     "type": "Creature \u2014 Elf Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, draw a card."
+      "When This card enters the battlefield, draw a card.",
+      ""
     ],
     "textbox": [
       "When Joraga Visionary enters the battlefield, draw a card."
@@ -842,7 +891,8 @@ znrCommon = {
     "type": "Creature \u2014 Insect",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, you gain 1 life."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, you gain 1 life.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, you gain 1 life."
@@ -859,7 +909,8 @@ znrCommon = {
     "type": "Creature \u2014 Beast",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, return up to two lands you control to their owner\u2019s hand."
+      "When This card enters the battlefield, return up to two lands you control to their owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -877,6 +928,7 @@ znrCommon = {
     "type": "Creature \u2014 Troll Warrior",
     "rarity": "Common",
     "abilitiesText": [
+      "",
       ""
     ],
     "textbox": [
@@ -893,7 +945,9 @@ znrCommon = {
     "cost": "G",
     "type": "Creature \u2014 Elf Rogue",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Deathtouch"
     ],
@@ -908,7 +962,9 @@ znrCommon = {
     "cost": "2G",
     "type": "Creature \u2014 Elf Rogue",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Reach"
     ],
@@ -924,7 +980,8 @@ znrCommon = {
     "type": "Creature \u2014 Cat",
     "rarity": "Common",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -942,7 +999,8 @@ znrCommon = {
     "type": "Creature \u2014 Giant Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you gain 3 life."
+      "When This card enters the battlefield, you gain 3 life.",
+      ""
     ],
     "textbox": [
       "When Turntimber Ascetic enters the battlefield, you gain 3 life."
@@ -959,7 +1017,8 @@ znrCommon = {
     "type": "Artifact Creature \u2014 Golem Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -977,7 +1036,8 @@ znrCommon = {
     "rarity": "Common",
     "abilitiesText": [
       "If This card was kicked, it enters the battlefield with two +1/+1 counters on it.",
-      "As long as This card has a +1/+1 counter on it, it can attack as though it didn\u2019t have defender."
+      "As long as This card has a +1/+1 counter on it, it can attack as though it didn\u2019t have defender.",
+      ""
     ],
     "textbox": [
       "Kicker 4 (You may pay an additional 4 as you cast this spell.)",
@@ -998,7 +1058,8 @@ znrCommon = {
     "rarity": "Common",
     "abilitiesText": [
       "This card is also a Cleric, Rogue, Warrior, and Wizard.",
-      "2: Add one mana of any color."
+      "2: Add one mana of any color.",
+      ""
     ],
     "textbox": [
       "Stonework Packbeast is also a Cleric, Rogue, Warrior, and Wizard.",
@@ -1036,7 +1097,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Whenever you gain life for the first time each turn, create a 1/1 white Cat creature token.",
-      "2W: Another target Cleric gains lifelink until end of turn."
+      "2W: Another target Cleric gains lifelink until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever you gain life for the first time each turn, create a 1/1 white Cat creature token.",
@@ -1054,7 +1116,8 @@ znrUncommon = {
     "type": "Creature \u2014 Mouse",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, creatures you control get +1/+1 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, creatures you control get +1/+1 until end of turn."
@@ -1071,7 +1134,8 @@ znrUncommon = {
     "type": "Creature \u2014 Angel Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, put a +1/+1 counter on it for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, put a +1/+1 counter on it for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "Flying, vigilance",
@@ -1089,7 +1153,8 @@ znrUncommon = {
     "type": "Creature \u2014 Griffin",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card. It gains flying until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on This card. It gains flying until end of turn.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on Fearless Fledgling. It gains flying until end of turn."
@@ -1106,7 +1171,8 @@ znrUncommon = {
     "type": "Creature \u2014 Kor Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, tap up to two target creatures."
+      "When This card enters the battlefield, if it was kicked, tap up to two target creatures.",
+      ""
     ],
     "textbox": [
       "Kicker 2W (You may pay an additional 2W as you cast this spell.)",
@@ -1125,7 +1191,8 @@ znrUncommon = {
     "type": "Creature \u2014 Kor Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Equipped Warriors you control have double strike."
+      "Equipped Warriors you control have double strike.",
+      ""
     ],
     "textbox": [
       "Double strike",
@@ -1143,7 +1210,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever This card and at least one other Warrior attack, put a +1/+1 counter on This card."
+      "Whenever This card and at least one other Warrior attack, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Whenever Paired Tactician and at least one other Warrior attack, put a +1/+1 counter on Paired Tactician."
@@ -1160,7 +1228,8 @@ znrUncommon = {
     "type": "Creature \u2014 Kor Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, you gain 2 life."
+      "When This card enters the battlefield, you gain 2 life.",
+      ""
     ],
     "textbox": [
       "When Skyclave Cleric enters the battlefield, you gain 2 life."
@@ -1177,7 +1246,8 @@ znrUncommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast a kicked spell, scry 2."
+      "Whenever you cast a kicked spell, scry 2.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1196,7 +1266,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Whenever This card deals combat damage to a player, that player mills a card. (They put the top card of their library into their graveyard.)",
-      "Sacrifice This card: Draw a card. Activate this ability only if an opponent has eight or more cards in their graveyard."
+      "Sacrifice This card: Draw a card. Activate this ability only if an opponent has eight or more cards in their graveyard.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1215,7 +1286,8 @@ znrUncommon = {
     "type": "Creature \u2014 Crab",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)"
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)"
@@ -1233,7 +1305,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Tap another untapped Rogue you control: This card can\u2019t be blocked this turn.",
-      "Whenever This card deals combat damage to a player, draw a card."
+      "Whenever This card deals combat damage to a player, draw a card.",
+      ""
     ],
     "textbox": [
       "Tap another untapped Rogue you control: Sure-Footed Infiltrator can\u2019t be blocked this turn.",
@@ -1251,7 +1324,8 @@ znrUncommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast an instant, sorcery, or Wizard spell, This card gains flying until end of turn."
+      "Whenever you cast an instant, sorcery, or Wizard spell, This card gains flying until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever you cast an instant, sorcery, or Wizard spell, Umara Wizard gains flying until end of turn."
@@ -1268,7 +1342,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast an instant, sorcery, or Wizard spell, you may draw a card. If you do, discard a card."
+      "Whenever you cast an instant, sorcery, or Wizard spell, you may draw a card. If you do, discard a card.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1286,7 +1361,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -1303,7 +1379,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "This card gets +3/+0 as long as an opponent has eight or more cards in their graveyard."
+      "This card gets +3/+0 as long as an opponent has eight or more cards in their graveyard.",
+      ""
     ],
     "textbox": [
       "Menace (This creature can\u2019t be blocked except by two or more creatures.)",
@@ -1321,7 +1398,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When Demon\u2019s Disciple enters the battlefield, each player sacrifices a creature or planeswalker."
+      "When This card enters the battlefield, each player sacrifices a creature or planeswalker.",
+      ""
     ],
     "textbox": [
       "When Demon\u2019s Disciple enters the battlefield, each player sacrifices a creature or planeswalker."
@@ -1338,7 +1416,8 @@ znrUncommon = {
     "type": "Creature \u2014 Vampire Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you gain life, put a +1/+1 counter on This card."
+      "Whenever you gain life, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1357,7 +1436,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Tap another untapped Rogue you control: This card gains deathtouch until end of turn.",
-      "Whenever This card deals combat damage to a player, that player mills three cards. (They put the top three cards of their library into their graveyard.)"
+      "Whenever This card deals combat damage to a player, that player mills three cards. (They put the top three cards of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Tap another untapped Rogue you control: Shadow Stinger gains deathtouch until end of turn.",
@@ -1376,7 +1456,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "1B, Sacrifice another creature: Put a +1/+1 counter on This card.",
-      "Whenever a creature you control with a +1/+1 counter on it dies, draw a card."
+      "Whenever a creature you control with a +1/+1 counter on it dies, draw a card.",
+      ""
     ],
     "textbox": [
       "1B, Sacrifice another creature: Put a +1/+1 counter on Skyclave Shadowcat.",
@@ -1393,7 +1474,9 @@ znrUncommon = {
     "cost": "5R",
     "type": "Creature \u2014 Minotaur Warrior",
     "rarity": "Uncommon",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Trample"
     ],
@@ -1410,7 +1493,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "As long as This card is equipped, it has haste.",
-      "When This card dies, it deals damage equal to its power to any target."
+      "When This card dies, it deals damage equal to its power to any target.",
+      ""
     ],
     "textbox": [
       "As long as Fireblade Charger is equipped, it has haste.",
@@ -1428,7 +1512,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever This card attacks, target creature an opponent controls with power less than or equal to the number of Warriors you control can\u2019t block this turn."
+      "Whenever This card attacks, target creature an opponent controls with power less than or equal to the number of Warriors you control can\u2019t block this turn.",
+      ""
     ],
     "textbox": [
       "Whenever Goma Fada Vanguard attacks, target creature an opponent controls with power less than or equal to the number of Warriors you control can\u2019t block this turn."
@@ -1445,7 +1530,8 @@ znrUncommon = {
     "type": "Creature \u2014 Goblin Rogue",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever This card deals combat damage to a player, exile the top card of your library. You may play that card this turn."
+      "Whenever This card deals combat damage to a player, exile the top card of your library. You may play that card this turn.",
+      ""
     ],
     "textbox": [
       "Whenever Grotag Night-Runner deals combat damage to a player, exile the top card of your library. You may play that card this turn."
@@ -1462,7 +1548,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast an instant, sorcery, or Wizard spell, This card deals 1 damage to any target."
+      "Whenever you cast an instant, sorcery, or Wizard spell, This card deals 1 damage to any target.",
+      ""
     ],
     "textbox": [
       "Whenever you cast an instant, sorcery, or Wizard spell, Rockslide Sorcerer deals 1 damage to any target."
@@ -1479,7 +1566,8 @@ znrUncommon = {
     "type": "Creature \u2014 Minotaur Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)"
+      "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
@@ -1497,7 +1585,8 @@ znrUncommon = {
     "type": "Creature \u2014 Insect",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -1515,7 +1604,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of creatures in your party. (Your party consists of up to one of each of Cleric, Rogue, Warrior, and Wizard.)"
+      "When This card enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of creatures in your party. (Your party consists of up to one of each of Cleric, Rogue, Warrior, and Wizard.)",
+      ""
     ],
     "textbox": [
       "When Thundering Sparkmage enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of creatures in your party. (Your party consists of up to one of each of Cleric, Rogue, Warrior, and Wizard.)"
@@ -1532,7 +1622,8 @@ znrUncommon = {
     "type": "Creature \u2014 Insect",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "At the beginning of your end step, create a 1/1 green Insect creature token for each +1/+1 counter you\u2019ve put on creatures under your control this turn."
+      "At the beginning of your end step, create a 1/1 green Insect creature token for each +1/+1 counter you\u2019ve put on creatures under your control this turn.",
+      ""
     ],
     "textbox": [
       "At the beginning of your end step, create a 1/1 green Insect creature token for each +1/+1 counter you\u2019ve put on creatures under your control this turn."
@@ -1549,7 +1640,8 @@ znrUncommon = {
     "type": "Creature \u2014 Plant Elemental",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, return target card with a kicker ability from your graveyard to your hand."
+      "When This card enters the battlefield, if it was kicked, return target card with a kicker ability from your graveyard to your hand.",
+      ""
     ],
     "textbox": [
       "Kicker 1G (You may pay an additional 1G as you cast this spell.)",
@@ -1567,7 +1659,8 @@ znrUncommon = {
     "type": "Creature \u2014 Elf Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "This card enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it."
+      "This card enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+      ""
     ],
     "textbox": [
       "Springmantle Cleric enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it."
@@ -1584,7 +1677,8 @@ znrUncommon = {
     "type": "Creature \u2014 Elemental",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "T: Add G."
+      "T: Add G.",
+      ""
     ],
     "textbox": [
       "T: Add G."
@@ -1601,7 +1695,8 @@ znrUncommon = {
     "type": "Creature \u2014 Elf Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, all creatures able to block target creature this turn do so."
+      "When This card enters the battlefield, if it was kicked, all creatures able to block target creature this turn do so.",
+      ""
     ],
     "textbox": [
       "Kicker 3 (You may pay an additional 3 as you cast this spell.)",
@@ -1620,7 +1715,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "This card is also a Cleric, Rogue, Warrior, and Wizard.",
-      "This spell costs 1 less to cast for each creature in your party."
+      "This spell costs 1 less to cast for each creature in your party.",
+      ""
     ],
     "textbox": [
       "Veteran Adventurer is also a Cleric, Rogue, Warrior, and Wizard.",
@@ -1640,7 +1736,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "The first kicked spell you cast each turn costs 1 less to cast.",
-      "Whenever you cast a kicked spell, put a +1/+1 counter on This card."
+      "Whenever you cast a kicked spell, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "The first kicked spell you cast each turn costs 1 less to cast.",
@@ -1659,7 +1756,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "This card can\u2019t be blocked by creatures with power 2 or less.",
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn.",
+      ""
     ],
     "textbox": [
       "Haste",
@@ -1679,7 +1777,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Whenever another Cleric enters the battlefield under your control, you gain 1 life.",
-      "Whenever you gain life for the first time each turn, put a +1/+1 counter on Cleric of Life\u2019s Bond."
+      "Whenever you gain life for the first time each turn, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Whenever another Cleric enters the battlefield under your control, you gain 1 life.",
@@ -1697,7 +1796,8 @@ znrUncommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Other Warriors you control get +1/+1."
+      "Other Warriors you control get +1/+1.",
+      ""
     ],
     "textbox": [
       "Other Warriors you control get +1/+1."
@@ -1715,7 +1815,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "T: Add G or U.",
-      "Whenever you cast a kicked spell, you gain 2 life."
+      "Whenever you cast a kicked spell, you gain 2 life.",
+      ""
     ],
     "textbox": [
       "T: Add G or U.",
@@ -1734,7 +1835,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "If This card was kicked, it enters the battlefield with three +1/+1 counters on it.",
-      "Whenever one or more +1/+1 counters are put on a creature you control, if This card is in your graveyard, you may put This card on top of your library."
+      "Whenever one or more +1/+1 counters are put on a creature you control, if This card is in your graveyard, you may put This card on top of your library.",
+      ""
     ],
     "textbox": [
       "Kicker 3 (You may pay an additional 3 as you cast this spell)",
@@ -1754,7 +1856,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "T: You may put a basic land card from your hand onto the battlefield.",
-      "T: Return target basic land you control to its owner\u2019s hand."
+      "T: Return target basic land you control to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Vigilance",
@@ -1774,7 +1877,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "As long as an opponent has eight or more cards in their graveyard, Rogues you control get +1/+0.",
-      "Whenever one or more Rogues you control attack, each opponent mills two cards."
+      "Whenever one or more Rogues you control attack, each opponent mills two cards.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -1794,7 +1898,8 @@ znrUncommon = {
     "type": "Creature \u2014 Merfolk Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast an instant, sorcery, or Wizard spell, This card gets +2/+0 until end of turn."
+      "Whenever you cast an instant, sorcery, or Wizard spell, This card gets +2/+0 until end of turn.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1813,7 +1918,8 @@ znrUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "This card can\u2019t attack or block unless an opponent has eight or more cards in their graveyard.",
-      "2, T: Target player mills two cards. (They put the top two cards of their library into their graveyard.)"
+      "2, T: Target player mills two cards. (They put the top two cards of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Relic Golem can\u2019t attack or block unless an opponent has eight or more cards in their graveyard.",
@@ -1847,7 +1953,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Each player can\u2019t cast more than one spell each turn.",
-      "Nonbasic lands your opponents control enter the battlefield tapped."
+      "Nonbasic lands your opponents control enter the battlefield tapped.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1867,7 +1974,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This card\u2019s power is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
-      "At the beginning of combat on your turn, if you have a full party, target creature gets +1/+1 and gains flying until end of turn."
+      "At the beginning of combat on your turn, if you have a full party, target creature gets +1/+1 and gains flying until end of turn.",
+      ""
     ],
     "textbox": [
       "Archpriest of Iona\u2019s power is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
@@ -1885,7 +1993,8 @@ znrRare = {
     "type": "Creature \u2014 Angel Warrior",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card enters the battlefield, you may reveal a card you own named This card from outside the game and put it into your hand."
+      "When This card enters the battlefield, you may reveal a card you own named This card from outside the game and put it into your hand.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1903,7 +2012,8 @@ znrRare = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control."
+      "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control.",
+      ""
     ],
     "textbox": [
       "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control."
@@ -1921,7 +2031,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, exile up to one target nonland, nontoken permanent you don\u2019t control with converted mana cost 4 or less.",
-      "When This card leaves the battlefield, the exiled card\u2019s owner creates an X/X blue Illusion creature token, where X is the converted mana cost of the exiled card."
+      "When This card leaves the battlefield, the exiled card\u2019s owner creates an X/X blue Illusion creature token, where X is the converted mana cost of the exiled card.",
+      ""
     ],
     "textbox": [
       "When Skyclave Apparition enters the battlefield, exile up to one target nonland, nontoken permanent you don\u2019t control with converted mana cost 4 or less.",
@@ -1940,7 +2051,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, create a 1/1 white Kor Warrior creature token for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
-      "At the beginning of combat on your turn, if you have a full party, creatures you control get +1/+0 and gain indestructible until end of turn."
+      "At the beginning of combat on your turn, if you have a full party, creatures you control get +1/+0 and gain indestructible until end of turn.",
+      ""
     ],
     "textbox": [
       "When Squad Commander enters the battlefield, create a 1/1 white Kor Warrior creature token for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
@@ -1959,7 +2071,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Spells your opponents cast that target This card cost 2 more to cast.",
-      "3: Charix gets +X/-X until end of turn, where X is the number of Islands you control."
+      "3: This card gets +X/-X until end of turn, where X is the number of Islands you control.",
+      ""
     ],
     "textbox": [
       "Spells your opponents cast that target Charix, the Raging Isle cost 2 more to cast.",
@@ -1978,7 +2091,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever you cast a kicked spell, draw a card, then discard a card.",
-      "When This card enters the battlefield, look at the top five cards of your library. You may reveal a card with a kicker ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+      "When This card enters the battlefield, look at the top five cards of your library. You may reveal a card with a kicker ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "Whenever you cast a kicked spell, draw a card, then discard a card.",
@@ -1996,7 +2110,8 @@ znrRare = {
     "type": "Creature \u2014 Shapeshifter Rogue",
     "rarity": "Rare",
     "abilitiesText": [
-      "You may have This card enter the battlefield as a copy of a creature you control, except it\u2019s a Shapeshifter Rogue in addition to its other types."
+      "You may have This card enter the battlefield as a copy of a creature you control, except it\u2019s a Shapeshifter Rogue in addition to its other types.",
+      ""
     ],
     "textbox": [
       "You may have Glasspool Mimic enter the battlefield as a copy of a creature you control, except it\u2019s a Shapeshifter Rogue in addition to its other types."
@@ -2014,7 +2129,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, draw two cards, then discard a card.",
-      "Whenever you cast an instant, sorcery, or Wizard spell, you may have This card\u2019s base power and toughness become 4/1 or 1/4 until end of turn."
+      "Whenever you cast an instant, sorcery, or Wizard spell, you may have This card\u2019s base power and toughness become 4/1 or 1/4 until end of turn.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2034,7 +2150,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This card can\u2019t be blocked if you had another Cleric, Rogue, Warrior, or Wizard enter the battlefield under your control this turn.",
-      "At the beginning of combat on your turn, if you have a full party, creatures you control gain \u201cWhenever this creature deals combat damage to a player, draw a card\u201d until end of turn."
+      "At the beginning of combat on your turn, if you have a full party, creatures you control gain \u201cWhenever this creature deals combat damage to a player, draw a card\u201d until end of turn.",
+      ""
     ],
     "textbox": [
       "Nimble Trapfinder can\u2019t be blocked if you had another Cleric, Rogue, Warrior, or Wizard enter the battlefield under your control this turn.",
@@ -2053,7 +2170,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Kicker X. X can\u2019t be 0. (You may pay an additional X as you cast this spell.)",
-      "When This card enters the battlefield, if it was kicked, gain control of target artifact with converted mana cost X or less. If that artifact is an Equipment, attach it to This card."
+      "When This card enters the battlefield, if it was kicked, gain control of target artifact with converted mana cost X or less. If that artifact is an Equipment, attach it to This card.",
+      ""
     ],
     "textbox": [
       "Kicker X. X can\u2019t be 0. (You may pay an additional X as you cast this spell.)",
@@ -2072,7 +2190,8 @@ znrRare = {
     "type": "Creature \u2014 Vampire Rogue",
     "rarity": "Rare",
     "abilitiesText": [
-      "This card\u2019s power is equal to 1 plus the number of card types among cards in your opponents\u2019 graveyards. (Cards in graveyards have only the characteristics of their front face.)"
+      "This card\u2019s power is equal to 1 plus the number of card types among cards in your opponents\u2019 graveyards. (Cards in graveyards have only the characteristics of their front face.)",
+      ""
     ],
     "textbox": [
       "Flying, deathtouch, lifelink",
@@ -2090,7 +2209,8 @@ znrRare = {
     "type": "Creature \u2014 Vampire Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was kicked, return target creature card from your graveyard to the battlefield."
+      "When This card enters the battlefield, if it was kicked, return target creature card from your graveyard to the battlefield.",
+      ""
     ],
     "textbox": [
       "Kicker 3B",
@@ -2111,7 +2231,8 @@ znrRare = {
     "abilitiesText": [
       "This card can\u2019t block.",
       "If This card was kicked, it enters the battlefield with two +1/+1 counters on it.",
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, if This card is in your graveyard and it\u2019s your turn, you may cast it from your graveyard this turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, if This card is in your graveyard and it\u2019s your turn, you may cast it from your graveyard this turn.",
+      ""
     ],
     "textbox": [
       "Kicker 2B",
@@ -2131,7 +2252,9 @@ znrRare = {
     "type": "Legendary Creature \u2014 Demon Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever another nontoken creature you control dies, put a +1/+1 counter on Taborax. If that creature was a Cleric, you may draw a card. If you do, you lose 1 life."
+      "This card has lifelink as long as it has five or more +1/+1 counters on it.",
+      "Whenever another nontoken creature you control dies, put a +1/+1 counter on This card. If that creature was a Cleric, you may draw a card. If you do, you lose 1 life.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2151,7 +2274,7 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Cowards can\u2019t block Warriors.",
-      "1: Choose one that hasn\u2019t been chosen this turn \u2014 \n \u2022 This card gets +1/+1 until end of turn. \n \u2022 Target creature becomes a Coward until end of turn. \n \u2022 Target Warrior gains trample until end of turn."
+      "1: Choose one that hasn\u2019t been chosen this turn \u2014\n\u2022 This card gets +1/+1 until end of turn.\n\u2022 Target creature becomes a Coward until end of turn.\n\u2022 Target Warrior gains trample until end of turn."
     ],
     "textbox": [
       "Cowards can\u2019t block Warriors.",
@@ -2163,7 +2286,7 @@ znrRare = {
     "power": "3",
     "toughness": "1",
     "converted": 2,
-    "abilities": 5
+    "abilities": 2
   },
   "Magmatic Channeler": {
     "name": "Magmatic Channeler",
@@ -2173,7 +2296,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "As long as there are four or more instant and/or sorcery cards in your graveyard, This card gets +3/+1.",
-      "T, Discard a card: Exile the top two cards of your library, then choose one of them. You may play that card this turn."
+      "T, Discard a card: Exile the top two cards of your library, then choose one of them. You may play that card this turn.",
+      ""
     ],
     "textbox": [
       "As long as there are four or more instant and/or sorcery cards in your graveyard, Magmatic Channeler gets +3/+1.",
@@ -2191,7 +2315,8 @@ znrRare = {
     "type": "Creature \u2014 Goblin Rogue",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever This card deals combat damage to a player, that player creates a 0/1 colorless Goblin Construct artifact creature token with \u201cThis creature can\u2019t block\u201d and \u201cAt the beginning of your upkeep, this creature deals 1 damage to you.\u201d"
+      "Whenever This card deals combat damage to a player, that player creates a 0/1 colorless Goblin Construct artifact creature token with \u201cThis creature can\u2019t block\u201d and \u201cAt the beginning of your upkeep, this creature deals 1 damage to you.\u201d",
+      ""
     ],
     "textbox": [
       "Haste",
@@ -2210,7 +2335,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "If This card was kicked, it enters the battlefield with a +1/+1 counter on it.",
-      "At the beginning of your end step, if This card doesn\u2019t have a +1/+1 counter on it, return it to its owner\u2019s hand."
+      "At the beginning of your end step, if This card doesn\u2019t have a +1/+1 counter on it, return it to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Kicker 2",
@@ -2230,7 +2356,8 @@ znrRare = {
     "type": "Creature \u2014 Beast",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever This card deals combat damage to a player, return a land you control to its owner\u2019s hand."
+      "Whenever This card deals combat damage to a player, return a land you control to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "Trample, haste",
@@ -2249,7 +2376,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This spell can\u2019t be countered.",
-      "If This card was kicked, it enters the battlefield with four +1/+1 counters on it."
+      "If This card was kicked, it enters the battlefield with four +1/+1 counters on it.",
+      ""
     ],
     "textbox": [
       "Kicker 2G",
@@ -2269,7 +2397,8 @@ znrRare = {
     "type": "Creature \u2014 Elephant",
     "rarity": "Rare",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, This card gets +2/+2 until end of turn.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, Kazandu Mammoth gets +2/+2 until end of turn."
@@ -2286,7 +2415,8 @@ znrRare = {
     "type": "Creature \u2014 Snake",
     "rarity": "Rare",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, add one mana of any color."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, add one mana of any color.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, add one mana of any color."
@@ -2304,7 +2434,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, put a +1/+1 counter on target creature you control.",
-      "Whenever This card attacks, put a +1/+1 counter on each attacking creature with a +1/+1 counter on it."
+      "Whenever This card attacks, put a +1/+1 counter on each attacking creature with a +1/+1 counter on it.",
+      ""
     ],
     "textbox": [
       "When Oran-Rief Ooze enters the battlefield, put a +1/+1 counter on target creature you control.",
@@ -2322,7 +2453,8 @@ znrRare = {
     "type": "Creature \u2014 Insect",
     "rarity": "Rare",
     "abilitiesText": [
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, create a 1/1 green Insect creature token. If you control six or more lands, create a token that\u2019s a copy of This card instead."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, create a 1/1 green Insect creature token. If you control six or more lands, create a token that\u2019s a copy of This card instead.",
+      ""
     ],
     "textbox": [
       "Landfall \u2014 Whenever a land enters the battlefield under your control, create a 1/1 green Insect creature token. If you control six or more lands, create a token that\u2019s a copy of Scute Swarm instead."
@@ -2341,7 +2473,8 @@ znrRare = {
     "abilitiesText": [
       "This card enters the battlefield with a +1/+1 counter on it.",
       "Whenever a creature you control with a +1/+1 counter on it becomes the target of a spell an opponent controls, create a 1/1 green Insect creature token.",
-      "1, T: Put a +1/+1 counter on This card."
+      "1, T: Put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Swarm Shambler enters the battlefield with a +1/+1 counter on it.",
@@ -2361,7 +2494,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This card is also a Cleric, Rogue, Warrior, and Wizard.",
-      "When This card enters the battlefield, if it was kicked, reveal the top six cards of your library. You may put a card that shares a creature type with it from among them into your hand. Put the rest on the bottom of your library in a random order."
+      "When This card enters the battlefield, if it was kicked, reveal the top six cards of your library. You may put a card that shares a creature type with it from among them into your hand. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "Tajuru Paragon is also a Cleric, Rogue, Warrior, and Wizard.",
@@ -2381,7 +2515,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever you attack a player with one or more equipped creatures, draw a card.",
-      "W: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn."
+      "W: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever you attack a player with one or more equipped creatures, draw a card.",
@@ -2400,8 +2535,9 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This card enters the battlefield with three +1/+1 counters on it.",
-      "Whenever another creature you control dies, if it had a +1/+1 counter on it, put a +1/+1 counter on Grakmaw.",
-      "When Grakmaw dies, create an X/X black and green Hydra creature token, where X is the number of +1/+1 counters on Grakmaw."
+      "Whenever another creature you control dies, if it had a +1/+1 counter on it, put a +1/+1 counter on This card.",
+      "When This card dies, create an X/X black and green Hydra creature token, where X is the number of +1/+1 counters on This card.",
+      ""
     ],
     "textbox": [
       "Grakmaw, Skyclave Ravager enters the battlefield with three +1/+1 counters on it.",
@@ -2420,7 +2556,8 @@ znrRare = {
     "type": "Legendary Creature \u2014 Human Wizard",
     "rarity": "Rare",
     "abilitiesText": [
-      "T: The next instant or sorcery spell you cast this turn costs X less to cast, where X is the number of Wizards you control as this ability resolves."
+      "T: The next instant or sorcery spell you cast this turn costs X less to cast, where X is the number of Wizards you control as this ability resolves.",
+      ""
     ],
     "textbox": [
       "Flying, haste",
@@ -2439,7 +2576,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "At the beginning of combat on your turn, if you have a full party, choose target nonland permanent an opponent controls. Until your next turn, it can\u2019t attack or block, and its activated abilities can\u2019t be activated.",
-      "Sacrifice Linvala: Choose hexproof or indestructible. Creatures you control gain that ability until end of turn."
+      "Sacrifice This card: Choose hexproof or indestructible. Creatures you control gain that ability until end of turn.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2458,7 +2596,8 @@ znrRare = {
     "type": "Legendary Creature \u2014 Kor Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever This card or another Cleric you control dies, return target Cleric card with lesser converted mana cost from your graveyard to the battlefield."
+      "Whenever This card or another Cleric you control dies, return target Cleric card with lesser converted mana cost from your graveyard to the battlefield.",
+      ""
     ],
     "textbox": [
       "Lifelink",
@@ -2477,7 +2616,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, create a 0/1 green Plant creature token for each basic land you control.",
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, put four +1/+1 counters on target Plant you control."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, put four +1/+1 counters on target Plant you control.",
+      ""
     ],
     "textbox": [
       "When Phylath, World Sculptor enters the battlefield, create a 0/1 green Plant creature token for each basic land you control.",
@@ -2496,7 +2636,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "This card enters the battlefield with a +1/+1 counter on it for each mana spent to cast it.",
-      "Whenever you cast a kicked spell, you may remove two +1/+1 counters from This card. If you do, copy that spell. You may choose new targets for that copy. (A copy of a permanent spell becomes a token.)"
+      "Whenever you cast a kicked spell, you may remove two +1/+1 counters from This card. If you do, copy that spell. You may choose new targets for that copy. (A copy of a permanent spell becomes a token.)",
+      ""
     ],
     "textbox": [
       "Verazol, the Split Current enters the battlefield with a +1/+1 counter on it for each mana spent to cast it.",
@@ -2515,7 +2656,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, search your library for a basic Forest card and a basic Plains card, reveal those cards, put them into your hand, then shuffle your library.",
-      "Players can\u2019t pay life or sacrifice nonland permanents to cast spells or activate abilities."
+      "Players can\u2019t pay life or sacrifice nonland permanents to cast spells or activate abilities.",
+      ""
     ],
     "textbox": [
       "When Yasharn, Implacable Earth enters the battlefield, search your library for a basic Forest card and a basic Plains card, reveal those cards, put them into your hand, then shuffle your library.",
@@ -2535,7 +2677,8 @@ znrRare = {
     "abilitiesText": [
       "This spell costs 1 less to cast for each creature in your party.",
       "Other creatures you control have deathtouch.",
-      "Whenever a creature you control deals combat damage to a planeswalker, destroy that planeswalker."
+      "Whenever a creature you control deals combat damage to a planeswalker, destroy that planeswalker.",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast for each creature in your party.",
@@ -2556,7 +2699,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "2UB, Return an unblocked attacking Rogue you control to its owner\u2019s hand: Put This card from your hand onto the battlefield tapped and attacking.",
-      "Whenever Zareth San deals combat damage to a player, you may put target permanent card from that player\u2019s graveyard onto the battlefield under your control."
+      "Whenever This card deals combat damage to a player, you may put target permanent card from that player\u2019s graveyard onto the battlefield under your control.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -2576,7 +2720,8 @@ znrRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "If This card was kicked, it enters the battlefield with a +1/+1 counter on it for each nonbasic land your opponents control.",
-      "When This card becomes the target of a spell, sacrifice it and create a number of 1/1 colorless Construct artifact creature tokens equal to its power."
+      "When This card becomes the target of a spell, sacrifice it and create a number of 1/1 colorless Construct artifact creature tokens equal to its power.",
+      ""
     ],
     "textbox": [
       "Kicker 3",
@@ -2595,8 +2740,6 @@ znrRare = {
       "Lifelink",
       "Menace",
       "Kicker 2b",
-      //FixBug Taborax in scrapper
-      //FixBug HopesDemise in scraper.
       "Haste",
       "Trample",
       "Hexproof",
@@ -2615,7 +2758,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Whenever a creature you control deals combat damage to a player, you and that player each gain that much life.",
-      "At the beginning of your end step, if you have at least 15 life more than your starting life total, each player This card attacked this turn loses the game."
+      "At the beginning of your end step, if you have at least 15 life more than your starting life total, each player This card attacked this turn loses the game.",
+      ""
     ],
     "textbox": [
       "Flying, double strike",
@@ -2635,7 +2779,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "This spell costs 1 less to cast for each creature in your party.",
-      "2/U,2/B,2/R,2/G: Look at the top six cards of your library. You may reveal up to two Cleric, Rogue, Warrior, Wizard, and/or Ally cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order."
+      "2/U2/B2/R2/G: Look at the top six cards of your library. You may reveal up to two Cleric, Rogue, Warrior, Wizard, and/or Ally cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast for each creature in your party.",
@@ -2653,7 +2798,8 @@ znrMythic = {
     "type": "Creature \u2014 Human Wizard",
     "rarity": "Mythic",
     "abilitiesText": [
-      "When This card enters the battlefield, copy the next instant or sorcery spell with converted mana cost 2 or less you cast this turn when you cast it. If This card was kicked, copy that spell twice instead. You may choose new targets for the copies."
+      "When This card enters the battlefield, copy the next instant or sorcery spell with converted mana cost 2 or less you cast this turn when you cast it. If This card was kicked, copy that spell twice instead. You may choose new targets for the copies.",
+      ""
     ],
     "textbox": [
       "Kicker 4U",
@@ -2671,7 +2817,8 @@ znrMythic = {
     "type": "Legendary Creature \u2014 Vampire Cleric",
     "rarity": "Mythic",
     "abilitiesText": [
-      "Whenever This card attacks, defending player chooses a nonlegendary creature card in your graveyard. You return that card to the battlefield with a +1/+1 counter on it. The creature is a Vampire in addition to its other types."
+      "Whenever This card attacks, defending player chooses a nonlegendary creature card in your graveyard. You return that card to the battlefield with a +1/+1 counter on it. The creature is a Vampire in addition to its other types.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2690,7 +2837,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "When you cast this spell, if it was kicked, each player loses half their life, rounded up.",
-      "This card\u2019s power and toughness are each equal to 20 minus the highest life total among players."
+      "This card\u2019s power and toughness are each equal to 20 minus the highest life total among players.",
+      ""
     ],
     "textbox": [
       "Kicker 4B",
@@ -2710,7 +2858,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "You don\u2019t lose unspent red mana as steps and phases end.",
-      "When This card dies, you may pay any amount of R. When you do, it deals that much damage to any target."
+      "When This card dies, you may pay any amount of R. When you do, it deals that much damage to any target.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2730,7 +2879,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Each creature you control gets +1/+0 for each time it has attacked this turn.",
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, if it\u2019s your main phase, there\u2019s an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, if it\u2019s your main phase, there\u2019s an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.",
+      ""
     ],
     "textbox": [
       "Each creature you control gets +1/+0 for each time it has attacked this turn.",
@@ -2749,7 +2899,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "You may play lands from your graveyard.",
-      "If a land entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+      "If a land entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+      ""
     ],
     "textbox": [
       "Reach",
@@ -2769,7 +2920,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "This card\u2019s power and toughness are each equal to the number of lands you control.",
-      "Nontoken creatures you control are Forest lands in addition to their other types. (They\u2019re still affected by summoning sickness.)"
+      "Nontoken creatures you control are Forest lands in addition to their other types. (They\u2019re still affected by summoning sickness.)",
+      ""
     ],
     "textbox": [
       "Ashaya, Soul of the Wild\u2019s power and toughness are each equal to the number of lands you control.",
@@ -2788,7 +2940,8 @@ znrMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "When This card enters the battlefield, draw a card.",
-      "Landfall \u2014 Whenever a land enters the battlefield under your control, you gain 4 life if this is the first time this ability has resolved this turn. If it\u2019s the second time, add RGWU. If it\u2019s the third time, Omnath deals 4 damage to each opponent and each planeswalker you don\u2019t control."
+      "Landfall \u2014 Whenever a land enters the battlefield under your control, you gain 4 life if this is the first time this ability has resolved this turn. If it\u2019s the second time, add RGWU. If it\u2019s the third time, This card deals 4 damage to each opponent and each planeswalker you don\u2019t control.",
+      ""
     ],
     "textbox": [
       "When Omnath, Locus of Creation enters the battlefield, draw a card.",
@@ -2810,4 +2963,4 @@ znrMythic = {
   }
 }
 
-//FixBug Kicker & multipart Abilities.
+//FixBug Kicker

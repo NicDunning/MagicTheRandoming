@@ -6,7 +6,8 @@ khmCommon = {
     "type": "Creature \u2014 Dwarf Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1W: Untap This card. Put a +1/+1 counter on it. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1W: Untap This card. Put a +1/+1 counter on it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1W: Untap Axgard Braggart. Put a +1/+1 counter on it. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -22,7 +23,9 @@ khmCommon = {
     "cost": "W",
     "type": "Creature \u2014 Bird",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Flying, first strike"
     ],
@@ -38,7 +41,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card dies, create a 1/1 white Human Warrior creature token."
+      "When This card dies, create a 1/1 white Human Warrior creature token.",
+      ""
     ],
     "textbox": [
       "When Beskir Shieldmate dies, create a 1/1 white Human Warrior creature token."
@@ -55,7 +59,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, if it was the second spell you cast this turn, put a +1/+1 counter on target creature."
+      "When This card enters the battlefield, if it was the second spell you cast this turn, put a +1/+1 counter on target creature.",
+      ""
     ],
     "textbox": [
       "Vigilance",
@@ -73,7 +78,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever you cast your second spell each turn, you gain 2 life."
+      "Whenever you cast your second spell each turn, you gain 2 life.",
+      ""
     ],
     "textbox": [
       "Whenever you cast your second spell each turn, you gain 2 life.",
@@ -91,7 +97,8 @@ khmCommon = {
     "type": "Creature \u2014 Ox",
     "rarity": "Common",
     "abilitiesText": [
-      "This card crews Vehicles using its toughness rather than its power."
+      "This card crews Vehicles using its toughness rather than its power.",
+      ""
     ],
     "textbox": [
       "Giant Ox crews Vehicles using its toughness rather than its power."
@@ -107,7 +114,9 @@ khmCommon = {
     "cost": "5W",
     "type": "Creature \u2014 Cat",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Vigilance",
       "Foretell 3W (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
@@ -124,7 +133,8 @@ khmCommon = {
     "type": "Creature \u2014 Dwarf Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1W: Tap target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1W: Tap target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1W: Tap target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -141,7 +151,8 @@ khmCommon = {
     "type": "Creature \u2014 Dwarf Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may exile a creature card from your graveyard. If you do, return target artifact or enchantment card from your graveyard to your hand."
+      "When This card enters the battlefield, you may exile a creature card from your graveyard. If you do, return target artifact or enchantment card from your graveyard to your hand.",
+      ""
     ],
     "textbox": [
       "When Master Skald enters the battlefield, you may exile a creature card from your graveyard. If you do, return target artifact or enchantment card from your graveyard to your hand."
@@ -158,7 +169,8 @@ khmCommon = {
     "type": "Creature \u2014 Angel Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "You may pay 1W and exile a creature card from your graveyard rather than pay this spell\u2019s mana cost."
+      "You may pay 1W and exile a creature card from your graveyard rather than pay this spell\u2019s mana cost.",
+      ""
     ],
     "textbox": [
       "You may pay 1W and exile a creature card from your graveyard rather than pay this spell\u2019s mana cost.",
@@ -176,7 +188,8 @@ khmCommon = {
     "type": "Creature \u2014 Pegasus",
     "rarity": "Common",
     "abilitiesText": [
-      "Artifact and enchantment spells you cast cost 1 less to cast."
+      "Artifact and enchantment spells you cast cost 1 less to cast.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -193,7 +206,9 @@ khmCommon = {
     "cost": "1W",
     "type": "Creature \u2014 Dwarf Cleric",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Lifelink"
     ],
@@ -208,7 +223,9 @@ khmCommon = {
     "cost": "3U",
     "type": "Creature \u2014 Bird",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Flying",
       "Foretell 1U (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
@@ -225,7 +242,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Giant Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, tap target artifact or creature an opponent controls. If S was spent to cast this spell, that permanent doesn\u2019t untap during its controller\u2019s next untap step. (S is mana from a snow source.)"
+      "When This card enters the battlefield, tap target artifact or creature an opponent controls. If S was spent to cast this spell, that permanent doesn\u2019t untap during its controller\u2019s next untap step. (S is mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "When Berg Strider enters the battlefield, tap target artifact or creature an opponent controls. If S was spent to cast this spell, that permanent doesn\u2019t untap during its controller\u2019s next untap step. (S is mana from a snow source.)"
@@ -242,7 +260,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, target creature an opponent controls gets -2/-0 until end of turn."
+      "When This card enters the battlefield, target creature an opponent controls gets -2/-0 until end of turn.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -260,7 +279,8 @@ khmCommon = {
     "type": "Creature \u2014 Zombie Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, look at the top card of target player\u2019s library. You may put that card into their graveyard."
+      "When This card enters the battlefield, look at the top card of target player\u2019s library. You may put that card into their graveyard.",
+      ""
     ],
     "textbox": [
       "When Draugr Thought-Thief enters the battlefield, look at the top card of target player\u2019s library. You may put that card into their graveyard."
@@ -277,7 +297,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Yeti",
     "rarity": "Common",
     "abilitiesText": [
-      "1S: This card can\u2019t be blocked this turn. (S can be paid with one mana from a snow source.)"
+      "1S: This card can\u2019t be blocked this turn. (S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "1S: Frostpeak Yeti can\u2019t be blocked this turn. (S can be paid with one mana from a snow source.)"
@@ -294,7 +315,8 @@ khmCommon = {
     "type": "Creature \u2014 Zombie Wizard",
     "rarity": "Common",
     "abilitiesText": [
-      "T: Add U. Spend this mana only to foretell a card from your hand or cast an instant or sorcery spell."
+      "T: Add U. Spend this mana only to foretell a card from your hand or cast an instant or sorcery spell.",
+      ""
     ],
     "textbox": [
       "T: Add U. Spend this mana only to foretell a card from your hand or cast an instant or sorcery spell."
@@ -311,7 +333,8 @@ khmCommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on This card, then scry 1."
+      "When This card enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on This card, then scry 1.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -329,7 +352,8 @@ khmCommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Common",
     "abilitiesText": [
-      "1U: This card gets +1/-1 until end of turn."
+      "1U: This card gets +1/-1 until end of turn.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -348,7 +372,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Bird",
     "rarity": "Common",
     "abilitiesText": [
-      "S, T: Draw a card, then discard a card. (S can be paid with one mana from a snow source.)"
+      "S, T: Draw a card, then discard a card. (S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -366,7 +391,8 @@ khmCommon = {
     "type": "Creature \u2014 Giant Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "This card enters the battlefield tapped."
+      "This card enters the battlefield tapped.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -384,7 +410,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card dies, if its power was 3 or greater, create a 2/2 black Zombie Berserker creature token."
+      "When This card dies, if its power was 3 or greater, create a 2/2 black Zombie Berserker creature token.",
+      ""
     ],
     "textbox": [
       "When Deathknell Berserker dies, if its power was 3 or greater, create a 2/2 black Zombie Berserker creature token."
@@ -401,7 +428,8 @@ khmCommon = {
     "type": "Creature \u2014 Zombie Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 3B: Return target creature card from your graveyard to your hand. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 3B: Return target creature card from your graveyard to your hand. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 3B: Return target creature card from your graveyard to your hand. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -418,7 +446,8 @@ khmCommon = {
     "type": "Creature \u2014 Spirit Knight",
     "rarity": "Common",
     "abilitiesText": [
-      "1B, T, Exile a creature card from your graveyard: Target opponent loses 3 life."
+      "1B, T, Exile a creature card from your graveyard: Target opponent loses 3 life.",
+      ""
     ],
     "textbox": [
       "1B, T, Exile a creature card from your graveyard: Target opponent loses 3 life."
@@ -435,7 +464,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1: Target opponent loses 1 life and you gain 1 life. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1: Target opponent loses 1 life and you gain 1 life. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1: Target opponent loses 1 life and you gain 1 life. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -452,7 +482,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, each opponent discards a card."
+      "When This card enters the battlefield, each opponent discards a card.",
+      ""
     ],
     "textbox": [
       "When Elderfang Disciple enters the battlefield, each opponent discards a card."
@@ -469,7 +500,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Zombie Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "1S: This card gets +1/+0 and gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)"
+      "1S: This card gets +1/+0 and gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)",
+      ""
     ],
     "textbox": [
       "1S: Grim Draugr gets +1/+0 and gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)"
@@ -486,7 +518,8 @@ khmCommon = {
     "type": "Creature \u2014 Imp",
     "rarity": "Common",
     "abilitiesText": [
-      "Whenever you cast your second spell each turn, put a +1/+1 counter on This card and it gains flying until end of turn."
+      "Whenever you cast your second spell each turn, put a +1/+1 counter on This card and it gains flying until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever you cast your second spell each turn, put a +1/+1 counter on Infernal Pet and it gains flying until end of turn."
@@ -503,7 +536,8 @@ khmCommon = {
     "type": "Creature \u2014 Zombie Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, destroy target creature or planeswalker an opponent controls that was dealt damage this turn."
+      "When This card enters the battlefield, destroy target creature or planeswalker an opponent controls that was dealt damage this turn.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -522,7 +556,8 @@ khmCommon = {
     "type": "Creature \u2014 Zombie Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
+      "When This card enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)",
+      ""
     ],
     "textbox": [
       "When Karfell Kennel-Master enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it.)"
@@ -539,7 +574,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "When Koma\u2019s Faithful dies, each player mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)"
+      "When This card dies, each player mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+      ""
     ],
     "textbox": [
       "Lifelink",
@@ -557,7 +593,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Zombie Cleric",
     "rarity": "Common",
     "abilitiesText": [
-      "T, Sacrifice This card: Target creature gets -X/-X until end of turn, where X is the number of snow lands you control. Activate this ability only any time you could cast a sorcery."
+      "T, Sacrifice This card: Target creature gets -X/-X until end of turn, where X is the number of snow lands you control. Activate this ability only any time you could cast a sorcery.",
+      ""
     ],
     "textbox": [
       "T, Sacrifice Priest of the Haunted Edge: Target creature gets -X/-X until end of turn, where X is the number of snow lands you control. Activate this ability only any time you could cast a sorcery."
@@ -574,7 +611,8 @@ khmCommon = {
     "type": "Creature \u2014 Dwarf Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "T: Target creature gains haste until end of turn."
+      "T: Target creature gains haste until end of turn.",
+      ""
     ],
     "textbox": [
       "T: Target creature gains haste until end of turn."
@@ -590,7 +628,9 @@ khmCommon = {
     "cost": "2R",
     "type": "Creature \u2014 Dwarf Berserker",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Haste"
     ],
@@ -606,7 +646,8 @@ khmCommon = {
     "type": "Creature \u2014 Giant Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card dies, it deals 7 damage to a creature an opponent controls chosen at random."
+      "When This card dies, it deals 7 damage to a creature an opponent controls chosen at random.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -624,7 +665,8 @@ khmCommon = {
     "type": "Creature \u2014 Giant Coward",
     "rarity": "Common",
     "abilitiesText": [
-      "This card can\u2019t block alone."
+      "This card can\u2019t block alone.",
+      ""
     ],
     "textbox": [
       "Craven Hulk can\u2019t block alone."
@@ -641,7 +683,8 @@ khmCommon = {
     "type": "Creature \u2014 Wolf",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 2R: This card gets +2/+0 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 2R: This card gets +2/+0 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "First strike",
@@ -659,7 +702,8 @@ khmCommon = {
     "type": "Creature \u2014 Troll Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1R: This card deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1R: This card deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1R: Hagi Mob deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -676,7 +720,8 @@ khmCommon = {
     "type": "Creature \u2014 Demon Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may discard a card. If you do, draw a card."
+      "When This card enters the battlefield, you may discard a card. If you do, draw a card.",
+      ""
     ],
     "textbox": [
       "When Immersturm Raider enters the battlefield, you may discard a card. If you do, draw a card."
@@ -693,7 +738,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Berserker",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1: Exile the top card of your library. You may play that card this turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1: Exile the top card of your library. You may play that card this turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1: Exile the top card of your library. You may play that card this turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -710,7 +756,8 @@ khmCommon = {
     "type": "Creature \u2014 Dwarf Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "1, T, Exile a creature card from your graveyard: Create a Treasure token. (It\u2019s an artifact with \u201cT, Sacrifice this artifact: Add one mana of any color.\u201d)"
+      "1, T, Exile a creature card from your graveyard: Create a Treasure token. (It\u2019s an artifact with \u201cT, Sacrifice this artifact: Add one mana of any color.\u201d)",
+      ""
     ],
     "textbox": [
       "1, T, Exile a creature card from your graveyard: Create a Treasure token. (It\u2019s an artifact with \u201cT, Sacrifice this artifact: Add one mana of any color.\u201d)"
@@ -727,7 +774,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, create a 1/1 green Elf Warrior creature token."
+      "When This card enters the battlefield, create a 1/1 green Elf Warrior creature token.",
+      ""
     ],
     "textbox": [
       "When Elderleaf Mentor enters the battlefield, create a 1/1 green Elf Warrior creature token."
@@ -743,7 +791,9 @@ khmCommon = {
     "cost": "2G",
     "type": "Creature \u2014 Spider",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Reach"
     ],
@@ -759,6 +809,7 @@ khmCommon = {
     "type": "Creature \u2014 Elf Warrior",
     "rarity": "Common",
     "abilitiesText": [
+      "",
       ""
     ],
     "textbox": [
@@ -776,7 +827,8 @@ khmCommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, put a +1/+1 counter on target creature."
+      "When This card enters the battlefield, put a +1/+1 counter on target creature.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -794,7 +846,8 @@ khmCommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "Boast \u2014 1G: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1G: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1G: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -811,7 +864,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Troll Warrior",
     "rarity": "Common",
     "abilitiesText": [
-      "SS: This card gets +2/+0 and gains indestructible until end of turn. Tap it. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it. S can be paid with one mana from a snow source.)"
+      "SS: This card gets +2/+0 and gains indestructible until end of turn. Tap it. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it. S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "SS: Icehide Troll gets +2/+0 and gains indestructible until end of turn. Tap it. (Damage and effects that say \u201cdestroy\u201d don\u2019t destroy it. S can be paid with one mana from a snow source.)"
@@ -828,7 +882,8 @@ khmCommon = {
     "type": "Creature \u2014 Elf Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "T, Tap an untapped creature you control: Add one mana of any color."
+      "T, Tap an untapped creature you control: Add one mana of any color.",
+      ""
     ],
     "textbox": [
       "Reach",
@@ -846,7 +901,8 @@ khmCommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you may exile a creature card from your graveyard. If you do, exile target artifact or enchantment an opponent controls."
+      "When This card enters the battlefield, you may exile a creature card from your graveyard. If you do, exile target artifact or enchantment an opponent controls.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -864,7 +920,8 @@ khmCommon = {
     "type": "Creature \u2014 Wurm",
     "rarity": "Common",
     "abilitiesText": [
-      "When This card enters the battlefield, you gain 4 life."
+      "When This card enters the battlefield, you gain 4 life.",
+      ""
     ],
     "textbox": [
       "When Ravenous Lindwurm enters the battlefield, you gain 4 life."
@@ -881,7 +938,8 @@ khmCommon = {
     "type": "Creature \u2014 Wolf",
     "rarity": "Common",
     "abilitiesText": [
-      "When Sarulf\u2019s Packmate enters the battlefield, draw a card."
+      "When This card enters the battlefield, draw a card.",
+      ""
     ],
     "textbox": [
       "When Sarulf\u2019s Packmate enters the battlefield, draw a card.",
@@ -899,7 +957,8 @@ khmCommon = {
     "type": "Snow Creature \u2014 Elf Rogue",
     "rarity": "Common",
     "abilitiesText": [
-      "T: Untap target snow land."
+      "T: Untap target snow land.",
+      ""
     ],
     "textbox": [
       "T: Untap target snow land."
@@ -915,7 +974,9 @@ khmCommon = {
     "cost": "3",
     "type": "Artifact Creature \u2014 Scarecrow",
     "rarity": "Common",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Foretell 0 (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
     ],
@@ -953,7 +1014,8 @@ khmUncommon = {
     "type": "Creature \u2014 Human Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Boast \u2014 1W: Creatures you control get +1/+1 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1W: Creatures you control get +1/+1 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1W: Creatures you control get +1/+1 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -970,7 +1032,8 @@ khmUncommon = {
     "type": "Creature \u2014 Spirit",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying."
+      "Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.",
+      ""
     ],
     "textbox": [
       "Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying."
@@ -987,7 +1050,8 @@ khmUncommon = {
     "type": "Creature \u2014 Angel Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield."
+      "When This card enters the battlefield, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1006,7 +1070,8 @@ khmUncommon = {
     "type": "Creature \u2014 Spirit Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Boast \u2014 1W: Create a 1/1 white Human Warrior creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1W: Create a 1/1 white Human Warrior creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 1W: Create a 1/1 white Human Warrior creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -1023,7 +1088,8 @@ khmUncommon = {
     "type": "Snow Creature \u2014 Human Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "2: Target snow land you control becomes a 4/4 Elemental creature with haste and hexproof until end of turn. It\u2019s still a land. (A creature with hexproof can\u2019t be the target of spells or abilities your opponents control.)"
+      "2: Target snow land you control becomes a 4/4 Elemental creature with haste and hexproof until end of turn. It\u2019s still a land. (A creature with hexproof can\u2019t be the target of spells or abilities your opponents control.)",
+      ""
     ],
     "textbox": [
       "2: Target snow land you control becomes a 4/4 Elemental creature with haste and hexproof until end of turn. It\u2019s still a land. (A creature with hexproof can\u2019t be the target of spells or abilities your opponents control.)"
@@ -1040,7 +1106,8 @@ khmUncommon = {
     "type": "Snow Creature \u2014 Human Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "S, T: Look at the top card of your library. If it\u2019s a snow card, you may reveal it and put it into your hand. (S can be paid with one mana from a snow source.)"
+      "S, T: Look at the top card of your library. If it\u2019s a snow card, you may reveal it and put it into your hand. (S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "S, T: Look at the top card of your library. If it\u2019s a snow card, you may reveal it and put it into your hand. (S can be paid with one mana from a snow source.)"
@@ -1058,7 +1125,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "This spell costs 1 less to cast if you control a Giant or a Wizard.",
-      "When This card enters the battlefield, search your library for an instant or sorcery card with the same name as a card in your graveyard, reveal it, put it into your hand, then shuffle your library."
+      "When This card enters the battlefield, search your library for an instant or sorcery card with the same name as a card in your graveyard, reveal it, put it into your hand, then shuffle your library.",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast if you control a Giant or a Wizard.",
@@ -1077,7 +1145,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "When This card enters the battlefield, scry 3.",
-      "When This card dies, draw three cards if three or more creatures died this turn."
+      "When This card dies, draw three cards if three or more creatures died this turn.",
+      ""
     ],
     "textbox": [
       "When Inga Rune-Eyes enters the battlefield, scry 3.",
@@ -1095,7 +1164,8 @@ khmUncommon = {
     "type": "Creature \u2014 Human Berserker",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast your second spell each turn, put two +1/+1 counters on This card. It gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)"
+      "Whenever you cast your second spell each turn, put two +1/+1 counters on This card. It gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)",
+      ""
     ],
     "textbox": [
       "Whenever you cast your second spell each turn, put two +1/+1 counters on Bloodsky Berserker. It gains menace until end of turn. (It can\u2019t be blocked except by two or more creatures.)"
@@ -1112,7 +1182,8 @@ khmUncommon = {
     "type": "Snow Creature \u2014 Angel Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "SS: This card gets +2/+2 until end of turn. (S can be paid with one mana from a snow source.)"
+      "SS: This card gets +2/+2 until end of turn. (S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "Flying, trample",
@@ -1130,7 +1201,7 @@ khmUncommon = {
     "type": "Creature \u2014 Elf Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, choose one \u2014 \n \u2022 Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common. \n \u2022 You gain X life, where X is the greatest number of creatures you control that have a creature type in common."
+      "When This card enters the battlefield, choose one \u2014\n\u2022 Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common.\n\u2022 You gain X life, where X is the greatest number of creatures you control that have a creature type in common."
     ],
     "textbox": [
       "When Skemfar Shadowsage enters the battlefield, choose one \u2014",
@@ -1140,7 +1211,7 @@ khmUncommon = {
     "power": "2",
     "toughness": "5",
     "converted": 4,
-    "abilities": 3
+    "abilities": 1
   },
   "Vengeful Reaper": {
     "name": "Vengeful Reaper",
@@ -1148,7 +1219,9 @@ khmUncommon = {
     "cost": "3B",
     "type": "Creature \u2014 Angel Cleric",
     "rarity": "Uncommon",
-    "abilitiesText": [],
+    "abilitiesText": [
+      ""
+    ],
     "textbox": [
       "Flying, deathtouch, haste",
       "Foretell 1B (During your turn, you may pay 2 and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"
@@ -1165,7 +1238,8 @@ khmUncommon = {
     "type": "Creature \u2014 Giant Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common."
+      "When This card enters the battlefield, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common.",
+      ""
     ],
     "textbox": [
       "When Basalt Ravager enters the battlefield, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common."
@@ -1182,7 +1256,8 @@ khmUncommon = {
     "type": "Creature \u2014 Giant Berserker",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, creatures you control get +1/+0 and gain haste until end of turn."
+      "When This card enters the battlefield, creatures you control get +1/+0 and gain haste until end of turn.",
+      ""
     ],
     "textbox": [
       "When Doomskar Titan enters the battlefield, creatures you control get +1/+0 and gain haste until end of turn.",
@@ -1200,7 +1275,8 @@ khmUncommon = {
     "type": "Creature \u2014 Dwarf Berserker",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Boast \u2014 2R: Create a 2/1 red Dwarf Berserker creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 2R: Create a 2/1 red Dwarf Berserker creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Boast \u2014 2R: Create a 2/1 red Dwarf Berserker creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)"
@@ -1217,7 +1293,8 @@ khmUncommon = {
     "type": "Creature \u2014 Demon Berserker",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you activate a boast ability, put a +1/+1 counter on This card."
+      "Whenever you activate a boast ability, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Whenever you activate a boast ability, put a +1/+1 counter on Frenzied Raider."
@@ -1234,7 +1311,8 @@ khmUncommon = {
     "type": "Snow Creature \u2014 Elf Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast a creature spell, if S of any of that spell\u2019s color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. (S is mana from a snow source.)"
+      "Whenever you cast a creature spell, if S of any of that spell\u2019s color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. (S is mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "Whenever you cast a creature spell, if S of any of that spell\u2019s color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. (S is mana from a snow source.)"
@@ -1251,7 +1329,8 @@ khmUncommon = {
     "type": "Legendary Creature \u2014 Human Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"
+      "Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",
+      ""
     ],
     "textbox": [
       "Deathtouch",
@@ -1269,7 +1348,8 @@ khmUncommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "2G, T, Exile a creature card from your graveyard: Put two +1/+1 counters on target creature. Activate this ability only any time you could cast a sorcery."
+      "2G, T, Exile a creature card from your graveyard: Put two +1/+1 counters on target creature. Activate this ability only any time you could cast a sorcery.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -1287,7 +1367,8 @@ khmUncommon = {
     "type": "Creature \u2014 Treefolk",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card dies, search your library for a creature card with power or toughness 6 or greater, reveal it, put it into your hand, then shuffle your library."
+      "When This card dies, search your library for a creature card with power or toughness 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      ""
     ],
     "textbox": [
       "When Rootless Yew dies, search your library for a creature card with power or toughness 6 or greater, reveal it, put it into your hand, then shuffle your library."
@@ -1305,7 +1386,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "When This card enters the battlefield, search your library for a snow land card, reveal it, put it into your hand, then shuffle your library.",
-      "This card gets +1/+0 for each other snow permanent you control."
+      "This card gets +1/+0 for each other snow permanent you control.",
+      ""
     ],
     "textbox": [
       "When Spirit of the Aldergard enters the battlefield, search your library for a snow land card, reveal it, put it into your hand, then shuffle your library.",
@@ -1323,7 +1405,8 @@ khmUncommon = {
     "type": "Legendary Creature \u2014 Giant Wizard",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever a creature or planeswalker an opponent controls is dealt excess damage, if a Giant, Wizard, or spell you controlled dealt damage to it this turn, draw a card."
+      "Whenever a creature or planeswalker an opponent controls is dealt excess damage, if a Giant, Wizard, or spell you controlled dealt damage to it this turn, draw a card.",
+      ""
     ],
     "textbox": [
       "Whenever a creature or planeswalker an opponent controls is dealt excess damage, if a Giant, Wizard, or spell you controlled dealt damage to it this turn, draw a card."
@@ -1340,7 +1423,8 @@ khmUncommon = {
     "type": "Legendary Creature \u2014 Angel Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast your second spell each turn, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard."
+      "Whenever you cast your second spell each turn, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+      ""
     ],
     "textbox": [
       "Flying, lifelink",
@@ -1358,7 +1442,8 @@ khmUncommon = {
     "type": "Legendary Creature \u2014 Elf Warrior",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, look at the top five cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+      "When This card enters the battlefield, look at the top five cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "Menace (This creature can\u2019t be blocked except by two or more creatures.)",
@@ -1377,7 +1462,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "When This card enters the battlefield, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.",
-      "Whenever an attacking creature dies, each opponent loses 1 life and you gain 1 life."
+      "Whenever an attacking creature dies, each opponent loses 1 life and you gain 1 life.",
+      ""
     ],
     "textbox": [
       "When Kardur, Doomscourge enters the battlefield, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.",
@@ -1396,7 +1482,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Whenever another nontoken creature you control dies, if it was enchanted or equipped, return it to its owner\u2019s hand.",
-      "Creature tokens you control that are enchanted or equipped get +1/+1."
+      "Creature tokens you control that are enchanted or equipped get +1/+1.",
+      ""
     ],
     "textbox": [
       "Whenever another nontoken creature you control dies, if it was enchanted or equipped, return it to its owner\u2019s hand.",
@@ -1415,7 +1502,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Other creatures you control get +1/+1.",
-      "Whenever a land enters the battlefield under your control, create a 1/1 white Human Warrior creature token."
+      "Whenever a land enters the battlefield under your control, create a 1/1 white Human Warrior creature token.",
+      ""
     ],
     "textbox": [
       "Other creatures you control get +1/+1.",
@@ -1433,7 +1521,8 @@ khmUncommon = {
     "type": "Legendary Snow Creature \u2014 Shapeshifter",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "You may have This card enter the battlefield as a copy of a permanent you control, except it\u2019s legendary and snow in addition to its other types and, if it\u2019s a creature, it enters with two additional +1/+1 counters on it and has changeling."
+      "You may have This card enter the battlefield as a copy of a permanent you control, except it\u2019s legendary and snow in addition to its other types and, if it\u2019s a creature, it enters with two additional +1/+1 counters on it and has changeling.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -1452,7 +1541,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "Other snow and Zombie creatures you control get +1/+1.",
-      "SSS: Return This card from your graveyard to the battlefield tapped. (S can be paid with one mana from a snow source.)"
+      "SSS: Return This card from your graveyard to the battlefield tapped. (S can be paid with one mana from a snow source.)",
+      ""
     ],
     "textbox": [
       "Other snow and Zombie creatures you control get +1/+1.",
@@ -1471,7 +1561,8 @@ khmUncommon = {
     "rarity": "Uncommon",
     "abilitiesText": [
       "3, T: Create a colorless snow artifact token named Icy Manalith with \u201cT: Add one mana of any color.\u201d",
-      "6RG, T: Look at the top four cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order."
+      "6RG, T: Look at the top four cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "3, T: Create a colorless snow artifact token named Icy Manalith with \u201cT: Add one mana of any color.\u201d",
@@ -1489,7 +1580,8 @@ khmUncommon = {
     "type": "Legendary Creature \u2014 Bird Spirit",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever you cast a spell from anywhere other than your hand, draw a card."
+      "Whenever you cast a spell from anywhere other than your hand, draw a card.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1507,7 +1599,9 @@ khmUncommon = {
     "type": "Artifact Creature \u2014 Shapeshifter",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "As This card enters the battlefield, choose a creature type. \n Whenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on This card."
+      "As This card enters the battlefield, choose a creature type.",
+      "Whenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on This card.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -1526,7 +1620,8 @@ khmUncommon = {
     "type": "Creature \u2014 Human Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Angel spells you cast cost 2 less to cast."
+      "Angel spells you cast cost 2 less to cast.",
+      ""
     ],
     "textbox": [
       "Angel spells you cast cost 2 less to cast."
@@ -1543,7 +1638,8 @@ khmUncommon = {
     "type": "Creature \u2014 Dwarf Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever This card becomes tapped, if it\u2019s enchanted or equipped, create a 2/1 red Dwarf Berserker creature token."
+      "Whenever This card becomes tapped, if it\u2019s enchanted or equipped, create a 2/1 red Dwarf Berserker creature token.",
+      ""
     ],
     "textbox": [
       "Whenever Warchanter Skald becomes tapped, if it\u2019s enchanted or equipped, create a 2/1 red Dwarf Berserker creature token."
@@ -1560,7 +1656,8 @@ khmUncommon = {
     "type": "Creature \u2014 Angel",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever another Angel enters the battlefield under your control, put a +1/+1 counter on Youthful Valyrie."
+      "Whenever another Angel enters the battlefield under your control, put a +1/+1 counter on Youthful Valyrie.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1578,7 +1675,8 @@ khmUncommon = {
     "type": "Creature \u2014 Elf Cleric",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card dies, return another target Elf card from your graveyard to your hand."
+      "When This card dies, return another target Elf card from your graveyard to your hand.",
+      ""
     ],
     "textbox": [
       "When Elderfang Ritualist dies, return another target Elf card from your graveyard to your hand."
@@ -1595,7 +1693,8 @@ khmUncommon = {
     "type": "Creature \u2014 Angel Berserker",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, mill four cards. If at least one Angel card is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)"
+      "When This card enters the battlefield, mill four cards. If at least one Angel card is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1613,7 +1712,7 @@ khmUncommon = {
     "type": "Creature \u2014 Elf Rogue",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "When This card enters the battlefield, choose one \u2014 \n \u2022 Remove X counters from target permanent, where X is the number of Elves you control. \n \u2022 Target creature an opponent controls gets -X/-X until end of turn, where X is the number of Elves you control."
+      "When This card enters the battlefield, choose one \u2014\n\u2022 Remove X counters from target permanent, where X is the number of Elves you control.\n\u2022 Target creature an opponent controls gets -X/-X until end of turn, where X is the number of Elves you control."
     ],
     "textbox": [
       "When Thornmantle Striker enters the battlefield, choose one \u2014",
@@ -1623,7 +1722,7 @@ khmUncommon = {
     "power": "4",
     "toughness": "3",
     "converted": 5,
-    "abilities": 3
+    "abilities": 1
   },
   "Gladewalker Ritualist": {
     "name": "Gladewalker Ritualist",
@@ -1632,7 +1731,8 @@ khmUncommon = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Uncommon",
     "abilitiesText": [
-      "Whenever another creature named This card enters the battlefield under your control, draw a card."
+      "Whenever another creature named This card enters the battlefield under your control, draw a card.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -1667,7 +1767,8 @@ khmRare = {
     "type": "Creature \u2014 Angel Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card enters the battlefield, you may exile any number of non-Angel creatures you control until This card leaves the battlefield."
+      "When This card enters the battlefield, you may exile any number of non-Angel creatures you control until This card leaves the battlefield.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -1688,7 +1789,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Snow lands your opponents control enter the battlefield tapped.",
-      "Noncreature spells your opponents cast with converted mana cost 4 or more cost 2 more to cast."
+      "Noncreature spells your opponents cast with converted mana cost 4 or more cost 2 more to cast.",
+      ""
     ],
     "textbox": [
       "Flying, vigilance",
@@ -1708,7 +1810,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever another Angel or Cleric enters the battlefield under your control, you gain life equal to that creature\u2019s toughness.",
-      "As long as you have at least 7 life more than your starting life total, creatures you control get +2/+2."
+      "As long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -1728,7 +1831,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "When This card enters the battlefield, you may search your library and/or graveyard for a Rune card, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
-      "You may pay 1 rather than pay the mana cost for Rune spells you cast."
+      "You may pay 1 rather than pay the mana cost for Rune spells you cast.",
+      ""
     ],
     "textbox": [
       "When Runeforge Champion enters the battlefield, you may search your library and/or graveyard for a Rune card, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
@@ -1746,7 +1850,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 Human Warrior",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card enters the battlefield, exile up to one target attacking or blocking creature until Sigrid leaves the battlefield."
+      "When This card enters the battlefield, exile up to one target attacking or blocking creature until This card leaves the battlefield.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -1767,7 +1872,8 @@ khmRare = {
     "abilitiesText": [
       "SS: This card becomes a Spirit Warrior with base power and toughness 2/3.",
       "SSS: If This card is a Warrior, put a flying counter on it and it becomes a Spirit Warrior Angel with base power and toughness 4/4.",
-      "SSSS: If This card is an Angel, put two +1/+1 counters on it and it gains \u201cWhenever this creature deals combat damage to a player, draw a card.\u201d"
+      "SSSS: If This card is an Angel, put two +1/+1 counters on it and it gains \u201cWhenever this creature deals combat damage to a player, draw a card.\u201d",
+      ""
     ],
     "textbox": [
       "SS: Ascendant Spirit becomes a Spirit Warrior with base power and toughness 2/3.",
@@ -1786,7 +1892,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Rare",
     "abilitiesText": [
-      "At the beginning of your upkeep, you may exile Cosima. If you do, it gains \u201cWhenever a land enters the battlefield under your control, if Cosima is exiled, you may put a voyage counter on it. If you don\u2019t, return Cosima to the battlefield with X +1/+1 counters on it and draw X cards, where X is the number of voyage counters on it."
+      "At the beginning of your upkeep, you may exile This card. If you do, it gains \u201cWhenever a land enters the battlefield under your control, if This card is exiled, you may put a voyage counter on it. If you don\u2019t, return This card to the battlefield with X +1/+1 counters on it and draw X cards, where X is the number of voyage counters on it.",
+      ""
     ],
     "textbox": [
       "At the beginning of your upkeep, you may exile Cosima. If you do, it gains \u201cWhenever a land enters the battlefield under your control, if Cosima is exiled, you may put a voyage counter on it. If you don\u2019t, return Cosima to the battlefield with X +1/+1 counters on it and draw X cards, where X is the number of voyage counters on it."
@@ -1803,7 +1910,8 @@ khmRare = {
     "type": "Creature \u2014 Horse Spirit",
     "rarity": "Rare",
     "abilitiesText": [
-      "Foretelling cards from your hand costs 1 less and can be done on any player\u2019s turn."
+      "Foretelling cards from your hand costs 1 less and can be done on any player\u2019s turn.",
+      ""
     ],
     "textbox": [
       "Flash",
@@ -1823,7 +1931,8 @@ khmRare = {
     "type": "Creature \u2014 Giant Wizard",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card enters the battlefield, if you cast it from your hand, return all permanents to their owners\u2019 hands except for Giants, Wizards, and lands."
+      "When This card enters the battlefield, if you cast it from your hand, return all permanents to their owners\u2019 hands except for Giants, Wizards, and lands.",
+      ""
     ],
     "textbox": [
       "When Cyclone Summoner enters the battlefield, if you cast it from your hand, return all permanents to their owners\u2019 hands except for Giants, Wizards, and lands."
@@ -1842,7 +1951,8 @@ khmRare = {
     "abilitiesText": [
       "This spell costs 1 less to cast for each snow land you control.",
       "When This card enters the battlefield, artifacts and creatures target opponent controls don\u2019t untap during that player\u2019s next untap step.",
-      "Return three snow lands you control to their owner\u2019s hand: Return This card to its owner\u2019s hand."
+      "Return three snow lands you control to their owner\u2019s hand: Return This card to its owner\u2019s hand.",
+      ""
     ],
     "textbox": [
       "This spell costs 1 less to cast for each snow land you control.",
@@ -1862,7 +1972,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.",
-      "You may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells."
+      "You may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells.",
+      ""
     ],
     "textbox": [
       "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.",
@@ -1881,7 +1992,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by 2. (During your turn, you may pay 2 and exile it from your hand face down. Cast it on a later turn for its foretell cost.)",
-      "Whenever you foretell a card, This card gets +2/+0 until end of turn."
+      "Whenever you foretell a card, This card gets +2/+0 until end of turn.",
+      ""
     ],
     "textbox": [
       "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by 2. (During your turn, you may pay 2 and exile it from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1899,7 +2011,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Rare",
     "abilitiesText": [
-      "At the beginning of your upkeep, exile two cards from your graveyard. If you can\u2019t, sacrifice Egon and draw a card."
+      "At the beginning of your upkeep, exile two cards from your graveyard. If you can\u2019t, sacrifice This card and draw a card.",
+      ""
     ],
     "textbox": [
       "Deathtouch",
@@ -1917,7 +2030,8 @@ khmRare = {
     "type": "Creature \u2014 Elf Berserker",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life."
+      "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life.",
+      ""
     ],
     "textbox": [
       "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life."
@@ -1934,7 +2048,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card onto the battlefield under your control from their graveyard."
+      "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card onto the battlefield under your control from their graveyard.",
+      ""
     ],
     "textbox": [
       "Menace",
@@ -1952,7 +2067,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 Demon Rogue",
     "rarity": "Rare",
     "abilitiesText": [
-      "Boast \u2014 1B: Target player searches their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1B: Target player searches their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Deathtouch",
@@ -1970,7 +2086,8 @@ khmRare = {
     "type": "Legendary Creature \u2014 Human Berserker",
     "rarity": "Rare",
     "abilitiesText": [
-      "Boast \u2014 1: You may change This card\u2019s base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1: You may change This card\u2019s base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Haste",
@@ -1989,7 +2106,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever you cast a spell, add R. Until end of turn, you don\u2019t lose this mana as steps and phases end.",
-      "Creatures you control can boast twice during each of your turns rather than once."
+      "Creatures you control can boast twice during each of your turns rather than once.",
+      ""
     ],
     "textbox": [
       "Whenever you cast a spell, add R. Until end of turn, you don\u2019t lose this mana as steps and phases end.",
@@ -2007,7 +2125,8 @@ khmRare = {
     "type": "Creature \u2014 Giant Berserker",
     "rarity": "Rare",
     "abilitiesText": [
-      "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
+      "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
+      ""
     ],
     "textbox": [
       "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
@@ -2025,7 +2144,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Boast abilities you activate cost 1 less to activate for each Dragon you control.",
-      "Boast \u2014 4R: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 4R: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "First strike",
@@ -2046,7 +2166,8 @@ khmRare = {
     "abilitiesText": [
       "Other Dwarves you control get +1/+0.",
       "Whenever a Dwarf you control becomes tapped, create a Treasure token.",
-      "Sacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library."
+      "Sacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library.",
+      ""
     ],
     "textbox": [
       "Other Dwarves you control get +1/+0.",
@@ -2066,7 +2187,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever one or more other Elves enters the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.",
-      "5GG: Elves you control get +2/+2 and gain deathtouch until end of turn."
+      "5GG: Elves you control get +2/+2 and gain deathtouch until end of turn.",
+      ""
     ],
     "textbox": [
       "Whenever one or more other Elves enters the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.",
@@ -2084,7 +2206,8 @@ khmRare = {
     "type": "Legendary Snow Creature \u2014 God",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever Jorn attacks, untap each snow permanent you control."
+      "Whenever This card attacks, untap each snow permanent you control.",
+      ""
     ],
     "textbox": [
       "Whenever Jorn attacks, untap each snow permanent you control."
@@ -2102,7 +2225,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "As long as you control three or more legendary creatures, This card gets +4/+2 and has vigilance.",
-      "1G, T: Look at the top six cards of your library. You may reveal a legendary creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+      "1G, T: Look at the top six cards of your library. You may reveal a legendary creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+      ""
     ],
     "textbox": [
       "As long as you control three or more legendary creatures, Kolvori, God of Kinship gets +4/+2 and has vigilance.",
@@ -2120,7 +2244,8 @@ khmRare = {
     "type": "Creature \u2014 Troll Warrior",
     "rarity": "Rare",
     "abilitiesText": [
-      "When This card dies, if it was a creature, return it to the battlefield. It\u2019s an Aura enchantment with enchant Forest you control and \u201cEnchanted Forest has \u2018T: Add GG\u2019 and \u20181, T, Sacrifice this land: Create a 4/4 green Troll Warrior creature token with trample.\u2019\u201d"
+      "When This card dies, if it was a creature, return it to the battlefield. It\u2019s an Aura enchantment with enchant Forest you control and \u201cEnchanted Forest has \u2018T: Add GG\u2019 and \u20181, T, Sacrifice this land: Create a 4/4 green Troll Warrior creature token with trample.\u2019\u201d",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -2138,7 +2263,10 @@ khmRare = {
     "type": "Creature \u2014 Shapeshifter",
     "rarity": "Rare",
     "abilitiesText": [
-      "As This card enters the battlefield, choose a creature type. \n You may look at the top card of your library any time. \n You may cast creature spells of the chosen type from the top of your library."
+      "As This card enters the battlefield, choose a creature type.",
+      "You may look at the top card of your library any time.",
+      "You may cast creature spells of the chosen type from the top of your library.",
+      ""
     ],
     "textbox": [
       "Changeling (This card is every creature type.)",
@@ -2160,7 +2288,8 @@ khmRare = {
     "abilitiesText": [
       "This spell can\u2019t be countered.",
       "This card attacks each combat if able.",
-      "Whenever a creature you control deals combat damage to a player, draw a card."
+      "Whenever a creature you control deals combat damage to a player, draw a card.",
+      ""
     ],
     "textbox": [
       "This spell can\u2019t be countered.",
@@ -2181,7 +2310,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever This card becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on This card.",
-      "Sacrifice another creature: This card gains indestructible until end of turn. Tap it."
+      "Sacrifice another creature: This card gains indestructible until end of turn. Tap it.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2201,7 +2331,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on This card.",
-      "At the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way."
+      "At the beginning of your upkeep, if This card has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way.",
+      ""
     ],
     "textbox": [
       "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.",
@@ -2219,7 +2350,8 @@ khmRare = {
     "type": "Creature \u2014 Angel Cleric",
     "rarity": "Rare",
     "abilitiesText": [
-      "At the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance."
+      "At the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.",
+      ""
     ],
     "textbox": [
       "Flying, lifelink",
@@ -2238,7 +2370,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "As an additional cost to cast this spell, reveal a Giant card from your hand or pay 2.",
-      "Whenever This card attacks, you may cast an instant or sorcery spell from your hand without paying its mana cost."
+      "Whenever This card attacks, you may cast an instant or sorcery spell from your hand without paying its mana cost.",
+      ""
     ],
     "textbox": [
       "As an additional cost to cast this spell, reveal a Giant card from your hand or pay 2.",
@@ -2256,7 +2389,8 @@ khmRare = {
     "type": "Creature \u2014 Angel Berserker",
     "rarity": "Rare",
     "abilitiesText": [
-      "Pay 3 life: Return This card from your graveyard to your hand. Activate this ability only if you had an Angel or Berserker enter the battlefield under your control this turn."
+      "Pay 3 life: Return This card from your graveyard to your hand. Activate this ability only if you had an Angel or Berserker enter the battlefield under your control this turn.",
+      ""
     ],
     "textbox": [
       "Flying, trample",
@@ -2274,7 +2408,8 @@ khmRare = {
     "type": "Creature \u2014 Giant Berserker",
     "rarity": "Rare",
     "abilitiesText": [
-      "Whenever This card attacks, you may sacrifice another creature. When you do, This card deals damage equal to the sacrificed creature\u2019s power to any target. If the sacrificed creature was a Giant, This card deals twice that much damage instead."
+      "Whenever This card attacks, you may sacrifice another creature. When you do, This card deals damage equal to the sacrificed creature\u2019s power to any target. If the sacrificed creature was a Giant, This card deals twice that much damage instead.",
+      ""
     ],
     "textbox": [
       "Whenever Surtland Flinger attacks, you may sacrifice another creature. When you do, Surtland Flinger deals damage equal to the sacrificed creature\u2019s power to any target. If the sacrificed creature was a Giant, Surtland Flinger deals twice that much damage instead."
@@ -2292,7 +2427,8 @@ khmRare = {
     "rarity": "Rare",
     "abilitiesText": [
       "Other Elves you control get +1/+1.",
-      "T: Add GGG."
+      "T: Add GGG.",
+      ""
     ],
     "textbox": [
       "Other Elves you control get +1/+1.",
@@ -2331,7 +2467,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Creatures you control that are enchanted or equipped have double strike.",
-      "At the beginning of each combat, you may attach target Aura or Equipment attached to a creature you control to target creature you control."
+      "At the beginning of each combat, you may attach target Aura or Equipment attached to a creature you control to target creature you control.",
+      ""
     ],
     "textbox": [
       "Creatures you control that are enchanted or equipped have double strike.",
@@ -2349,7 +2486,8 @@ khmMythic = {
     "type": "Creature \u2014 Angel Warrior",
     "rarity": "Mythic",
     "abilitiesText": [
-      "When This card enters the battlefield or dies, you may exile another creature card from your graveyard. When you do, put a +1/+1 counter on each creature you control other than This card that shares a creature type with the exiled card."
+      "When This card enters the battlefield or dies, you may exile another creature card from your graveyard. When you do, put a +1/+1 counter on each creature you control other than This card that shares a creature type with the exiled card.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2367,8 +2505,9 @@ khmMythic = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Mythic",
     "abilitiesText": [
-      "Alrund gets +1/+1 for each card in your hand and each foretold card you own in exile.",
-      "At the beginning of your end step, choose a card type, then reveal the top two cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest on the bottom of your library in any order."
+      "This card gets +1/+1 for each card in your hand and each foretold card you own in exile.",
+      "At the beginning of your end step, choose a card type, then reveal the top two cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest on the bottom of your library in any order.",
+      ""
     ],
     "textbox": [
       "Alrund gets +1/+1 for each card in your hand and each foretold card you own in exile.",
@@ -2387,7 +2526,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Whenever you cast an instant or sorcery spell, if it targets one or more other permanents you control, create a token that\u2019s a copy of one of those permanents.",
-      "When a spell or ability an opponent controls causes you to discard this card, create a token that\u2019s a copy of target permanent."
+      "When a spell or ability an opponent controls causes you to discard this card, create a token that\u2019s a copy of target permanent.",
+      ""
     ],
     "textbox": [
       "Changeling",
@@ -2406,7 +2546,8 @@ khmMythic = {
     "type": "Creature \u2014 Demon Berserker",
     "rarity": "Mythic",
     "abilitiesText": [
-      "When This card enters the battlefield, you may search your library for exactly two cards not named This card that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle your library."
+      "When This card enters the battlefield, you may search your library for exactly two cards not named This card that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle your library.",
+      ""
     ],
     "textbox": [
       "Flying",
@@ -2424,7 +2565,8 @@ khmMythic = {
     "type": "Creature \u2014 Angel Berserker",
     "rarity": "Mythic",
     "abilitiesText": [
-      "Boast \u2014 1B, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate this ability only if this creature attacked this turn and only once each turn.)"
+      "Boast \u2014 1B, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+      ""
     ],
     "textbox": [
       "Flying, lifelink, hexproof from planeswalkers",
@@ -2442,7 +2584,9 @@ khmMythic = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Mythic",
     "abilitiesText": [
-      "When this card enters the battlefield, each opponent reveals their hand. For each opponent, exile a creature card they revealed this way until Valki leaves the battlefield. \n X: Choose a creature card exiled with Valki with converted mana cost X. Valki becomes a copy of that card."
+      "When This card enters the battlefield, each opponent reveals their hand. For each opponent, exile a creature card they revealed this way until This card leaves the battlefield.",
+      "X: Choose a creature card exiled with This card with converted mana cost X. This card becomes a copy of that card.",
+      ""
     ],
     "textbox": [
       "When Valki enters the battlefield, each opponent reveals their hand. For each opponent, exile a creature card they revealed this way until Valki leaves the battlefield.",
@@ -2461,7 +2605,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Whenever This card attacks or becomes the target of a spell, create a Treasure token.",
-      "Treasures you control have \u201cT, Sacrifice this artifact: Add two mana of any one color.\u201d"
+      "Treasures you control have \u201cT, Sacrifice this artifact: Add two mana of any one color.\u201d",
+      ""
     ],
     "textbox": [
       "Flying, haste",
@@ -2481,7 +2626,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "Your opponents can\u2019t gain life.",
-      "At the beginning of your upkeep, This card deals 2 damage to each opponent. This ability triggers only if This card is on the battlefield or if This card is in your graveyard and you control a Giant."
+      "At the beginning of your upkeep, This card deals 2 damage to each opponent. This ability triggers only if This card is on the battlefield or if This card is in your graveyard and you control a Giant.",
+      ""
     ],
     "textbox": [
       "Your opponents can\u2019t gain life.",
@@ -2500,7 +2646,8 @@ khmMythic = {
     "type": "Legendary Creature \u2014 God",
     "rarity": "Mythic",
     "abilitiesText": [
-      "Whenever a creature or planeswalker an opponent controls is dealt excess noncombat damage, This card deals damage equal to the excess to any target other than that permanent."
+      "Whenever a creature or planeswalker an opponent controls is dealt excess noncombat damage, This card deals damage equal to the excess to any target other than that permanent.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -2518,7 +2665,8 @@ khmMythic = {
     "type": "Creature \u2014 Elephant",
     "rarity": "Mythic",
     "abilitiesText": [
-      "Whenever a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card."
+      "Whenever a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
+      ""
     ],
     "textbox": [
       "Trample",
@@ -2538,7 +2686,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "T: Add one mana of any color.",
-      "Other legendary creatures you control have vigilance and \u201cT: Add one mana of any color.\u201d"
+      "Other legendary creatures you control have vigilance and \u201cT: Add one mana of any color.\u201d",
+      ""
     ],
     "textbox": [
       "Vigilance",
@@ -2558,7 +2707,8 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.",
-      "If an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down."
+      "If an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down.",
+      ""
     ],
     "textbox": [
       "Trample, haste",
@@ -2578,15 +2728,15 @@ khmMythic = {
     "rarity": "Mythic",
     "abilitiesText": [
       "This spell can\u2019t be countered.",
-      "At the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma\u2019s Coil.",
-      "Sacrifice another Serpent: Choose one \u2014 \n \u2022 Tap target permanent. Its activated abilities can\u2019t be activated this turn. \n \u2022 This card gains indestructible until end of turn."
+      "At the beginning of each upkeep, create a 3/3 blue Serpent creature token named This card\u2019s Coil.",
+      "Sacrifice another Serpent: Choose one \u2014\n\u2022 Tap target permanent. Its activated abilities can\u2019t be activated this turn.\n\u2022 This card gains indestructible until end of turn."
     ],
     "textbox": [
       "This spell can\u2019t be countered.",
       "At the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma\u2019s Coil.",
       "Sacrifice another Serpent: Choose one \u2014",
       "\u2022 Tap target permanent. Its activated abilities can\u2019t be activated this turn.",
-      "\u2022 This card gains indestructible until end of turn."
+      "\u2022 Koma, Cosmos Serpent gains indestructible until end of turn."
     ],
     "power": "6",
     "toughness": "6",
