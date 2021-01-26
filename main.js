@@ -19,7 +19,10 @@ var chosenCard = document.getElementById("cardSelect");
 var randomCard = document.getElementById("randomCard");
 var chooseCard = document.getElementById("chooseCard");
 var buttonDelay = false;
-
+//Keywords + Abilities
+var numInput = document.getElementById("numInput");
+var randNumAbility = document.getElementById("randNumAbility");
+var normalNumAbility = document.getElementById("normalNum");
 
 
 var cards = {};
@@ -164,6 +167,14 @@ function setAbilities(name, card, rarity, num){
 	tempAbilities.length = 0;
 	// console.log(tempAbilities);
 	// num = 5;
+	console.log(randNumAbility.checked);
+	if(!numInput.value.length == 0 && randNumAbility.checked === false){
+		num = numInput.value;
+	} else if (randNumAbility.checked){
+		num = Math.floor(Math.random()*20);
+	} else if (normalNumAbility.checked){
+	}
+
 	numKeyword = Math.floor(Math.random()*num);
 	numAbility = num - numKeyword;
 	if(true){
