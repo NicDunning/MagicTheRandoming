@@ -57,6 +57,11 @@
 	justify-content: center;
 }
 
+.options > p{
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px 5px;
+}
 
 .options > input[type="text"]{
 	margin: 1% 0px 1% 0px;
