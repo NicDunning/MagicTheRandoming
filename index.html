@@ -3,7 +3,7 @@
 	<head>
 		<title></title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style2.css">
 	</head>
 	<body>
 		<div id="mainWrapper">
@@ -27,14 +27,16 @@
 				<div id="raritySelector" class="options">
 					<!--  -->
 					<p>Rarities to be displayed</p>
-					<input type="checkbox" name="rarity" value="Common" class="raritiesSelected" checked>
-					<label for="Common"></label>Common<br>
-					<input type="checkbox" name="rarity" value="Uncommon" class="raritiesSelected">
-					<label for="Uncommon"></label>Uncommon<br>
-					<input type="checkbox" name="rarity" value="Rare" class="raritiesSelected">
-					<label for="Rare"></label>Rare<br>
-					<input type="checkbox" name="rarity" value="Mythic" class="raritiesSelected">
-					<label for="Mythic">Mythic</label><br>
+					<div>
+						<input type="checkbox" name="rarity" value="Common" class="raritiesSelected" checked>
+						<label for="Common"></label>Common<br>
+						<input type="checkbox" name="rarity" value="Uncommon" class="raritiesSelected">
+						<label for="Uncommon"></label>Uncommon<br>
+						<input type="checkbox" name="rarity" value="Rare" class="raritiesSelected">
+						<label for="Rare"></label>Rare<br>
+						<input type="checkbox" name="rarity" value="Mythic" class="raritiesSelected">
+						<label for="Mythic">Mythic</label><br>
+					</div>
 					<!--  -->
 <!-- 					<p>Mix abilities among rarities?</p>
 					<div>
@@ -46,10 +48,14 @@
 				</div>
 				<div id="numberAbilites" class="options">
 					<p>Number of Abilities</p>
-					<label for="numAbility" id="num"># (Min 0 Max 10) : </label>
-					<input type="number" name="numAbility" id="numInput" min="0" max="10" value="5"><br>
-					<input type="checkbox" name="numAbility" id="randNumAbility" value="rand">
-					<label for="rand">Random (Min 0 Max 10)</label><br>
+					<div>
+						<div class="numberBox">
+							<label for="numAbility" id="num"># (Min 0 Max 10) : </label>
+							<input type="number" name="numAbility" id="numInput" min="0" max="10" value="5"><br>
+						</div>
+						<input type="checkbox" name="numAbility" id="randNumAbility" value="rand">
+						<label for="rand">Random (Min 0 Max 10)</label><br>
+					</div>
 <!-- 					<input type="checkbox" name="numAbility" id="normalNum" value="norm">
 					<label for="norm">Use original number of abilities.</label> -->
 				</div>
@@ -64,195 +70,156 @@
 				</div> -->
 				<div id="cardSelectorContainer" class="options">
 					<p>Select a Card.</p>
-					<input type="text" name="cardSelect" id="cardSelect" placeholder="Enter card here (proper punctuation)">
+					<input type="text" name="cardSelect" id="cardSelect" placeholder="Enter card name here">
+					<div id="autoFillCardName">
+						<p id="autoFill1" class="autoFillOption"></p>
+						<p id="autoFill2" class="autoFillOption"></p>
+						<p id="autoFill3" class="autoFillOption"></p>
+					</div>
 					<button id="chooseCard">Choose Card</button>
 					<button id="randomCard">Random Card</button>
 				</div>
-				<div id="numberSets" class="options">
-					<p>Selected sets.<!-- Use all sets? --></p>
-					<!-- <div>
-						<input type="radio" name="setsUsed" value="yes">
-						<label for="yes">Yes</label><br>
-						<input type="radio" name="setsUsed" value="no" checked>
-						<label for="no">No</label><br>
-					</div> -->
-				</div>
-				<div id="setSelector">
-					<p onclick="toggleSets()">Click here to select sets.</p>
-					<div id="sets">
-						<div id="coreSets">
-							<input type="checkbox" name="set" class="set" value="LEA" disabled><label for="LEA">LEA</label><br>
-							<input type="checkbox" name="set" class="set" value="LEB" disabled><label for="LEB">LEB</label><br>
-							<input type="checkbox" name="set" class="set" value="2ED" disabled><label for="2ED">2ED</label><br>
-							<input type="checkbox" name="set" class="set" value="3ED" disabled><label for="3ED">3ED</label><br>
-							<input type="checkbox" name="set" class="set" value="4ED" disabled><label for="4ED">4ED</label><br>
-							<input type="checkbox" name="set" class="set" value="5ED" disabled><label for="5ED">5ED</label><br>
-							<input type="checkbox" name="set" class="set" value="6ED" disabled><label for="6ED">6ED</label><br>
-							<input type="checkbox" name="set" class="set" value="7ED" disabled><label for="7ED">7ED</label><br>
-							<input type="checkbox" name="set" class="set" value="8ED" disabled><label for="8ED">8ED</label><br>
-							<input type="checkbox" name="set" class="set" value="9ED" disabled><label for="9ED">9ED</label><br>
-							<input type="checkbox" name="set" class="set" value="10E" disabled><label for="10E">10E</label><br>
-							<input type="checkbox" name="set" class="set" value="m10" disabled><label for="m10">M10</label><br>
-							<input type="checkbox" name="set" class="set" value="m11" disabled><label for="m11">M11</label><br>
-							<input type="checkbox" name="set" class="set" value="m12" disabled><label for="m12">M12</label><br>
-							<input type="checkbox" name="set" class="set" value="m13" disabled><label for="m13">M13</label><br>
-							<input type="checkbox" name="set" class="set" value="m14" disabled><label for="m14">M14</label><br>
-							<input type="checkbox" name="set" class="set" value="m15" disabled><label for="m15">M15</label><br>
-							<input type="checkbox" name="set" class="set" value="ORI" disabled><label for="ORI">ORI</label><br>
-							<input type="checkbox" name="set" class="set" value="m19" disabled><label for="m19">M19</label><br>
-							<input type="checkbox" name="set" class="set" value="m20" disabled><label for="m20">M20</label><br>
-							<input type="checkbox" name="set" class="set" value="m21" disabled><label for="m21">M21</label>
-						</div>
-						<div id="preBlock">
-							<input type="checkbox" name="set" class="set" value="ARN" disabled><label for="ARN"></label>ARN<br>
-							<input type="checkbox" name="set" class="set" value="ATQ" disabled><label for="ATQ">ATQ</label><br>
-							<input type="checkbox" name="set" class="set" value="LEG" disabled><label for="LEG">LEG</label><br>
-							<input type="checkbox" name="set" class="set" value="DRK" disabled><label for="DRK">DRK</label><br>
-							<input type="checkbox" name="set" class="set" value="FEM" disabled><label for="FEM">FEM</label><br>
-							<input type="checkbox" name="set" class="set" value="ICE" disabled><label for="ICE">ICE</label><br>
-							<input type="checkbox" name="set" class="set" value="HML" disabled><label for="HML">HML</label><br>
-							<input type="checkbox" name="set" class="set" value="ALL" disabled><label for="ALL">ALL</label>
-						</div>
-						<div id="mirageBlock">
-							<input type="checkbox" name="set" class="set" value="MIR" disabled><label for="MIR">MIR</label><br>
-							<input type="checkbox" name="set" class="set" value="VIS" disabled><label for="VIS">VIS</label><br>
-							<input type="checkbox" name="set" class="set" value="WTH" disabled><label for="WTH">WTH</label>
-						</div>
-						<div id="tempestBlock">
-							<input type="checkbox" name="set" class="set" value="TMP" disabled><label for="TMP">TMP</label><br>
-							<input type="checkbox" name="set" class="set" value="STH" disabled><label for="STH">STH</label><br>
-							<input type="checkbox" name="set" class="set" value="EXO" disabled><label for="EXO">EXO</label><br>
-						</div>
-						<div id="urzasBlock">
-							<input type="checkbox" name="set" class="set" value="USG" disabled><label for="USG">USG</label><br>
-							<input type="checkbox" name="set" class="set" value="ULG" disabled><label for="ULG">ULG</label><br>
-							<input type="checkbox" name="set" class="set" value="UDS" disabled><label for="UDS">UDS</label><br>
-						</div>
-						<div id="masquesBlock">
-							<input type="checkbox" name="set" class="set" value="MMQ" disabled><label for="MMQ">MMQ</label><br>
-							<input type="checkbox" name="set" class="set" value="NEM" disabled><label for="NEM">NEM</label><br>
-							<input type="checkbox" name="set" class="set" value="PCY" disabled><label for="PCY">PCY</label><br>
-						</div>
-						<div id="invasionBlock">
-							<input type="checkbox" name="set" class="set" value="INV" disabled><label for="INV">INV</label><br>
-							<input type="checkbox" name="set" class="set" value="PLS" disabled><label for="PLS">PLS</label><br>
-							<input type="checkbox" name="set" class="set" value="APC" disabled><label for="APC">APC</label>
-						</div>
-						<div id="odyessyBlock">
-							<input type="checkbox" name="set" class="set" value="ODY" disabled><label for="ODY">ODY</label><br>
-							<input type="checkbox" name="set" class="set" value="TOR" disabled><label for="TOR">TOR</label><br>
-							<input type="checkbox" name="set" class="set" value="JUD" disabled><label for="JUD">JUD</label>
-						</div>
-						<div id="onslaughtBlock">
-							<input type="checkbox" name="set" class="set" value="ONS" disabled><label for="ONS">ONS</label><br>
-							<input type="checkbox" name="set" class="set" value="LGN" disabled><label for="LGN">LGN</label><br>
-							<input type="checkbox" name="set" class="set" value="SCG" disabled><label for="SCG">SCG</label>
-						</div>
-						<div id="mirrodinBlock">
-							<input type="checkbox" name="set" class="set" value="MRD" disabled><label for="MRD">MRD</label><br>
-							<input type="checkbox" name="set" class="set" value="DST" disabled><label for="DST">DST</label><br>
-							<input type="checkbox" name="set" class="set" value="5DN" disabled><label for="5DN">5DN</label>
-						</div>
-						<div id="kamigawaBlock">
-							<input type="checkbox" name="set" class="set" value="CHK" disabled><label for="CHK">CHK</label><br>
-							<input type="checkbox" name="set" class="set" value="BOK" disabled><label for="BOK">BOK</label><br>
-							<input type="checkbox" name="set" class="set" value="SOK" disabled><label for="SOK">SOK</label>
-						</div>
-						<div id="ravnicaBlock">
-							<input type="checkbox" name="set" class="set" value="RAV" disabled><label for="RAV">RAV</label><br>
-							<input type="checkbox" name="set" class="set" value="GPT" disabled><label for="GPT">GPT</label><br>
-							<input type="checkbox" name="set" class="set" value="DIS" disabled><label for="DIS">DIS</label>
-						</div>
-						<div id="coldsnapBlock">
-							<input type="checkbox" name="set" class="set" value="CSP" disabled><label for="CSP">CSP</label>
-						</div>
-						<div id="timespiralBlock">
-							<input type="checkbox" name="set" class="set" value="TSP" disabled><label for="TSP">TSP</label><br>
-							<input type="checkbox" name="set" class="set" value="PLC" disabled><label for="PLC">PLC</label><br>
-							<input type="checkbox" name="set" class="set" value="FUT" disabled><label for="FUT">FUT</label>
-						</div>
-						<div id="lorwynBlock">
-							<input type="checkbox" name="set" class="set" value="LRW" disabled><label for="LRW">LRW</label><br>
-							<input type="checkbox" name="set" class="set" value="MOR" disabled><label for="MOR">MOR</label>
-						</div>
-						<div id="shadowmoorBlock">
-							<input type="checkbox" name="set" class="set" value="SHM" disabled><label for="SHM">SHM</label><br>
-							<input type="checkbox" name="set" class="set" value="EVE" disabled><label for="EVE">EVE</label>
-						</div>
-						<div id="alaraBlock">
-							<input type="checkbox" name="set" class="set" value="ALA" disabled><label for="ALA">ALA</label><br>
-							<input type="checkbox" name="set" class="set" value="CON" disabled><label for="CON">CON</label><br>
-							<input type="checkbox" name="set" class="set" value="ARB" disabled><label for="ARB">ARB</label>
-						</div>
-						<div id="zendikarBlock">
-							<input type="checkbox" name="set" class="set" value="ZEN" disabled><label for="ZEN">ZEN</label><br>
-							<input type="checkbox" name="set" class="set" value="WWK" disabled><label for="WWK">WWK</label><br>
-							<input type="checkbox" name="set" class="set" value="ROE" disabled><label for="ROE">ROE</label>
-						</div>
-						<div id="scarsBlock">
-							<input type="checkbox" name="set" class="set" value="SOM" disabled><label for="SOM">SOM</label><br>
-							<input type="checkbox" name="set" class="set" value="MBS" disabled><label for="MBS">MBS</label><br>
-							<input type="checkbox" name="set" class="set" value="NPH" disabled><label for="NPH">NPH</label>
-						</div>
-						<div id="innistradBlock">
-							<input type="checkbox" name="set" class="set" value="INN" disabled><label for="INN">INN</label><br>
-							<input type="checkbox" name="set" class="set" value="DKA" disabled><label for="DKA">DKA</label><br>
-							<input type="checkbox" name="set" class="set" value="AVR" disabled><label for="AVR">AVR</label>
-						</div>
-						<div id="rtrBlock">
-							<input type="checkbox" name="set" class="set" value="RTR" disabled><label for="RTR">RTR</label><br>
-							<input type="checkbox" name="set" class="set" value="GTC" disabled><label for="GTC">GTC</label><br>
-							<input type="checkbox" name="set" class="set" value="DGM" disabled><label for="DGM">DGM</label>
-						</div>
-						<div id="therosBlock">
-							<input type="checkbox" name="set" class="set" value="THS" disabled><label for="THS">THS</label><br>
-							<input type="checkbox" name="set" class="set" value="BNG" disabled><label for="BNG">BNG</label><br>
-							<input type="checkbox" name="set" class="set" value="JOU" disabled><label for="JOU">JOU</label>
-						</div>
-						<div id="khansBlock">
-							<input type="checkbox" name="set" class="set" value="KTK" disabled><label for="KTK">KTK</label><br>
-							<input type="checkbox" name="set" class="set" value="FRF" disabled><label for="FRF">FRF</label><br>
-							<input type="checkbox" name="set" class="set" value="DTK" disabled><label for="DTK">DTK</label>
-						</div>
-						<div id="bfzBlock">
-							<input type="checkbox" name="set" class="set" value="BFZ" disabled><label for="BFZ">BFZ</label><br>
-							<input type="checkbox" name="set" class="set" value="OGW" disabled><label for="OGW">OGW</label>
-						</div>
-						<div id="shadowsBlock">
-							<input type="checkbox" name="set" class="set" value="SOI" disabled><label for="SOI">SOI</label><br>
-							<input type="checkbox" name="set" class="set" value="EMN" disabled><label for="EMN">EMN</label>
-						</div>
-						<div id="kaladeshBlock">
-							<input type="checkbox" name="set" class="set" value="KLD" disabled><label for="KLD">KLD</label><br>
-							<input type="checkbox" name="set" class="set" value="AER" disabled><label for="AER">AER</label>
-						</div>
-						<div id="amokhetBlock">
-							<input type="checkbox" name="set" class="set" value="AKH" disabled><label for="AKH">AKH</label><br>
-							<input type="checkbox" name="set" class="set" value="HOU" disabled><label for="HOU">HOU</label>
-						</div>
-						<div id="ixalanBlock">
-							<input type="checkbox" name="set" class="set" value="XLN" disabled><label for="XLN">XLN</label><br>
-							<input type="checkbox" name="set" class="set" value="RIX" disabled><label for="RIX">RIX</label>
-						</div>
-						<div id="dominariaBlock">
-							<input type="checkbox" name="set" class="set" value="DOM" disabled><label for="DOM">DOM</label>
-						</div>
-						<div id="guildsBlock">
-							<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN">GRN</label><br>
-							<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA">RNA</label><br>
-							<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR">WAR</label>
-						</div>
-						<div id="throneBlock">
-							<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD">ELD</label><br>
-							<input type="checkbox" name="set" class="set" value="THB"><label for="THB">THB</label><br>
-							<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO">IKO</label>
-						</div>
-						<div id="zenrisingBlock">
-							<input type="checkbox" name="set" class="set" value="ZNR" checked><label for="ZNR">ZNR</label><br>
-							<input type="checkbox" name="set" class="set" value="KHM" checked><label for="KHM">KHM</label><br>
-							<input type="checkbox" name="set" class="set" value="TBD.." disabled><label for="TBD..">TBD..</label>
-						</div>
-						<!-- <div id="moreComingSoon"></div> -->
+				<div id="setSelector" class="options">
+					<input type="text" name="setSearch" id="setSearch" placeholder="Enter set name here">
+				<div id="sets" class="options">
+						<input type="checkbox" name="set" class="set" value="LEA" disabled><label for="LEA" class="setLabel">Alpha<br></label>
+						<input type="checkbox" name="set" class="set" value="LEB" disabled><label for="LEB" class="setLabel">Beta<br></label>
+						<input type="checkbox" name="set" class="set" value="2ED" disabled><label for="2ED" class="setLabel">Unlimited<br></label>
+						<input type="checkbox" name="set" class="set" value="3ED" disabled><label for="3ED" class="setLabel">Revised<br></label>
+						<input type="checkbox" name="set" class="set" value="4ED" disabled><label for="4ED" class="setLabel">Fourth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="5ED" disabled><label for="5ED" class="setLabel">Fifth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="6ED" disabled><label for="6ED" class="setLabel">Sixth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="7ED" disabled><label for="7ED" class="setLabel">Seventh Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="8ED" disabled><label for="8ED" class="setLabel">Eighth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="9ED" disabled><label for="9ED" class="setLabel">Ninth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="10E" disabled><label for="10E" class="setLabel">Tenth Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="m10" disabled><label for="m10" class="setLabel">Magic 2010<br></label>
+						<input type="checkbox" name="set" class="set" value="m11" disabled><label for="m11" class="setLabel">Magic 2011<br></label>
+						<input type="checkbox" name="set" class="set" value="m12" disabled><label for="m12" class="setLabel">Magic 2012<br></label>
+						<input type="checkbox" name="set" class="set" value="m13" disabled><label for="m13" class="setLabel">Magic 2013<br></label>
+						<input type="checkbox" name="set" class="set" value="m14" disabled><label for="m14" class="setLabel">Magic 2014<br></label>
+						<input type="checkbox" name="set" class="set" value="m15" disabled><label for="m15" class="setLabel">Magic 2015<br></label>
+						<input type="checkbox" name="set" class="set" value="ORI" disabled><label for="ORI" class="setLabel">Magic Origins<br></label>
+						<input type="checkbox" name="set" class="set" value="m19" disabled><label for="m19" class="setLabel">Core Set 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="m20" disabled><label for="m20" class="setLabel">Core Set 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="m21" disabled><label for="m21" class="setLabel">Core Set 2021<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ARN" disabled><label for="ARN" class="setLabel">Arabian Nights<br></label>
+						<input type="checkbox" name="set" class="set" value="ATQ" disabled><label for="ATQ" class="setLabel">Antiquities<br></label>
+						<input type="checkbox" name="set" class="set" value="LEG" disabled><label for="LEG" class="setLabel">Legends<br></label>
+						<input type="checkbox" name="set" class="set" value="DRK" disabled><label for="DRK" class="setLabel">The Dark<br></label>
+						<input type="checkbox" name="set" class="set" value="FEM" disabled><label for="FEM" class="setLabel">Fallen Empires<br></label>
+						<input type="checkbox" name="set" class="set" value="ICE" disabled><label for="ICE" class="setLabel">Ice Age<br></label>
+						<input type="checkbox" name="set" class="set" value="HML" disabled><label for="HML" class="setLabel">Homelands<br></label>
+						<input type="checkbox" name="set" class="set" value="ALL" disabled><label for="ALL" class="setLabel">Alliances<br></label>
+
+						<input type="checkbox" name="set" class="set" value="MIR" disabled><label for="MIR" class="setLabel">Mirage<br></label>
+						<input type="checkbox" name="set" class="set" value="VIS" disabled><label for="VIS" class="setLabel">Vison<br></label>
+						<input type="checkbox" name="set" class="set" value="WTH" disabled><label for="WTH" class="setLabel">Weatherlight<br></label>
+
+						<input type="checkbox" name="set" class="set" value="TMP" disabled><label for="TMP" class="setLabel">Tempest<br></label>
+						<input type="checkbox" name="set" class="set" value="STH" disabled><label for="STH" class="setLabel">Stronghold<br></label>
+						<input type="checkbox" name="set" class="set" value="EXO" disabled><label for="EXO" class="setLabel">Exodus<br></label>
+
+						<input type="checkbox" name="set" class="set" value="USG" disabled><label for="USG" class="setLabel">Urza's Saga<br></label>
+						<input type="checkbox" name="set" class="set" value="ULG" disabled><label for="ULG" class="setLabel">Urza's Legacy<br></label>
+						<input type="checkbox" name="set" class="set" value="UDS" disabled><label for="UDS" class="setLabel">Urza's Destiny<br></label>
+
+						<input type="checkbox" name="set" class="set" value="MMQ" disabled><label for="MMQ" class="setLabel">Mercadian Masques<br></label>
+						<input type="checkbox" name="set" class="set" value="NEM" disabled><label for="NEM" class="setLabel">Nemesis<br></label>
+						<input type="checkbox" name="set" class="set" value="PCY" disabled><label for="PCY" class="setLabel">Prophecy<br></label>
+
+						<input type="checkbox" name="set" class="set" value="INV" disabled><label for="INV" class="setLabel">Invasion<br></label>
+						<input type="checkbox" name="set" class="set" value="PLS" disabled><label for="PLS" class="setLabel">Planeshift<br></label>
+						<input type="checkbox" name="set" class="set" value="APC" disabled><label for="APC" class="setLabel">Apocalypse<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ODY" disabled><label for="ODY" class="setLabel">Odyssey<br></label>
+						<input type="checkbox" name="set" class="set" value="TOR" disabled><label for="TOR" class="setLabel">Torment<br></label>
+						<input type="checkbox" name="set" class="set" value="JUD" disabled><label for="JUD" class="setLabel">Judgement<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ONS" disabled><label for="ONS" class="setLabel">Onslaught<br></label>
+						<input type="checkbox" name="set" class="set" value="LGN" disabled><label for="LGN" class="setLabel">Leigons<br></label>
+						<input type="checkbox" name="set" class="set" value="SCG" disabled><label for="SCG" class="setLabel">Scourge<br></label>
+
+						<input type="checkbox" name="set" class="set" value="MRD" disabled><label for="MRD" class="setLabel">Mirrodin<br></label>
+						<input type="checkbox" name="set" class="set" value="DST" disabled><label for="DST" class="setLabel Mirrodin">Darksteel<br></label>
+						<input type="checkbox" name="set" class="set" value="5DN" disabled><label for="5DN" class="setLabel Mirrodin">Fifth Dawn<br></label>
+
+						<input type="checkbox" name="set" class="set" value="CHK" disabled><label for="CHK" class="setLabel">Champions of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="BOK" disabled><label for="BOK" class="setLabel">Betrayers of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="SOK" disabled><label for="SOK" class="setLabel">Saviors of Kamigawa<br></label>
+
+						<input type="checkbox" name="set" class="set" value="RAV" disabled><label for="RAV" class="setLabel">Ravnica: City of Guilds<br></label>
+						<input type="checkbox" name="set" class="set" value="GPT" disabled><label for="GPT" class="setLabel Ravnica">Guildpact<br></label>
+						<input type="checkbox" name="set" class="set" value="DIS" disabled><label for="DIS" class="setLabel Ravnica">Dissension<br></label>
+
+						<input type="checkbox" name="set" class="set" value="CSP" disabled><label for="CSP" class="setLabel">Coldsnap<br></label>
+
+						<input type="checkbox" name="set" class="set" value="TSP" disabled><label for="TSP" class="setLabel">Time Spiral<br></label>
+						<input type="checkbox" name="set" class="set" value="PLC" disabled><label for="PLC" class="setLabel TimeSpiral">Planar Chaos<br></label>
+						<input type="checkbox" name="set" class="set" value="FUT" disabled><label for="FUT" class="setLabel TimeSpiral">Future Sight<br></label>
+
+						<input type="checkbox" name="set" class="set" value="LRW" disabled><label for="LRW" class="setLabel">Lorwyn<br></label>
+						<input type="checkbox" name="set" class="set" value="MOR" disabled><label for="MOR" class="setLabel Lorwyn">Morningtide<br></label>
+
+						<input type="checkbox" name="set" class="set" value="SHM" disabled><label for="SHM" class="setLabel Lorwyn">Shadowmoor<br></label>
+						<input type="checkbox" name="set" class="set" value="EVE" disabled><label for="EVE" class="setLabel Lorwyn">Eventide<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ALA" disabled><label for="ALA" class="setLabel">Shards of Alara<br></label>
+						<input type="checkbox" name="set" class="set" value="CON" disabled><label for="CON" class="setLabel Alara">Conflux<br></label>
+						<input type="checkbox" name="set" class="set" value="ARB" disabled><label for="ARB" class="setLabel">Alara Reborn<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ZEN" disabled><label for="ZEN" class="setLabel">Zendikar<br></label>
+						<input type="checkbox" name="set" class="set" value="WWK" disabled><label for="WWK" class="setLabel Zendikar">Worldwake<br></label>
+						<input type="checkbox" name="set" class="set" value="ROE" disabled><label for="ROE" class="setLabel Zendikar">Rize of the Eldrazi<br></label>
+
+						<input type="checkbox" name="set" class="set" value="SOM" disabled><label for="SOM" class="setLabel">Scars of Mirrodin<br></label>
+						<input type="checkbox" name="set" class="set" value="MBS" disabled><label for="MBS" class="setLabel Mirrodin">Mirrodin Besieged<br></label>
+						<input type="checkbox" name="set" class="set" value="NPH" disabled><label for="NPH" class="setLabel Mirrodin">New Phyrexia<br></label>
+
+						<input type="checkbox" name="set" class="set" value="INN" disabled><label for="INN" class="setLabel">Innistrad<br></label>
+						<input type="checkbox" name="set" class="set" value="DKA" disabled><label for="DKA" class="setLabel Innistrad">Dark Ascension<br></label>
+						<input type="checkbox" name="set" class="set" value="AVR" disabled><label for="AVR" class="setLabel Innistrad">Avacyn Restored<br></label>
+
+						<input type="checkbox" name="set" class="set" value="RTR" disabled><label for="RTR" class="setLabel Ravnica">Return to Ravnica<br></label>
+						<input type="checkbox" name="set" class="set" value="GTC" disabled><label for="GTC" class="setLabel Ravnica">Gatecrash<br></label>
+						<input type="checkbox" name="set" class="set" value="DGM" disabled><label for="DGM" class="setLabel Ravnica">Dragons Maze<br></label>
+
+						<input type="checkbox" name="set" class="set" value="THS" disabled><label for="THS" class="setLabel Theros">Theros<br></label>
+						<input type="checkbox" name="set" class="set" value="BNG" disabled><label for="BNG" class="setLabel Theros">Born of the Gods<br></label>
+						<input type="checkbox" name="set" class="set" value="JOU" disabled><label for="JOU" class="setLabel Theros">Journey into Nyx<br></label>
+
+						<input type="checkbox" name="set" class="set" value="KTK" disabled><label for="KTK" class="setLabel">Khans of Tarkir<br></label>
+						<input type="checkbox" name="set" class="set" value="FRF" disabled><label for="FRF" class="setLabel Khans">Fate Reforged<br></label>
+						<input type="checkbox" name="set" class="set" value="DTK" disabled><label for="DTK" class="setLabel Khans">Dragons of Tarkir<br></label>
+
+						<input type="checkbox" name="set" class="set" value="BFZ" disabled><label for="BFZ" class="setLabel">Battle for Zendikar<br></label>
+						<input type="checkbox" name="set" class="set" value="OGW" disabled><label for="OGW" class="setLabel Zendikar">Oath of the Gatewatch<br></label>
+
+						<input type="checkbox" name="set" class="set" value="SOI" disabled><label for="SOI" class="setLabel">Shadows Over Innistrad<br></label>
+						<input type="checkbox" name="set" class="set" value="EMN" disabled><label for="EMN" class="setLabel Innistrad">Eldritch Moon<br></label>
+
+						<input type="checkbox" name="set" class="set" value="KLD" disabled><label for="KLD" class="setLabel">Kaladesh<br></label>
+						<input type="checkbox" name="set" class="set" value="AER" disabled><label for="AER" class="setLabel Kaladesh">Aether Revolt<br></label>
+
+						<input type="checkbox" name="set" class="set" value="AKH" disabled><label for="AKH" class="setLabel">Amonkhet<br></label>
+						<input type="checkbox" name="set" class="set" value="HOU" disabled><label for="HOU" class="setLabel Amonkhet">Hour of Devastation<br></label>
+
+						<input type="checkbox" name="set" class="set" value="XLN" disabled><label for="XLN" class="setLabel">Ixalan<br></label>
+						<input type="checkbox" name="set" class="set" value="RIX" disabled><label for="RIX" class="setLabel">Rivals of Ixalan<br></label>
+
+						<input type="checkbox" name="set" class="set" value="DOM" disabled><label for="DOM" class="setLabel">Dominaria<br></label>
+
+						<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN" class="setLabel">Guilds of Ravnica<br></label>
+						<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA" class="setLabel">Ravnica Allegiance<br></label>
+						<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR" class="setLabel Ravnica">War of the Spark<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD" class="setLabel Standard">Eldraine<br></label>
+						<input type="checkbox" name="set" class="set" value="THB"><label for="THB" class="setLabel Standard">Theros Beyond Death<br></label>
+						<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO" class="setLabel Standard">Ikoria<br></label>
+
+						<input type="checkbox" name="set" class="set" value="ZNR" checked><label for="ZNR" class="setLabel Standard">Zendikar Rising<br></label>
+						<input type="checkbox" name="set" class="set" value="KHM" checked><label for="KHM" class="setLabel Standard">Kaldheim<br></label>
 					</div>
 				</div>
 			</div>

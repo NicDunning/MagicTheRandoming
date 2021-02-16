@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Beleren';
+    src: url('Beleren-Bold.eot');
+    src: url('Beleren-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Beleren-Bold.woff2') format('woff2'),
+        url('Beleren-Bold.woff') format('woff'),
+        url('Beleren-Bold.ttf') format('truetype'),
+        url('Beleren-Bold.svg#Beleren-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MPlantin';
+    src: url('MPlantin.eot');
+    src: url('MPlantin.eot?#iefix') format('embedded-opentype'),
+        url('MPlantin.woff2') format('woff2'),
+        url('MPlantin.woff') format('woff'),
+        url('MPlantin.ttf') format('truetype'),
+        url('MPlantin.svg#MPlantin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+#mainWrapper{
+	display: flex;
+}
+
+#mainContainer{
+	transform: scale(0.999, 1.0);
+	display: block;
+	margin-left: 10px;
+	/*margin-right: auto;*/
+	margin-top: 20px;
+}
+
+#rsOptionsContainer{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	height: 0%;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 15px;
+	padding-bottom: 2px;
+	border: 1px solid black;
+}
+
+.options{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	padding: 2%;
+	justify-content: center;
+}
+
+
+.options > input[type="text"]{
+	margin: 1% 0px 1% 0px;
+	width: 97%;
+}
+
+input[type="number"]{
+	width: 15%;
+	margin-left: 15px; 
+	margin-right: 15px;
+}
+
+.numberBox{
+	display: flex;
+	width: 100%;
+}
+
+.numberBox > label {
+	width: 90%;
+}
+
+#autoFillCardName{
+	position: relative;
+	display: inline-block;
+	background-color: white;
+}
+
+#autoFillCardName > p{
+	border: 1px solid black;
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	width: 99.7%;
+}
+
+
+#autoFill1{
+	top: -16px;
+}
+
+#autoFill1:hover{
+	background-color: #d9d9d9;
+}
+
+#autoFill2{
+	top: 4px;
+}
+
+#autoFill2:hover{
+	background-color: #d9d9d9;
+}
+
+#autoFill3{
+	top: 24px;
+}
+
+#autoFill3:hover{
+	background-color: #d9d9d9;
+}
+
+
+#sets::-webkit-scrollbar{
+	display: none;
+}
+
+
+#sets{
+	display: inline-block;
+	height: 75px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 0%;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	border: 1px solid black;
+}
+
+div > label{
+
+}
+
+#sets > div{
+	border: 1px solid black;
+}
+
+#topSlice{
+	float: left;
+	clear: left;
+	display: flex;
+	background-image: url("");
+	height: 57px;
+	width: 375px;
+}
+
+#topSlice > p {
+	float: left;
+	clear: left;
+	font-family: 'Beleren';
+	font-weight: bold;
+	font-size: 17px;
+	transform: scale(1.1, 1.0);
+	padding-top: 13px;
+	padding-left: 35px;
+}
+
+.cost{
+	margin-left: auto;
+	margin-right: 40px;
+}
+
+p > img {
+	width: 18px;
+	height: 20px;
+}
+
+#cardArt{
+	float: left;
+	clear: left;
+	background-image: url("");
+	height: 236px;
+	width: 375px;
+}
+
+#typeBar{
+	float: left;
+	clear: left;
+	font-size: 15px;
+	background-image: url("");
+	margin: 0px;
+	width: 375px;
+	height: 36px;
+}
+
+#typeBar > p{
+	float: left;
+	clear: left;
+	font-family: "Beleren";
+	font-size: 15px;
+	transform: scale(1.05, 1.0);
+	margin-top: 4.5px;
+	margin-left: 35px;
+}
+
+#textContainer{
+	float: left;
+	clear: left;
+	background-image: url("");
+	min-height: 177px;
+	/* background Image is 117 px height.*/
+	width: 375px;
+	background-repeat: repeat-y;
+}
+
+#textContainer > p {
+	float: left;
+	clear: left;
+/*	display: flex;
+	justify-content: center;*/
+	font-family: 'MPlantin';
+	font-weight: 590;
+	font-size: 17px;
+	line-height: 95%;
+	padding-left: 31.5px;
+	padding-top: 5px;
+	max-width: 313px;
+	margin-top: 0px;
+}
+
+#textContainer > p:nth-of-type(1){
+/*	padding-top: 10px;*/
+	margin-bottom: 5px;
+}
+
+#textContainer > p:last-child{
+	padding-bottom: 20px;
+}
+
+#bottomSlice{
+	float: left;
+	clear: left;
+	margin-top: -50px;
+	background-image: url("");
+	background-color: transparent;
+	height: 77px;
+	width: 375px;
+}
+
+#bottomSlice > p{
+	clear: right;
+	float: right;
+	font-family: "Beleren";
+	font-size: 23px;
+	letter-spacing: 3px;
+	margin-right: 39px;
+	margin-top: 23px;
+}
+
+/* 
+*/
+
