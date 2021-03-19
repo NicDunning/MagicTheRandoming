@@ -18,9 +18,14 @@
 					<p></p>
 				</div>
 				<div id="textContainer">
+					<p id="keywords"></p>
+					<p id="abilities"></p>
+				</div>
+				<div id="originalTextContainer">
+					<p id="originalTextAbility"></p>
 				</div>
 				<div id="bottomSlice">
-					<p></p>
+					<div id="powerToughnessContainer"><p id="pTLeftCap"></p><p id="powerToughness"></p><p id="pTRightCap"></p></div>
 				</div>
 			</div>
 			<div id="rsOptionsContainer">
@@ -59,15 +64,15 @@
 <!-- 					<input type="checkbox" name="numAbility" id="normalNum" value="norm">
 					<label for="norm">Use original number of abilities.</label> -->
 				</div>
-		<!-- 		<div id="original" class="options">
+				<div id="original" class="options">
 					<p>Show original card</p>
 					<div>
-						<input type="radio" name="showOriginal" value="yes">
+						<input type="radio" name="showOriginal" id="showOriginal1" value="yes">
 						<label for="yes">Yes</label><br>
-						<input type="radio" name="showOriginal" value="no" checked>
+						<input type="radio" name="showOriginal"id="showOriginal2" value="no" checked>
 						<label for="no">No</label><br>
 					</div>
-				</div> -->
+				</div>
 				<div id="cardSelectorContainer" class="options">
 					<p>Select a Card.</p>
 					<input type="text" name="cardSelect" id="cardSelect" placeholder="Enter card name here">
@@ -80,160 +85,305 @@
 					<button id="randomCard">Random Card</button>
 				</div>
 				<div id="setSelector" class="options">
+					<p>Choose sets</p>
 					<input type="text" name="setSearch" id="setSearch" placeholder="Enter set name here">
 				<div id="sets" class="options">
-						<input type="checkbox" name="set" class="set" value="LEA" disabled><label for="LEA" class="setLabel">Alpha<br></label>
-						<input type="checkbox" name="set" class="set" value="LEB" disabled><label for="LEB" class="setLabel">Beta<br></label>
-						<input type="checkbox" name="set" class="set" value="2ED" disabled><label for="2ED" class="setLabel">Unlimited<br></label>
-						<input type="checkbox" name="set" class="set" value="3ED" disabled><label for="3ED" class="setLabel">Revised<br></label>
-						<input type="checkbox" name="set" class="set" value="4ED" disabled><label for="4ED" class="setLabel">Fourth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="5ED" disabled><label for="5ED" class="setLabel">Fifth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="6ED" disabled><label for="6ED" class="setLabel">Sixth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="7ED" disabled><label for="7ED" class="setLabel">Seventh Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="8ED" disabled><label for="8ED" class="setLabel">Eighth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="9ED" disabled><label for="9ED" class="setLabel">Ninth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="10E" disabled><label for="10E" class="setLabel">Tenth Edition<br></label>
-						<input type="checkbox" name="set" class="set" value="m10" disabled><label for="m10" class="setLabel">Magic 2010<br></label>
-						<input type="checkbox" name="set" class="set" value="m11" disabled><label for="m11" class="setLabel">Magic 2011<br></label>
-						<input type="checkbox" name="set" class="set" value="m12" disabled><label for="m12" class="setLabel">Magic 2012<br></label>
-						<input type="checkbox" name="set" class="set" value="m13" disabled><label for="m13" class="setLabel">Magic 2013<br></label>
-						<input type="checkbox" name="set" class="set" value="m14" disabled><label for="m14" class="setLabel">Magic 2014<br></label>
-						<input type="checkbox" name="set" class="set" value="m15" disabled><label for="m15" class="setLabel">Magic 2015<br></label>
-						<input type="checkbox" name="set" class="set" value="ORI" disabled><label for="ORI" class="setLabel">Magic Origins<br></label>
-						<input type="checkbox" name="set" class="set" value="m19" disabled><label for="m19" class="setLabel">Core Set 2019<br></label>
-						<input type="checkbox" name="set" class="set" value="m20" disabled><label for="m20" class="setLabel">Core Set 2020<br></label>
-						<input type="checkbox" name="set" class="set" value="m21" disabled><label for="m21" class="setLabel">Core Set 2021<br></label>
+						<input type="checkbox" name="set" class="set" value="LEA" disabled><label for="LEA" class="setLabel Core Set">Alpha<br></label>
+						<input type="checkbox" name="set" class="set" value="LEB" disabled><label for="LEB" class="setLabel Core Set">Beta<br></label>
+						<input type="checkbox" name="set" class="set" value="2ED" disabled><label for="2ED" class="setLabel Core Set">Unlimited<br></label>
 
 						<input type="checkbox" name="set" class="set" value="ARN" disabled><label for="ARN" class="setLabel">Arabian Nights<br></label>
 						<input type="checkbox" name="set" class="set" value="ATQ" disabled><label for="ATQ" class="setLabel">Antiquities<br></label>
+						<input type="checkbox" name="set" class="set" value="3ED" disabled><label for="3ED" class="setLabel Core Set">Revised<br></label>
+
 						<input type="checkbox" name="set" class="set" value="LEG" disabled><label for="LEG" class="setLabel">Legends<br></label>
 						<input type="checkbox" name="set" class="set" value="DRK" disabled><label for="DRK" class="setLabel">The Dark<br></label>
 						<input type="checkbox" name="set" class="set" value="FEM" disabled><label for="FEM" class="setLabel">Fallen Empires<br></label>
+						<input type="checkbox" name="set" class="set" value="4ED" disabled><label for="4ED" class="setLabel Core Set">Fourth Edition<br></label>
+
 						<input type="checkbox" name="set" class="set" value="ICE" disabled><label for="ICE" class="setLabel">Ice Age<br></label>
+						<input type="checkbox" name="set" class="set" value="CHR" disabled><label for="CHR" class="setLabel Supplimental Reprint">Chronicles<br></label>
 						<input type="checkbox" name="set" class="set" value="HML" disabled><label for="HML" class="setLabel">Homelands<br></label>
-						<input type="checkbox" name="set" class="set" value="ALL" disabled><label for="ALL" class="setLabel">Alliances<br></label>
+						<input type="checkbox" name="set" class="set" value="ALL" disabled><label for="ALL" class="setLabel Ice Age">Alliances<br></label>
+						<input type="checkbox" name="set" class="set" value="MIR" disabled><label for="MIR" class="setLabel Mirage">Mirage<br></label>
+						<input type="checkbox" name="set" class="set" value="VIS" disabled><label for="VIS" class="setLabel Mirage">Vison<br></label>
+						<input type="checkbox" name="set" class="set" value="5ED" disabled><label for="5ED" class="setLabel Core Set">Fifth Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="MIR" disabled><label for="MIR" class="setLabel">Mirage<br></label>
-						<input type="checkbox" name="set" class="set" value="VIS" disabled><label for="VIS" class="setLabel">Vison<br></label>
-						<input type="checkbox" name="set" class="set" value="WTH" disabled><label for="WTH" class="setLabel">Weatherlight<br></label>
+						<input type="checkbox" name="set" class="set" value="POR" disabled><label for="POR" class="setLabel Supplimental Starter">Portal<br></label>
+						<input type="checkbox" name="set" class="set" value="WTH" disabled><label for="WTH" class="setLabel Mirage">Weatherlight<br></label>
+						<input type="checkbox" name="set" class="set" value="TMP" disabled><label for="TMP" class="setLabel Tempest">Tempest<br></label>
+						<input type="checkbox" name="set" class="set" value="STH" disabled><label for="STH" class="setLabel Tempest">Stronghold<br></label>
+						<input type="checkbox" name="set" class="set" value="EXO" disabled><label for="EXO" class="setLabel Tempest">Exodus<br></label>
+						<input type="checkbox" name="set" class="set" value="PO2" disabled><label for="PO2" class="setLabel Supplimental Starter">Portal Second Age<br></label>
+						<input type="checkbox" name="set" class="set" value="UGL" disabled><label for="UGL" class="setLabel Silver Bordered"> Unglued<br></label>
+						<input type="checkbox" name="set" class="set" value="USG" disabled><label for="USG" class="setLabel Urza's">Urza's Saga<br></label>
+						<input type="checkbox" name="set" class="set" value="ATH" disabled><label for="ATH" class="setLabel Supplimental">Anthologies<br></label>
+						<input type="checkbox" name="set" class="set" value="ULG" disabled><label for="ULG" class="setLabel Urza's">Urza's Legacy<br></label>
+						<input type="checkbox" name="set" class="set" value="6ED" disabled><label for="6ED" class="setLabel Core Set">Sixth Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="TMP" disabled><label for="TMP" class="setLabel">Tempest<br></label>
-						<input type="checkbox" name="set" class="set" value="STH" disabled><label for="STH" class="setLabel">Stronghold<br></label>
-						<input type="checkbox" name="set" class="set" value="EXO" disabled><label for="EXO" class="setLabel">Exodus<br></label>
+						<input type="checkbox" name="set" class="set" value="PTK" disabled><label for="PTK" class="setLabel Supplimental Starter">Portal Three Kingdoms<br></label>
+						<input type="checkbox" name="set" class="set" value="UDS" disabled><label for="UDS" class="setLabel Urza's">Urza's Destiny<br></label>
+						<input type="checkbox" name="set" class="set" value="S99" disabled><label for="S99" class="setLabel Supplimental Starter Deck">Starter 1999<br></label>
+						<input type="checkbox" name="set" class="set" value="MMQ" disabled><label for="MMQ" class="setLabel Masques">Mercadian Masques<br></label>
+						<input type="checkbox" name="set" class="set" value="BRB" disabled><label for="BRB" class="setLabel Supplimental Deck">Battle Royale<br></label>
+						<input type="checkbox" name="set" class="set" value="NEM" disabled><label for="NEM" class="setLabel Masques">Nemesis<br></label>
+						<input type="checkbox" name="set" class="set" value="S00" disabled><label for="S00" class="setLabel Supplimental Starter Deck">Starter 2000<br></label>
+						<input type="checkbox" name="set" class="set" value="PCY" disabled><label for="PCY" class="setLabel Masques">Prophecy<br></label>
+						<input type="checkbox" name="set" class="set" value="INV" disabled><label for="INV" class="setLabel Invasion">Invasion<br></label>
+						<input type="checkbox" name="set" class="set" value="BTD" disabled><label for="BTD" class="setLabel Supplimental Deck">Beatdown<br></label>
+						<input type="checkbox" name="set" class="set" value="PLS" disabled><label for="PLS" class="setLabel Invasion">Planeshift<br></label>
+						<input type="checkbox" name="set" class="set" value="7ED" disabled><label for="7ED" class="setLabel Core Set">Seventh Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="USG" disabled><label for="USG" class="setLabel">Urza's Saga<br></label>
-						<input type="checkbox" name="set" class="set" value="ULG" disabled><label for="ULG" class="setLabel">Urza's Legacy<br></label>
-						<input type="checkbox" name="set" class="set" value="UDS" disabled><label for="UDS" class="setLabel">Urza's Destiny<br></label>
+						<input type="checkbox" name="set" class="set" value="APC" disabled><label for="APC" class="setLabel Invasion">Apocalypse<br></label>
+						<input type="checkbox" name="set" class="set" value="ODY" disabled><label for="ODY" class="setLabel Odyssey">Odyssey<br></label>
+						<input type="checkbox" name="set" class="set" value="DKM" disabled><label for="DKM" class="setLabel Supplimental Deck">Deckmaster 2001<br></label>
+						<input type="checkbox" name="set" class="set" value="TOR" disabled><label for="TOR" class="setLabel Odyssey">Torment<br></label>
+						<input type="checkbox" name="set" class="set" value="JUD" disabled><label for="JUD" class="setLabel Odyssey">Judgement<br></label>
+						<input type="checkbox" name="set" class="set" value="ONS" disabled><label for="ONS" class="setLabel Onslaught">Onslaught<br></label>
+						<input type="checkbox" name="set" class="set" value="LGN" disabled><label for="LGN" class="setLabel Onslaught">Leigons<br></label>
+						<input type="checkbox" name="set" class="set" value="SCG" disabled><label for="SCG" class="setLabel Onslaught">Scourge<br></label>
+						<input type="checkbox" name="set" class="set" value="8ED" disabled><label for="8ED" class="setLabel Modern Core Set">Eighth Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="MMQ" disabled><label for="MMQ" class="setLabel">Mercadian Masques<br></label>
-						<input type="checkbox" name="set" class="set" value="NEM" disabled><label for="NEM" class="setLabel">Nemesis<br></label>
-						<input type="checkbox" name="set" class="set" value="PCY" disabled><label for="PCY" class="setLabel">Prophecy<br></label>
+						<input type="checkbox" name="set" class="set" value="MRD" disabled><label for="MRD" class="setLabel Modern Mirrodin">Mirrodin<br></label>
+						<input type="checkbox" name="set" class="set" value="DST" disabled><label for="DST" class="setLabel Modern Mirrodin">Darksteel<br></label>
+						<input type="checkbox" name="set" class="set" value="5DN" disabled><label for="5DN" class="setLabel Modern Mirrodin">Fifth Dawn<br></label>
+						<input type="checkbox" name="set" class="set" value="CHK" disabled><label for="CHK" class="setLabel Modern Kamigawa">Champions of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="UNH" disabled><label for="UNH" class="setLabel Supplimental Silver Bordered">Unhinged<br></label>	
+						<input type="checkbox" name="set" class="set" value="BOK" disabled><label for="BOK" class="setLabel Modern Kamigawa">Betrayers of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="SOK" disabled><label for="SOK" class="setLabel Modern Kamigawa">Saviors of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="9ED" disabled><label for="9ED" class="setLabel Modern Core Set">Ninth Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="INV" disabled><label for="INV" class="setLabel">Invasion<br></label>
-						<input type="checkbox" name="set" class="set" value="PLS" disabled><label for="PLS" class="setLabel">Planeshift<br></label>
-						<input type="checkbox" name="set" class="set" value="APC" disabled><label for="APC" class="setLabel">Apocalypse<br></label>
+						<input type="checkbox" name="set" class="set" value="RAV" disabled><label for="RAV" class="setLabel Modern Ravnica">Ravnica: City of Guilds<br></label>
+						<input type="checkbox" name="set" class="set" value="GPT" disabled><label for="GPT" class="setLabel Modern Ravnica">Guildpact<br></label>
+						<input type="checkbox" name="set" class="set" value="DIS" disabled><label for="DIS" class="setLabel Modern Ravnica">Dissension<br></label>
+						<input type="checkbox" name="set" class="set" value="CSP" disabled><label for="CSP" class="setLabel Modern Ice Age">Coldsnap<br></label>
+						<input type="checkbox" name="set" class="set" value="TSP" disabled><label for="TSP" class="setLabel Modern Time Spiral">Time Spiral<br></label>
+						<input type="checkbox" name="set" class="set" value="PLC" disabled><label for="PLC" class="setLabel Modern Time Spiral">Planar Chaos<br></label>
+						<input type="checkbox" name="set" class="set" value="FUT" disabled><label for="FUT" class="setLabel Modern Time Spiral">Future Sight<br></label>
+						<input type="checkbox" name="set" class="set" value="10E" disabled><label for="10E" class="setLabel Modern Core Set">Tenth Edition<br></label>
 
-						<input type="checkbox" name="set" class="set" value="ODY" disabled><label for="ODY" class="setLabel">Odyssey<br></label>
-						<input type="checkbox" name="set" class="set" value="TOR" disabled><label for="TOR" class="setLabel">Torment<br></label>
-						<input type="checkbox" name="set" class="set" value="JUD" disabled><label for="JUD" class="setLabel">Judgement<br></label>
+						<input type="checkbox" name="set" class="set" value="MED" disabled><label for="MED" class="setLabel Supplimental Online Reprint">Masters Edition<br></label>
+						<input type="checkbox" name="set" class="set" value="LRW" disabled><label for="LRW" class="setLabel Modern Lorwyn">Lorwyn<br></label>
+						<input type="checkbox" name="set" class="set" value="EVG" disabled><label for="EVG" class="setLabel Supplimental Duel Deck">Goblins Vs. Elves<br></label>
+						<input type="checkbox" name="set" class="set" value="MOR" disabled><label for="MOR" class="setLabel Modern Lorwyn">Morningtide<br></label>
+						<input type="checkbox" name="set" class="set" value="SHM" disabled><label for="SHM" class="setLabel Modern Lorwyn">Shadowmoor<br></label>
+						<input type="checkbox" name="set" class="set" value="EVE" disabled><label for="EVE" class="setLabel Modern Lorwyn">Eventide<br></label>
+						<input type="checkbox" name="set" class="set" value="DRB" disabled><label for="DRB" class="setLabel Supplimental Vault Reprint">From the Vault: Dragons<br></label>
+						<input type="checkbox" name="set" class="set" value="ME2" disabled><label for="ME2" class="setLabel Supplimental Online Reprint">Masters Edition 2<br></label>
+						<input type="checkbox" name="set" class="set" value="ALA" disabled><label for="ALA" class="setLabel Modern Alara">Shards of Alara<br></label>
+						<input type="checkbox" name="set" class="set" value="DD2" disabled><label for="DD2" class="setLabel Supplimental Duel Deck">Jace Vs. Chandra<br></label>
+						<input type="checkbox" name="set" class="set" value="CON" disabled><label for="CON" class="setLabel Modern Alara">Conflux<br></label>
+						<input type="checkbox" name="set" class="set" value="DDC" disabled><label for="DDC" class="setLabel Supplimental Duel Deck">Divine Vs. Demonic<br></label>
+						<input type="checkbox" name="set" class="set" value="ARB" disabled><label for="ARB" class="setLabel Modern Alara">Alara Reborn<br></label>
+						<input type="checkbox" name="set" class="set" value="m10" disabled><label for="m10" class="setLabel Modern Core Set">Magic 2010<br></label>
 
-						<input type="checkbox" name="set" class="set" value="ONS" disabled><label for="ONS" class="setLabel">Onslaught<br></label>
-						<input type="checkbox" name="set" class="set" value="LGN" disabled><label for="LGN" class="setLabel">Leigons<br></label>
-						<input type="checkbox" name="set" class="set" value="SCG" disabled><label for="SCG" class="setLabel">Scourge<br></label>
+						<input type="checkbox" name="set" class="set" value="TD0" disabled><label for="TD0" class="setLabel Supplimental Deck">Commander Theme Decks<br></label>
+						<input type="checkbox" name="set" class="set" value="V09" disabled><label for="V09" class="setLabel Supplimental">From the Vault: Exiled<br></label>
+						<input type="checkbox" name="set" class="set" value="HOP" disabled><label for="HOP" class="setLabel Supplimental">Planechase<br></label>
+						<input type="checkbox" name="set" class="set" value="ME3" disabled><label for="ME3" class="setLabel Supplimental">Masters Edition 3<br></label>
+						<input type="checkbox" name="set" class="set" value="ZEN" disabled><label for="ZEN" class="setLabel Modern Zendikar">Zendikar<br></label>
+						<input type="checkbox" name="set" class="set" value="DDD" disabled><label for="DDD" class="setLabel Supplimental Duel Deck">Garruk Vs. Liliana<br></label>	
+						<input type="checkbox" name="set" class="set" value="H09" disabled><label for="H09" class="setLabel Supplimental Deck">Premium Series: Slivers<br></label>	
+						<input type="checkbox" name="set" class="set" value="WWK" disabled><label for="WWK" class="setLabel Modern Zendikar">Worldwake<br></label>
+						<input type="checkbox" name="set" class="set" value="DDE" disabled><label for="DDE" class="setLabel Supplimental Duel Deck">Phyrexia Vs. Coalition<br></label>	
+						<input type="checkbox" name="set" class="set" value="ROE" disabled><label for="ROE" class="setLabel Modern Zendikar">Rize of the Eldrazi<br></label>
+						<input type="checkbox" name="set" class="set" value="DPA" disabled><label for="DPA" class="setLabel Supplimental Deck">Duels of the Planeswalkers<br></label>
+						<input type="checkbox" name="set" class="set" value="ARC" disabled><label for="ARC" class="setLabel Supplimental">Archenemy<br></label>	
+						<input type="checkbox" name="set" class="set" value="m11" disabled><label for="m11" class="setLabel Modern Core Set">Magic 2011<br></label>
 
-						<input type="checkbox" name="set" class="set" value="MRD" disabled><label for="MRD" class="setLabel">Mirrodin<br></label>
-						<input type="checkbox" name="set" class="set" value="DST" disabled><label for="DST" class="setLabel Mirrodin">Darksteel<br></label>
-						<input type="checkbox" name="set" class="set" value="5DN" disabled><label for="5DN" class="setLabel Mirrodin">Fifth Dawn<br></label>
+						<input type="checkbox" name="set" class="set" value="V10" disabled><label for="V10" class="setLabel Supplimental">From the Vault: Relics<br></label>	
+						<input type="checkbox" name="set" class="set" value="DDF" disabled><label for="DDF" class="setLabel Supplimental Duel Deck">Elspeth Vs. Tezzeret<br></label>
+						<input type="checkbox" name="set" class="set" value="SOM" disabled><label for="SOM" class="setLabel Modern Mirrodin">Scars of Mirrodin<br></label>
+						<input type="checkbox" name="set" class="set" value="TD0" disabled><label for="TD0" class="setLabel Supplimental">Magic Online Deck Series<br></label>
+						<input type="checkbox" name="set" class="set" value="PD2" disabled><label for="PD2" class="setLabel Supplimental Deck Fire Lightning">Premium Series: F & L<br></label>
+						<input type="checkbox" name="set" class="set" value="ME4" disabled><label for="ME4" class="setLabel Supplimental Online">Masters Edition 4<br></label>
+						<input type="checkbox" name="set" class="set" value="MBS" disabled><label for="MBS" class="setLabel Modern Mirrodin">Mirrodin Besieged<br></label>
+						<input type="checkbox" name="set" class="set" value="DDG" disabled><label for="DDG" class="setLabel Supplimental Duel Deck">Knights Vs. Dragons<br></label>
+						<input type="checkbox" name="set" class="set" value="NPH" disabled><label for="NPH" class="setLabel Modern Mirrodin">New Phyrexia<br></label>
+						<input type="checkbox" name="set" class="set" value="CMD" disabled><label for="CMD" class="setLabel Supplimental Commander">Commander<br></label>
+						<input type="checkbox" name="set" class="set" value="m12" disabled><label for="m12" class="setLabel Modern Core Set">Magic 2012<br></label>
 
-						<input type="checkbox" name="set" class="set" value="CHK" disabled><label for="CHK" class="setLabel">Champions of Kamigawa<br></label>
-						<input type="checkbox" name="set" class="set" value="BOK" disabled><label for="BOK" class="setLabel">Betrayers of Kamigawa<br></label>
-						<input type="checkbox" name="set" class="set" value="SOK" disabled><label for="SOK" class="setLabel">Saviors of Kamigawa<br></label>
+						<input type="checkbox" name="set" class="set" value="V11" disabled><label for="V11" class="setLabel Supplimental">From the Vault: Legends<br></label>
+						<input type="checkbox" name="set" class="set" value="DDH" disabled><label for="DDH" class="setLabel Supplimental Duel Deck">Ajani Vs. Nicol Bolas<br></label>
+						<input type="checkbox" name="set" class="set" value="INN" disabled><label for="INN" class="setLabel Modern Innestrad">Innistrad<br></label>
+						<input type="checkbox" name="set" class="set" value="PD3" disabled><label for="PD3" class="setLabel Supplimental Deck">Premium Series: Graveborn<br></label>
+						<input type="checkbox" name="set" class="set" value="DKA" disabled><label for="DKA" class="setLabel Modern Innistrad">Dark Ascension<br></label>
+						<input type="checkbox" name="set" class="set" value="DDI" disabled><label for="DDI" class="setLabel Supplimental Duel Deck">Venser Vs. Koth<br></label>
+						<input type="checkbox" name="set" class="set" value="AVR" disabled><label for="AVR" class="setLabel Modern Innistrad">Avacyn Restored<br></label>
+						<input type="checkbox" name="set" class="set" value="PC2" disabled><label for="PC2" class="setLabel Supplimental">Planechase 2012<br></label>
+						<input type="checkbox" name="set" class="set" value="m13" disabled><label for="m13" class="setLabel Modern Core Set">Magic 2013<br></label>
 
-						<input type="checkbox" name="set" class="set" value="RAV" disabled><label for="RAV" class="setLabel">Ravnica: City of Guilds<br></label>
-						<input type="checkbox" name="set" class="set" value="GPT" disabled><label for="GPT" class="setLabel Ravnica">Guildpact<br></label>
-						<input type="checkbox" name="set" class="set" value="DIS" disabled><label for="DIS" class="setLabel Ravnica">Dissension<br></label>
+						<input type="checkbox" name="set" class="set" value="V12" disabled><label for="V12" class="setLabel Supplimental">From the Vault: Realms<br></label>
+						<input type="checkbox" name="set" class="set" value="DDJ" disabled><label for="DDJ" class="setLabel Supplimental Duel Deck">Izzet Vs. Golgari<br></label>
+						<input type="checkbox" name="set" class="set" value="RTR"><label for="RTR" class="setLabel Modern Pioneer">Return to Ravnica<br></label>
+						<input type="checkbox" name="set" class="set" value="CM1" disabled><label for="CM1" class="setLabel Supplimental Commander">Commander's Arsenal<br></label>
+						<input type="checkbox" name="set" class="set" value="TD2" disabled><label for="TD2" class="setLabel Supplimental Duel Deck">Mirrodin Vs. Phyrexia<br></label>		
+						<input type="checkbox" name="set" class="set" value="GTC"><label for="GTC" class="setLabel Modern Pioneer">Gatecrash<br></label>
+						<input type="checkbox" name="set" class="set" value="DDK" disabled><label for="DDK" class="setLabel Supplimental">Sorin Vs. Tibalt<br></label>	
+						<input type="checkbox" name="set" class="set" value="DGM"><label for="DGM" class="setLabel Modern Pioneer">Dragons Maze<br></label>
+						<input type="checkbox" name="set" class="set" value="MMA" disabled><label for="MMA" class="setLabel Supplimental Modern">Modern Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="m14" disabled><label for="m14" class="setLabel Modern Core Set">Magic 2014<br></label>
 
-						<input type="checkbox" name="set" class="set" value="CSP" disabled><label for="CSP" class="setLabel">Coldsnap<br></label>
+						<input type="checkbox" name="set" class="set" value="V13" disabled><label for="V13" class="setLabel Supplimental">From the Vault: 20<br></label>	
+						<input type="checkbox" name="set" class="set" value="DDL" disabled><label for="DDL" class="setLabel Supplimental Duel Deck">Heroes Vs. Monsters<br></label>
+						<input type="checkbox" name="set" class="set" value="THS"><label for="THS" class="setLabel Modern Pioneer">Theros<br></label>
+						<input type="checkbox" name="set" class="set" value="C13" disabled><label for="C13" class="setLabel Supplimental Commander">Commander 2013<br></label>
+						<input type="checkbox" name="set" class="set" value="BNG"><label for="BNG" class="setLabel Modern Pioneer">Born of the Gods<br></label>
+						<input type="checkbox" name="set" class="set" value="DDM" disabled><label for="DDM" class="setLabel Supplimental Duel Deck">Jace Vs. Vraska<br></label>
+						<input type="checkbox" name="set" class="set" value="JOU"><label for="JOU" class="setLabel Modern Pioneer">Journey into Nyx<br></label>
+						<input type="checkbox" name="set" class="set" value="MD1" disabled><label for="MD1" class="setLabel Supplimental Modern Deck">Modern Event Deck<br></label>
+						<input type="checkbox" name="set" class="set" value="CNS" disabled><label for="CNS" class="setLabel Supplimental">Conspiracy<br></label>
+						<input type="checkbox" name="set" class="set" value="VMA" disabled><label for="VMA" class="setLabel Supplimental Online">Vintage Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="m15" disabled><label for="m15" class="setLabel Modern Core Set">Magic 2015<br></label>
 
-						<input type="checkbox" name="set" class="set" value="TSP" disabled><label for="TSP" class="setLabel">Time Spiral<br></label>
-						<input type="checkbox" name="set" class="set" value="PLC" disabled><label for="PLC" class="setLabel TimeSpiral">Planar Chaos<br></label>
-						<input type="checkbox" name="set" class="set" value="FUT" disabled><label for="FUT" class="setLabel TimeSpiral">Future Sight<br></label>
+						<input type="checkbox" name="set" class="set" value="V14" disabled><label for="V14" class="setLabel Supplimental">From the Vault: Annihilation<br></label>
+						<input type="checkbox" name="set" class="set" value="DDN" disabled><label for="DDN" class="setLabel Supplimental Duel Deck">Speed Vs. Cunning<br></label>
+						<input type="checkbox" name="set" class="set" value="KTK"><label for="KTK" class="setLabel Modern Pioneer Khans of Tarkir">Khans of Tarkir<br></label>
+						<input type="checkbox" name="set" class="set" value="C14" disabled><label for="C14" class="setLabel Supplimental Commander">Commander 2014<br></label>
+						<input type="checkbox" name="set" class="set" value="DD3" disabled><label for="DD3" class="setLabel Supplimental Duel Deck">Duel Deck Anthology<br></label>
+						<input type="checkbox" name="set" class="set" value="FRF"><label for="FRF" class="setLabel Modern Pioneer Khans of Tarkir">Fate Reforged<br></label>
+						<input type="checkbox" name="set" class="set" value="DDO" disabled><label for="DDO" class="setLabel Supplimental Duel Deck">Elspeth Vs. Kiora<br></label>
+						<input type="checkbox" name="set" class="set" value="DTK"><label for="DTK" class="setLabel Modern Pioneer Khans of Tarkir">Dragons of Tarkir<br></label>
+						<input type="checkbox" name="set" class="set" value="TPR" disabled><label for="TPR" class="setLabel Supplimental Online">Tempest Remastered<br></label>
+						<input type="checkbox" name="set" class="set" value="MM2" disabled><label for="MM2" class="setLabel Supplimental">Modern Masters 2015<br></label>
+						<input type="checkbox" name="set" class="set" value="ORI" disabled><label for="ORI" class="setLabel Modern Core Set">Magic Origins<br></label>
 
-						<input type="checkbox" name="set" class="set" value="LRW" disabled><label for="LRW" class="setLabel">Lorwyn<br></label>
-						<input type="checkbox" name="set" class="set" value="MOR" disabled><label for="MOR" class="setLabel Lorwyn">Morningtide<br></label>
+						<input type="checkbox" name="set" class="set" value="V15" disabled><label for="V15" class="setLabel Supplimental">From the Vault: Angels<br></label>	
+						<input type="checkbox" name="set" class="set" value="DDP" disabled><label for="DDP" class="setLabel Supplimental Duel Deck">Zendikar Vs. Eldrazi<br></label>
+						<input type="checkbox" name="set" class="set" value="BFZ"><label for="BFZ" class="setLabel Modern Pioneer Zendikar">Battle for Zendikar<br></label>
+						<input type="checkbox" name="set" class="set" value="EXP" disabled><label for="EXP" class="setLabel Supplimental Expedition">Zendikar Expedition<br></label>
+						<input type="checkbox" name="set" class="set" value="C15" disabled><label for="C15" class="setLabel Supplimental Commander">Commander 2015<br></label>
+						<input type="checkbox" name="set" class="set" value="PZ1" disabled><label for="PZ1" class="setLabel Supplimental Online">Legendary Cube<br></label>
+						<input type="checkbox" name="set" class="set" value="OGW"><label for="OGW" class="setLabel Modern Pioneer Zendikar">Oath of the Gatewatch<br></label>
+						<input type="checkbox" name="set" class="set" value="DDQ" disabled><label for="DDQ" class="setLabel Supplimental Duel Deck">Blessed Vs.Cursed<br></label>
+						<input type="checkbox" name="set" class="set" value="W16" disabled><label for="W16" class="setLabel Supplimental Deck">Welcome Deck 2016<br></label>
+						<input type="checkbox" name="set" class="set" value="SOI"><label for="SOI" class="setLabel Modern Pioneer Innistrad">Shadows Over Innistrad<br></label>
+						<input type="checkbox" name="set" class="set" value="EMA" disabled><label for="EMA" class="setLabel Supplimental">Eternal Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="EMN"><label for="EMN" class="setLabel Modern Pioneer Innistrad">Eldritch Moon<br></label>
+						<input type="checkbox" name="set" class="set" value="V16" disabled><label for="V16" class="setLabel Supplimental">From the Vault: Lore<br></label>
+						<input type="checkbox" name="set" class="set" value="CN2" disabled><label for="CN2" class="setLabel Supplimental">Conspiracy: Take the Crown<br></label>
+						<input type="checkbox" name="set" class="set" value="DDR" disabled><label for="DDR" class="setLabel Supplimental Duel Deck">Nissa Vs. Obnixilis<br></label>
+						<input type="checkbox" name="set" class="set" value="KLD"><label for="KLD" class="setLabel Modern Pioneer">Kaladesh<br></label>
+						<input type="checkbox" name="set" class="set" value="MPS" disabled><label for="MPS" class="setLabel Supplimental Expedition">Kaladesh Inventions<br></label>
+						<input type="checkbox" name="set" class="set" value="PZ2" disabled><label for="PZ2" class="setLabel Supplimental Online">MODO Treasure Chests<br></label>
+						<input type="checkbox" name="set" class="set" value="C16" disabled><label for="C16" class="setLabel Supplimental Commander">Commander 2016<br></label>
+						<input type="checkbox" name="set" class="set" value="PCA" disabled><label for="PCA" class="setLabel Supplimental">Planechase Anthology<br></label>
+						<input type="checkbox" name="set" class="set" value="AER"><label for="AER" class="setLabel Modern Pioneer">Aether Revolt<br></label>
+						<input type="checkbox" name="set" class="set" value="MM3" disabled><label for="MM3" class="setLabel Supplimental Modern">Modern Masters 2017<br></label>
+						<input type="checkbox" name="set" class="set" value="DDS" disabled><label for="DDS" class="setLabel Supplimental Duel Deck">Mind Vs. Might<br></label>
+						<input type="checkbox" name="set" class="set" value="W17" disabled><label for="W17" class="setLabel Supplimental Deck">Welcome Deck 2017<br></label>
+						<input type="checkbox" name="set" class="set" value="AKH"><label for="AKH" class="setLabel Modern Pioneer Amonkhet">Amonkhet<br></label>
+						<input type="checkbox" name="set" class="set" value="MP2" disabled><label for="MP2" class="setLabel Supplimental Expedition">Amonkhet Invocations<br></label>
+						<input type="checkbox" name="set" class="set" value="CMA" disabled><label for="CMA" class="setLabel Supplimental Commander">Commander Anthologies<br></label>
+						<input type="checkbox" name="set" class="set" value="E01" disabled><label for="E01" class="setLabel Supplimental">Archenemy: Nicol Bolas<br></label>
+						<input type="checkbox" name="set" class="set" value="HOU"><label for="HOU" class="setLabel Modern Pioneer Amonkhet">Hour of Devastation<br></label>
+						<input type="checkbox" name="set" class="set" value="C17" disabled><label for="C17" class="setLabel Supplimental Commander">Commander 2017<br></label>
+						<input type="checkbox" name="set" class="set" value="XLN"><label for="XLN" class="setLabel Modern Pioneer Ixalan">Ixalan<br></label>
+						<input type="checkbox" name="set" class="set" value="DDT" disabled><label for="DDT" class="setLabel Supplimental Duel Deck">Merfolk Vs. Goblins<br></label>
+						<input type="checkbox" name="set" class="set" value="IMA" disabled><label for="IMA" class="setLabel Supplimental">Iconic Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="E02" disabled><label for="E02" class="setLabel Supplimental">Explorers of Ixalan<br></label>
+						<input type="checkbox" name="set" class="set" value="V17" disabled><label for="V17" class="setLabel Supplimental">From the Vault: Transform<br></label>
+						<input type="checkbox" name="set" class="set" value="UST" disabled><label for="UST" class="setLabel Supplimental Silver Bordered">Unstable<br></label>
+						<input type="checkbox" name="set" class="set" value="RIX"><label for="RIX" class="setLabel Modern Pioneer Ixalan">Rivals of Ixalan<br></label>
+						<input type="checkbox" name="set" class="set" value="A25" disabled><label for="A25" class="setLabel Supplimental">Masters 25<br></label>
+						<input type="checkbox" name="set" class="set" value="DDU" disabled><label for="DDU" class="setLabel Supplimental Duel Deck">Elves Vs. Inventors<br></label>
+						<input type="checkbox" name="set" class="set" value="Q01" disabled><label for="Q01" class="setLabel Supplimental">Challenger Decks<br></label>
+						<input type="checkbox" name="set" class="set" value="DOM"><label for="DOM" class="setLabel Modern Pioneer">Dominaria<br></label>
+						<input type="checkbox" name="set" class="set" value="CM2" disabled><label for="CM2" class="setLabel Supplimental Commander">Commander Anthology 2<br></label>
+						<input type="checkbox" name="set" class="set" value="BBD" disabled><label for="BBD" class="setLabel Supplimental">Battlebond<br></label>
+						<input type="checkbox" name="set" class="set" value="SS1" disabled><label for="AA1" class="setLabel Supplimental">Signature Spellbook Jace<br></label>
+						<input type="checkbox" name="set" class="set" value="GS1" disabled><label for="GS1" class="setLabel Supplimental">Global Series Jiang & Mu<br></label>
+						<input type="checkbox" name="set" class="set" value="m19" disabled><label for="m19" class="setLabel Modern Core Set">Core Set 2019<br></label>
 
-						<input type="checkbox" name="set" class="set" value="SHM" disabled><label for="SHM" class="setLabel Lorwyn">Shadowmoor<br></label>
-						<input type="checkbox" name="set" class="set" value="EVE" disabled><label for="EVE" class="setLabel Lorwyn">Eventide<br></label>
-
-						<input type="checkbox" name="set" class="set" value="ALA" disabled><label for="ALA" class="setLabel">Shards of Alara<br></label>
-						<input type="checkbox" name="set" class="set" value="CON" disabled><label for="CON" class="setLabel Alara">Conflux<br></label>
-						<input type="checkbox" name="set" class="set" value="ARB" disabled><label for="ARB" class="setLabel">Alara Reborn<br></label>
-
-						<input type="checkbox" name="set" class="set" value="ZEN" disabled><label for="ZEN" class="setLabel">Zendikar<br></label>
-						<input type="checkbox" name="set" class="set" value="WWK" disabled><label for="WWK" class="setLabel Zendikar">Worldwake<br></label>
-						<input type="checkbox" name="set" class="set" value="ROE" disabled><label for="ROE" class="setLabel Zendikar">Rize of the Eldrazi<br></label>
-
-						<input type="checkbox" name="set" class="set" value="SOM" disabled><label for="SOM" class="setLabel">Scars of Mirrodin<br></label>
-						<input type="checkbox" name="set" class="set" value="MBS" disabled><label for="MBS" class="setLabel Mirrodin">Mirrodin Besieged<br></label>
-						<input type="checkbox" name="set" class="set" value="NPH" disabled><label for="NPH" class="setLabel Mirrodin">New Phyrexia<br></label>
-
-						<input type="checkbox" name="set" class="set" value="INN" disabled><label for="INN" class="setLabel">Innistrad<br></label>
-						<input type="checkbox" name="set" class="set" value="DKA" disabled><label for="DKA" class="setLabel Innistrad">Dark Ascension<br></label>
-						<input type="checkbox" name="set" class="set" value="AVR" disabled><label for="AVR" class="setLabel Innistrad">Avacyn Restored<br></label>
-
-						<input type="checkbox" name="set" class="set" value="RTR" disabled><label for="RTR" class="setLabel Ravnica">Return to Ravnica<br></label>
-						<input type="checkbox" name="set" class="set" value="GTC" disabled><label for="GTC" class="setLabel Ravnica">Gatecrash<br></label>
-						<input type="checkbox" name="set" class="set" value="DGM" disabled><label for="DGM" class="setLabel Ravnica">Dragons Maze<br></label>
-
-						<input type="checkbox" name="set" class="set" value="THS" disabled><label for="THS" class="setLabel Theros">Theros<br></label>
-						<input type="checkbox" name="set" class="set" value="BNG" disabled><label for="BNG" class="setLabel Theros">Born of the Gods<br></label>
-						<input type="checkbox" name="set" class="set" value="JOU" disabled><label for="JOU" class="setLabel Theros">Journey into Nyx<br></label>
-
-						<input type="checkbox" name="set" class="set" value="KTK" disabled><label for="KTK" class="setLabel">Khans of Tarkir<br></label>
-						<input type="checkbox" name="set" class="set" value="FRF" disabled><label for="FRF" class="setLabel Khans">Fate Reforged<br></label>
-						<input type="checkbox" name="set" class="set" value="DTK" disabled><label for="DTK" class="setLabel Khans">Dragons of Tarkir<br></label>
-
-						<input type="checkbox" name="set" class="set" value="BFZ" disabled><label for="BFZ" class="setLabel">Battle for Zendikar<br></label>
-						<input type="checkbox" name="set" class="set" value="OGW" disabled><label for="OGW" class="setLabel Zendikar">Oath of the Gatewatch<br></label>
-
-						<input type="checkbox" name="set" class="set" value="SOI" disabled><label for="SOI" class="setLabel">Shadows Over Innistrad<br></label>
-						<input type="checkbox" name="set" class="set" value="EMN" disabled><label for="EMN" class="setLabel Innistrad">Eldritch Moon<br></label>
-
-						<input type="checkbox" name="set" class="set" value="KLD" disabled><label for="KLD" class="setLabel">Kaladesh<br></label>
-						<input type="checkbox" name="set" class="set" value="AER" disabled><label for="AER" class="setLabel Kaladesh">Aether Revolt<br></label>
-
-						<input type="checkbox" name="set" class="set" value="AKH" disabled><label for="AKH" class="setLabel">Amonkhet<br></label>
-						<input type="checkbox" name="set" class="set" value="HOU" disabled><label for="HOU" class="setLabel Amonkhet">Hour of Devastation<br></label>
-
-						<input type="checkbox" name="set" class="set" value="XLN" disabled><label for="XLN" class="setLabel">Ixalan<br></label>
-						<input type="checkbox" name="set" class="set" value="RIX" disabled><label for="RIX" class="setLabel">Rivals of Ixalan<br></label>
-
-						<input type="checkbox" name="set" class="set" value="DOM" disabled><label for="DOM" class="setLabel">Dominaria<br></label>
-
-						<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN" class="setLabel">Guilds of Ravnica<br></label>
-						<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA" class="setLabel">Ravnica Allegiance<br></label>
-						<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR" class="setLabel Ravnica">War of the Spark<br></label>
-
-						<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD" class="setLabel Standard">Eldraine<br></label>
-						<input type="checkbox" name="set" class="set" value="THB"><label for="THB" class="setLabel Standard">Theros Beyond Death<br></label>
-						<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO" class="setLabel Standard">Ikoria<br></label>
-
-						<input type="checkbox" name="set" class="set" value="ZNR" checked><label for="ZNR" class="setLabel Standard">Zendikar Rising<br></label>
-						<input type="checkbox" name="set" class="set" value="KHM" checked><label for="KHM" class="setLabel Standard">Kaldheim<br></label>
+						<input type="checkbox" name="set" class="set" value="C18" disabled><label for="C18" class="setLabel Supplimental">Commander 2018<br></label>
+						<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN" class="setLabel Modern Pioneer Ravnica">Guilds of Ravnica<br></label>
+						<input type="checkbox" name="set" class="set" value="SK1" disabled><label for="SK1" class="setLabel Supplimental">Spellslinger Starter Kit<br></label>
+						<input type="checkbox" name="set" class="set" value="GK1" disabled><label for="GK1" class="setLabel Supplimental">Guild Kits 1<br></label>
+						<input type="checkbox" name="set" class="set" value="GNT" disabled><label for="GNT" class="setLabel Supplimental">Game Night<br></label>
+						<input type="checkbox" name="set" class="set" value="UMA" disabled><label for="UMA" class="setLabel Supplimental">Ultimate Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA" class="setLabel Modern Pioneer Ravnica">Ravnica Allegiance<br></label>
+						<input type="checkbox" name="set" class="set" value="GK2" disabled><label for="GK2" class="setLabel Supplimental">Guild Kits 2<br></label>
+						<input type="checkbox" name="set" class="set" value="Q02" disabled><label for="Q02" class="setLabel Supplimental">Challenger Decks 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR" class="setLabel Modern Pioneer Ravnica">War of the Spark<br></label>
+						<input type="checkbox" name="set" class="set" value="MH1" disabled><label for="MH1" class="setLabel Supplimental Modern">Modern Horizons<br></label>
+						<input type="checkbox" name="set" class="set" value="SS2" disabled><label for="SS2" class="setLabel Supplimental">Signature Spellbook: Gideon<br></label>
+						<input type="checkbox" name="set" class="set" value="m20" disabled><label for="m20" class="setLabel Modern Core Set">Core Set 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="C19" disabled><label for="C19" class="setLabel Supplimental Commander">Commander 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD" class="setLabel Modern Pioneer Standard">Eldraine<br></label>
+						<input type="checkbox" name="set" class="set" value="MB1" disabled><label for="MB1" class="setLabel Supplimental">Mystery Booster<br></label>
+						<input type="checkbox" name="set" class="set" value="GN2" disabled><label for="GN2" class="setLabel Supplimental">Game Nights 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="THB"><label for="THB" class="setLabel Modern Pioneer Standard Theros">Theros Beyond Death<br></label>
+						<input type="checkbox" name="set" class="set" value="UND" disabled><label for="UND" class="setLabel Supplimental Silver Bordered">Unsanctioned<br></label>
+						<input type="checkbox" name="set" class="set" value="Q03" disabled><label for="Q03" class="setLabel Supplimental">Challenger Decks 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO" class="setLabel Modern Pioneer Standard">Ikoria<br></label>
+						<input type="checkbox" name="set" class="set" value="C20" disabled><label for="C20" class="setLabel Supplimental Commander">Commander 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="m21" disabled><label for="m21" class="setLabel Modern Core Set">Core Set 2021<br></label>
+						<input type="checkbox" name="set" class="set" value="JMP"><label for="JMP" class="setLabel Supplimental">Jumpstart<br></label>
+						<input type="checkbox" name="set" class="set" value="DXM"><label for="DXM" class="setLabel Supplimental">Double Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="ZNR"><label for="ZNR" class="setLabel Modern Pioneer Standard Zendikar">Zendikar Rising<br></label>
+						<input type="checkbox" name="set" class="set" value="ZNC"><label for="ZNC" class="setLabel Supplimental Commander">Zendikar Commander<br></label>
+						<input type="checkbox" name="set" class="set" value="CMR"><label for="CMR" class="setLabel Supplimental Commander">Commander Legends<br></label>
+						<input type="checkbox" name="set" class="set" value="KHM" checked ><label for="KHM" class="setLabel Modern Pioneer Standard">Kaldheim<br></label>
+						<!-- <input type="checkbox" name="set" class="set" value="KHC" disabled><label for="KHC" class="setLabel Supplimental Commander">Kaldheim Commander<br></label> -->
+						<input type="checkbox" name="set" class="set" value="TSR"><label for="TSR" class="setLabel Supplimental">Time Spiral Remastered<br></label>
+						<!-- <input type="checkbox" name="set" class="set" value="Q04" disabled><label for="Q04" class="setLabel Supplimental">Challenger Decks 2021<br></label> -->
+						<!-- <input type="checkbox" name="set" class="set" value="" disabled><label for="" class="setLabel Modern Pioneer Standard">Strixhaven<br></label> -->
 					</div>
 				</div>
 			</div>
 
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- Standard-->
 		<script type="text/javascript" src="khm.js"> </script>
 		<script type="text/javascript" src="znr.js"> </script>
 		<script type="text/javascript" src="iko.js"> </script>
 		<script type="text/javascript" src="thb.js"> </script>
 		<script type="text/javascript" src="eld.js"> </script>
+		<!-- Standard-->
+		<!-- Pioneer-->
 		<script type="text/javascript" src="war.js"> </script>
 		<script type="text/javascript" src="rna.js"> </script>
 		<script type="text/javascript" src="grn.js"> </script>
+		<script type="text/javascript" src="dom.js"> </script>
+		<script type="text/javascript" src="xln.js"> </script>
+		<script type="text/javascript" src="rix.js"> </script>
+		<script type="text/javascript" src="hou.js"> </script>
+		<script type="text/javascript" src="akh.js"> </script>
+		<script type="text/javascript" src="aer.js"> </script>
+		<script type="text/javascript" src="kld.js"> </script>
+		<script type="text/javascript" src="emn.js"> </script>
+		<script type="text/javascript" src="soi.js"> </script>
+		<script type="text/javascript" src="ogw.js"> </script>
+		<script type="text/javascript" src="bfz.js"> </script>
+		<script type="text/javascript" src="dtk.js"> </script>
+		<script type="text/javascript" src="frf.js"> </script>
+		<script type="text/javascript" src="ktk.js"> </script>
+		<script type="text/javascript" src="jou.js"> </script>
+		<script type="text/javascript" src="bng.js"> </script>
+		<script type="text/javascript" src="ths.js"> </script>
+		<script type="text/javascript" src="dgm.js"> </script>
+		<script type="text/javascript" src="gtc.js"> </script>
+		<script type="text/javascript" src="rtr.js"> </script>
+		<!-- Pioneer-->
+		<!-- Modern-->
+		<!-- Modern-->
+		<!-- Legacy/Vintage-->
+		<!-- Legacy/Vintage-->
+		<!-- Commander-->
+		<script type="text/javascript" src="cmr.js"> </script>
+		<script type="text/javascript" src="znc.js"> </script>
+		<!-- Commander-->
+		<!-- Masters-->
+		<script type="text/javascript" src="dxm.js"> </script>
+		<!-- Masters-->
+		<!-- Other-->
+		<script type="text/javascript" src="tsr.js"> </script>
+		<script type="text/javascript" src="jmp.js"> </script>
+		<!-- Other-->
+
+
+
 
 		<script type="text/javascript" src="main.js" ></script>
 	</body>

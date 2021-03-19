@@ -3,12 +3,20 @@ var topSlice = document.getElementById("topSlice");
 var cardArt = document.getElementById("cardArt");
 var typeBar = document.getElementById("typeBar");
 var textBox = document.getElementById("textContainer");
+var originalText = document.getElementById("originalTextContainer");
 var bottomSlice = document.getElementById("bottomSlice");
 //Text locations in slices
 var cardName = document.querySelector("#topSlice > p");
 var typeLine = document.querySelector("#typeBar > p");
 var cost = document.querySelector(".cost");
-var pT = document.querySelector("#bottomSlice > p");
+var powerStat = document.getElementById("power");
+var toughnessStat = document.getElementById("toughness");
+var pT = document.querySelector("#powerToughness");
+var pTLeftCap = document.getElementById("pTLeftCap");
+var pTRightCap = document.getElementById("pTRightCap");
+var textBoxKeyword = document.getElementById("keywords");
+var textBoxAbility = document.getElementById("abilities");
+var originalTextAbility = document.getElementById("originalTextAbility");
 //Settings
 var raritiesSelected = document.getElementsByClassName("raritiesSelected");
 var setsContainer = document.getElementById("sets");
@@ -21,6 +29,8 @@ var search2 = document.getElementById("autoFill2");
 var search3 = document.getElementById("autoFill3");
 var autoFillSelections = document.getElementsByClassName("autoFillOption");
 var setSearch = document.getElementById("setSearch");
+var toggleOriginal1 = document.getElementById("showOriginal1");
+var toggleOriginal2 = document.getElementById("showOriginal2");
 //Buttons
 var randomCard = document.getElementById("randomCard");
 var chooseCard = document.getElementById("chooseCard");
@@ -30,7 +40,6 @@ var numInput = document.getElementById("numInput");
 var randNumAbility = document.getElementById("randNumAbility");
 var normalNumAbility = document.getElementById("normalNum");
 
-// add functionality so that when a rarity or set button is clicked to re obtain the card names.
 
 var cards = {};
 var cardNames = [];
@@ -42,6 +51,7 @@ var keywords = ["Reach", "Flying", "Vigilance", "Trample", "First Strike", "Life
 var rarities = [];
 var abilities = [];
 var tempSet = "";
+var setTags = [];
 var tempBlock = "";
 var tempCard = "";
 var tempPowers = [];
@@ -56,6 +66,7 @@ var tempRarity = "Common";
 var randKeyword = 0;
 var testAbilities = []
 var modeChoose = false;
+var showOriginal = false;
 
 // function toggleSets(){
 // 	if (setsContainer.style.display === "none"){
@@ -72,6 +83,7 @@ function selectCard(){
 	selectSets();
 	selectKeywords();
 	getCardNames();
+	showOriginalAbilities();
 	if(!modeChoose){
 		//Random number for card
 		var rand =  Math.floor(Math.random() * (Object.keys(cards).length));
@@ -92,15 +104,21 @@ function selectCard(){
 		tempCard = cards[chosenCard.value].name;
 		// console.log(tempCard);
 	}
+
+
 	var tempName = cards[tempCard].name;
 	var tempType = cards[tempCard].type;
 	var tempRarity = cards[tempCard].rarity;
 	var tempCost = cards[tempCard].cost;
+	var originalAbility = cards[tempCard].textbox.join("<br> <br>");
 	numOfAbilities = cards[tempCard].abilities;
 	tempConverted = cards[tempCard].converted
 	cardName.textContent = tempName;
 	typeLine.textContent = cards[tempCard].type;
 	cost.textContent = tempCost;
+	originalTextAbility.innerHTML = originalAbility
+	originalTextAbility.style.marginTop = (originalAbility.length * 0.05).toString() + "px";
+	// console.log(originalAbility.length * 7);
 	setColor();
 	getAbilities();
 	setAbilities(tempName, tempCard, tempRarity, numOfAbilities);
@@ -108,7 +126,14 @@ function selectCard(){
 	// setPowTou();
 	tempPower = cards[tempCard].power;
 	tempToughness = cards[tempCard].toughness;
-	pT.textContent = tempPower + " " + tempToughness;
+	pT.textContent = tempPower + "/" + tempToughness;
+	if((tempPower+"/"+tempToughness).length > 3){
+		pT.style.paddingRight = "10px"
+	} else {
+		pT.style.paddingRight = "0px";
+	}
+	// powerStat.textContent = ;
+	// toughnessStat.textContent = ;
 }
 
 function selectSets(){
@@ -180,20 +205,24 @@ function setAbilities(name, card, rarity, num){
 	// console.log(name, rarity, num);
 	tempKeywords.length = 0;
 	tempAbilities.length = 0;
-	// console.log(tempAbilities);
-	// num = 5;
-	// console.log(randNumAbility.checked);
+	textBoxKeyword.innerHTML = "";
+	textBoxAbility.innerHTML = "";
 	if(!numInput.value.length == 0 && randNumAbility.checked === false){
 		num = numInput.value;
 	} else if (randNumAbility.checked){
 		num = Math.floor(Math.random()*10);
-	} else if (normalNumAbility.checked){
 	}
 
-	numKeyword = Math.floor(Math.random()*num);
+	numKeyword = Math.round(Math.random()*num);
+
+	while(numKeyword > keywords.length){
+		numKeyword = Math.round(Math.random()*num);
+	}
+
 	numAbility = num - numKeyword;
 	if(true){
 		for(i=0; i<num; i++){
+			// console.log(numKeyword);
 			randKeyword = Math.floor(Math.random() * (keywords.length));
 			randAbility = Math.floor(Math.random() * (abilities.length));
 			//make sure ability is not blank.
@@ -203,19 +232,21 @@ function setAbilities(name, card, rarity, num){
 			if(numKeyword > 0 && !tempKeywords.includes(keywords[randKeyword])){
 				//If still can add keywords and not already selected.
 				tempKeywords.push(keywords[randKeyword]);
+				// console.log(tempKeywords);
 				numKeyword--;
-			} else if (numKeyword === 0){
+			} 
+			if (numKeyword === 0){
 				//If selected all keywords add to card.
-				var ability = document.createElement("p");
+				// var ability = document.createElement("p");
 				for(j=0; j<tempKeywords.length; j++){
 					if(j===(tempKeywords.length - 1)){
 						//adjust for last keyword not having a ,
-						ability.innerHTML += tempKeywords[j];
+						textBoxKeyword.innerHTML += tempKeywords[j];
 					} else {
-						ability.innerHTML += tempKeywords[j] + ", ";
+						textBoxKeyword.innerHTML += tempKeywords[j] + ", ";
 					}
 				}
-				textBox.appendChild(ability);
+				// textBox.appendChild(ability);
 				numKeyword--;
 				i--;
 			} else if (numKeyword > 0){
@@ -223,9 +254,10 @@ function setAbilities(name, card, rarity, num){
 				i--;
 			} else if (numAbility > 0 && !tempAbilities.includes(abilities[randAbility])){
 				//Add ability.
-				var ability = document.createElement("p");
-				ability.innerHTML = abilities[randAbility];
-				textBox.appendChild(ability);
+				// var ability = document.createElement("p");
+				textBoxAbility.innerHTML += abilities[randAbility];
+				textBoxAbility.innerHTML += "<br><br>";
+				// textBox.appendChild(ability);
 	 			tempAbilities.push(abilities[randAbility]);
 				numAbility--;
 			} else if (tempAbilities.includes(abilities[randAbility])){
@@ -235,6 +267,28 @@ function setAbilities(name, card, rarity, num){
 		}
 	}
 
+	if(textBoxKeyword.innerHTML == ""){
+		textBoxKeyword.style.display = "none";
+	}	else {
+		if(textBoxAbility.innerHTML == ""){
+			textBoxKeyword.style.marginTop = "-15px";
+		} else {
+			textBoxKeyword.style.marginTop = "15px";
+		}
+		textBoxKeyword.style.display = "flex";
+	}
+
+	if(textBoxAbility.innerHTML == ""){
+		textBoxAbility.style.display = "none";
+
+	}	else {
+		if(textBoxKeyword.innerHTML == ""){
+			textBoxAbility.style.marginTop = "15px";
+		} else {
+			textBoxAbility.style.marginTop = "0px";
+		}
+		textBoxAbility.style.display = "flex";
+	}
 
 
 	// if(rarity === "Common"){
@@ -254,6 +308,22 @@ function setAbilities(name, card, rarity, num){
 	// }
 }
 
+function showOriginalAbilities(){
+	showOriginal = toggleOriginal1.checked;
+	// console.log(showOriginal);
+	if(showOriginal){
+		//showOriginal
+		textBox.style.display = "none";
+		originalTextAbility.style.display = "block";
+		originalText.style.display = "flex";
+	} else {
+		//no show original
+		textBox.style.display = "flex";
+		originalTextAbility.style.display = "none";
+		originalText.style.display = "none";
+	}
+}
+
 function getPowTou(){
 	for(i=0; i<Object.keys(cards).length; i++){
 		getToughness(tempCard, tempConverted, i);
@@ -269,37 +339,55 @@ function setPowTou(){
 }
 
 function setColor(){
-	// console.log(cards[tempCard].color);
-	if("color3" in cards[tempCard]){
-		console.log("Add support for third color pls.");
-	} else if ("color2" in cards[tempCard]){
-		console.log("Add support for second color pls.");
+
+	if(cards[tempCard].color == "Colorless"){
+
+		topSlice.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-1.png")';
+		cardArt.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-2.png")';
+		typeBar.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-3.png")';
+		textBox.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-4.png")';
+		originalText.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-4.png")';
+		bottomSlice.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-5.png")';
+		pTLeftCap.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-8.png")';
+		pTRightCap.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-9.png")';
+		pT.style.backgroundImage = 'url("BlankCardAssets/'+ "Artifact" +'/' + "Artifact" +'-10.png")';
+
 	} else {
-		//need to add support for other card frames. Legendary, artifact, vehicle, ect.
-		//if card only has one or less colors.
+
 		topSlice.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-1.png")';
 		cardArt.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-2.png")';
 		typeBar.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-3.png")';
 		textBox.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-4.png")';
+		originalText.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-4.png")';
 		bottomSlice.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-5.png")';
+		pTLeftCap.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-8.png")';
+		pTRightCap.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-9.png")';
+		pT.style.backgroundImage = 'url("BlankCardAssets/'+ cards[tempCard].color +'/' + cards[tempCard].color +'-10.png")';
+
 	}
+
 }
 
 function updateSets(e){
 	for(i=0; i<labelsDom.length; i++){
+		setTags = [];
+		tags = "";
 		// Set Sets to lowercase
 		tempSet = labelsDom[i].textContent;
 		tempSet = tempSet.toLowerCase();
 
-		// Get block data ie. Zendikar for Rise of the eldrazi.
-		tempBlock = labelsDom[i].classList[1];
-		if (tempBlock === undefined){
-			tempBlock = "Not Valid";
-		}
-		tempBlock = tempBlock.toLowerCase();
+		//string of tags on each checkbox from class list.
 
-		// Show/ hide checkboxes for sets. TempSet for set name, TempBlock for groupings
-		if(tempSet.includes((e.target.value).toLowerCase()) || tempBlock.includes((e.target.value).toLowerCase())){
+		setTags = labelsDom[i].classList;
+		for(j=1; j<setTags.length; j++){
+			tags += setTags[j].toLowerCase() + " ";
+		}
+
+		// add set name to tags.
+		tags += tempSet + " ";
+
+		// if query in tags display set. otherwise hide set.
+		if(tags.includes((e.target.value).toLowerCase())){
 			setsDom[i].style.display = "";
 			labelsDom[i].style.display= "";
 		} else {
@@ -369,20 +457,15 @@ function tabWorkaround(e){
 function resetTextBox(){
 // reset textBox, removing all children <p> tags.
 
-		while(textBox.firstChild){
-			textBox.removeChild(textBox.lastChild);
-		}
+		// while(textBox.firstChild){
+		// 	textBox.removeChild(textBox.lastChild);
+		// }
 
 		modeChoose = true;
 		selectCard();
 }
 
 randomCard.addEventListener("click", function(){
-	// reset textBox, removing all children <p> tags.
-
-		while(textBox.firstChild){
-			textBox.removeChild(textBox.lastChild);
-		}
 		modeChoose = false;
 		selectCard();
 })
@@ -406,12 +489,16 @@ for(i=0; i<raritiesSelected.length; i++){
 setSearch.addEventListener("input", updateSets);
 chosenCard.addEventListener("input", updateCardSearch);
 chosenCard.addEventListener('keydown', tabWorkaround);
+toggleOriginal1.addEventListener("input", showOriginalAbilities);
+toggleOriginal2.addEventListener("input", showOriginalAbilities);
+
 
 // selectCard();
 selectCard();
 
 
 
-//Todo: add flavor text if card is short.
+//Todo: add flavor text if card is short. add functionality to show original card. Add p./t stretch to multicolor and colorless backgrounds.
+// Add functionality to change mana symbols to images. Make site look better on mobbile screens; If screen size small put settings on top of card.
 
 //Can use window[variable name] to reference variable variables.
