@@ -3359,7 +3359,7 @@ tsrRare = {
   },
   "keywordsRare": {
     "abilitiesText": [
-      "Flash,"
+      "Flash",
       "Convoke",
       "Flying",
       "Flash",
