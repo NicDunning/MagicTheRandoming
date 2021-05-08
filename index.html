@@ -28,7 +28,7 @@
 					<div id="powerToughnessContainer"><p id="pTLeftCap"></p><p id="powerToughness"></p><p id="pTRightCap"></p></div>
 				</div>
 			</div>
-			<div id="rsOptionsContainer">
+			<div id="rsOptionsContainer" scrollable style="height: 510px">
 				<div id="raritySelector" class="options">
 					<!--  -->
 					<p>Rarities to be displayed</p>
@@ -42,21 +42,45 @@
 						<input type="checkbox" name="rarity" value="Mythic" class="raritiesSelected">
 						<label for="Mythic">Mythic</label><br>
 					</div>
-					<!--  -->
-<!-- 					<p>Mix abilities among rarities?</p>
+				</div>
+				<div id="manaCostSelector" class="options">
+					<p>Select mana cost to display</p>
+					<div id="manaButtons" class="options">
+						<div class="costButton">1</div>
+						<div class="costButton">2</div>
+						<div class="costButton">3</div>
+						<div class="costButton">4</div>
+						<div class="costButton">5</div>
+						<div class="costButton">6</div>
+						<div class="costButton">7</div>
+						<div class="costButton">8</div>
+						<div class="costButton">9</div>
+						<div class="costButton">10</div>
+						<div class="costButton">11</div>
+						<div class="costButton">12</div>
+						<div class="costButton">13</div>
+						<div class="costButton">14</div>
+						<div class="costButton">15</div>
+						<div class="costButton">16</div>
+					</div>
+				</div>
+				<div id="importCardGroup" class="options">
+					<p>Import Creature List</p>
 					<div>
-						<input type="radio" name="mixed" value="yes" checked>
-						<label for="yes">Yes</label><br>
-						<input type="radio" name="mixed" value="no">
-						<label for="no">No</label><br>
-					</div> -->
+						<textarea id="cardListTextArea" placeholder="Enter Card list here:" scrollable style="width: 98%; height: 100px; resize: none"></textarea>
+					</div>
+					<button id="importButton">Import</button>
+					<button id="importToggle">Toggle</button>
 				</div>
 				<div id="numberAbilites" class="options">
 					<p>Number of Abilities</p>
 					<div>
 						<div class="numberBox">
 							<label for="numAbility" id="num"># (Min 0 Max 10) : </label>
-							<input type="number" name="numAbility" id="numInput" min="0" max="10" value="5"><br>
+							<div class="tooltip">
+							<input type="number" name="numAbility" id="numInput" min="0" max="10" value="">
+							<span class="tooltiptext">Leaving this blank will result in the regular number of abilities a card has.</span>
+							</div><br>
 						</div>
 						<input type="checkbox" name="numAbility" id="randNumAbility" value="rand">
 						<label for="rand">Random (Min 0 Max 10)</label><br>
@@ -258,7 +282,7 @@
 						<input type="checkbox" name="set" class="set" value="DDQ" disabled><label for="DDQ" class="setLabel Supplimental Duel Deck">Blessed Vs.Cursed<br></label>
 						<input type="checkbox" name="set" class="set" value="W16" disabled><label for="W16" class="setLabel Supplimental Deck">Welcome Deck 2016<br></label>
 						<input type="checkbox" name="set" class="set" value="SOI"><label for="SOI" class="setLabel Modern Pioneer Innistrad">Shadows Over Innistrad<br></label>
-						<input type="checkbox" name="set" class="set" value="EMA" disabled><label for="EMA" class="setLabel Supplimental">Eternal Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="EMA"><label for="EMA" class="setLabel Supplimental">Eternal Masters<br></label>
 						<input type="checkbox" name="set" class="set" value="EMN"><label for="EMN" class="setLabel Modern Pioneer Innistrad">Eldritch Moon<br></label>
 						<input type="checkbox" name="set" class="set" value="V16" disabled><label for="V16" class="setLabel Supplimental">From the Vault: Lore<br></label>
 						<input type="checkbox" name="set" class="set" value="CN2" disabled><label for="CN2" class="setLabel Supplimental">Conspiracy: Take the Crown<br></label>
@@ -266,10 +290,10 @@
 						<input type="checkbox" name="set" class="set" value="KLD"><label for="KLD" class="setLabel Modern Pioneer">Kaladesh<br></label>
 						<input type="checkbox" name="set" class="set" value="MPS" disabled><label for="MPS" class="setLabel Supplimental Expedition">Kaladesh Inventions<br></label>
 						<input type="checkbox" name="set" class="set" value="PZ2" disabled><label for="PZ2" class="setLabel Supplimental Online">MODO Treasure Chests<br></label>
-						<input type="checkbox" name="set" class="set" value="C16" disabled><label for="C16" class="setLabel Supplimental Commander">Commander 2016<br></label>
+						<input type="checkbox" name="set" class="set" value="C16"><label for="C16" class="setLabel Supplimental Commander">Commander 2016<br></label>
 						<input type="checkbox" name="set" class="set" value="PCA" disabled><label for="PCA" class="setLabel Supplimental">Planechase Anthology<br></label>
 						<input type="checkbox" name="set" class="set" value="AER"><label for="AER" class="setLabel Modern Pioneer">Aether Revolt<br></label>
-						<input type="checkbox" name="set" class="set" value="MM3" disabled><label for="MM3" class="setLabel Supplimental Modern">Modern Masters 2017<br></label>
+						<input type="checkbox" name="set" class="set" value="MM3"><label for="MM3" class="setLabel Supplimental Modern">Modern Masters 2017<br></label>
 						<input type="checkbox" name="set" class="set" value="DDS" disabled><label for="DDS" class="setLabel Supplimental Duel Deck">Mind Vs. Might<br></label>
 						<input type="checkbox" name="set" class="set" value="W17" disabled><label for="W17" class="setLabel Supplimental Deck">Welcome Deck 2017<br></label>
 						<input type="checkbox" name="set" class="set" value="AKH"><label for="AKH" class="setLabel Modern Pioneer Amonkhet">Amonkhet<br></label>
@@ -277,38 +301,38 @@
 						<input type="checkbox" name="set" class="set" value="CMA" disabled><label for="CMA" class="setLabel Supplimental Commander">Commander Anthologies<br></label>
 						<input type="checkbox" name="set" class="set" value="E01" disabled><label for="E01" class="setLabel Supplimental">Archenemy: Nicol Bolas<br></label>
 						<input type="checkbox" name="set" class="set" value="HOU"><label for="HOU" class="setLabel Modern Pioneer Amonkhet">Hour of Devastation<br></label>
-						<input type="checkbox" name="set" class="set" value="C17" disabled><label for="C17" class="setLabel Supplimental Commander">Commander 2017<br></label>
+						<input type="checkbox" name="set" class="set" value="C17"><label for="C17" class="setLabel Supplimental Commander">Commander 2017<br></label>
 						<input type="checkbox" name="set" class="set" value="XLN"><label for="XLN" class="setLabel Modern Pioneer Ixalan">Ixalan<br></label>
 						<input type="checkbox" name="set" class="set" value="DDT" disabled><label for="DDT" class="setLabel Supplimental Duel Deck">Merfolk Vs. Goblins<br></label>
-						<input type="checkbox" name="set" class="set" value="IMA" disabled><label for="IMA" class="setLabel Supplimental">Iconic Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="IMA"><label for="IMA" class="setLabel Supplimental">Iconic Masters<br></label>
 						<input type="checkbox" name="set" class="set" value="E02" disabled><label for="E02" class="setLabel Supplimental">Explorers of Ixalan<br></label>
 						<input type="checkbox" name="set" class="set" value="V17" disabled><label for="V17" class="setLabel Supplimental">From the Vault: Transform<br></label>
 						<input type="checkbox" name="set" class="set" value="UST" disabled><label for="UST" class="setLabel Supplimental Silver Bordered">Unstable<br></label>
 						<input type="checkbox" name="set" class="set" value="RIX"><label for="RIX" class="setLabel Modern Pioneer Ixalan">Rivals of Ixalan<br></label>
-						<input type="checkbox" name="set" class="set" value="A25" disabled><label for="A25" class="setLabel Supplimental">Masters 25<br></label>
+						<input type="checkbox" name="set" class="set" value="A25"><label for="A25" class="setLabel Supplimental">Masters 25<br></label>
 						<input type="checkbox" name="set" class="set" value="DDU" disabled><label for="DDU" class="setLabel Supplimental Duel Deck">Elves Vs. Inventors<br></label>
 						<input type="checkbox" name="set" class="set" value="Q01" disabled><label for="Q01" class="setLabel Supplimental">Challenger Decks<br></label>
 						<input type="checkbox" name="set" class="set" value="DOM"><label for="DOM" class="setLabel Modern Pioneer">Dominaria<br></label>
 						<input type="checkbox" name="set" class="set" value="CM2" disabled><label for="CM2" class="setLabel Supplimental Commander">Commander Anthology 2<br></label>
-						<input type="checkbox" name="set" class="set" value="BBD" disabled><label for="BBD" class="setLabel Supplimental">Battlebond<br></label>
+						<input type="checkbox" name="set" class="set" value="BBD"><label for="BBD" class="setLabel Supplimental">Battlebond<br></label>
 						<input type="checkbox" name="set" class="set" value="SS1" disabled><label for="AA1" class="setLabel Supplimental">Signature Spellbook Jace<br></label>
 						<input type="checkbox" name="set" class="set" value="GS1" disabled><label for="GS1" class="setLabel Supplimental">Global Series Jiang & Mu<br></label>
-						<input type="checkbox" name="set" class="set" value="m19" disabled><label for="m19" class="setLabel Modern Core Set">Core Set 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="m19"><label for="m19" class="setLabel Modern Core Set">Core Set 2019<br></label>
 
-						<input type="checkbox" name="set" class="set" value="C18" disabled><label for="C18" class="setLabel Supplimental">Commander 2018<br></label>
+						<input type="checkbox" name="set" class="set" value="C18"><label for="C18" class="setLabel Supplimental">Commander 2018<br></label>
 						<input type="checkbox" name="set" class="set" value="GRN"><label for="GRN" class="setLabel Modern Pioneer Ravnica">Guilds of Ravnica<br></label>
 						<input type="checkbox" name="set" class="set" value="SK1" disabled><label for="SK1" class="setLabel Supplimental">Spellslinger Starter Kit<br></label>
 						<input type="checkbox" name="set" class="set" value="GK1" disabled><label for="GK1" class="setLabel Supplimental">Guild Kits 1<br></label>
 						<input type="checkbox" name="set" class="set" value="GNT" disabled><label for="GNT" class="setLabel Supplimental">Game Night<br></label>
-						<input type="checkbox" name="set" class="set" value="UMA" disabled><label for="UMA" class="setLabel Supplimental">Ultimate Masters<br></label>
+						<input type="checkbox" name="set" class="set" value="UMA"><label for="UMA" class="setLabel Supplimental">Ultimate Masters<br></label>
 						<input type="checkbox" name="set" class="set" value="RNA"><label for="RNA" class="setLabel Modern Pioneer Ravnica">Ravnica Allegiance<br></label>
 						<input type="checkbox" name="set" class="set" value="GK2" disabled><label for="GK2" class="setLabel Supplimental">Guild Kits 2<br></label>
 						<input type="checkbox" name="set" class="set" value="Q02" disabled><label for="Q02" class="setLabel Supplimental">Challenger Decks 2019<br></label>
 						<input type="checkbox" name="set" class="set" value="WAR"><label for="WAR" class="setLabel Modern Pioneer Ravnica">War of the Spark<br></label>
-						<input type="checkbox" name="set" class="set" value="MH1" disabled><label for="MH1" class="setLabel Supplimental Modern">Modern Horizons<br></label>
+						<input type="checkbox" name="set" class="set" value="MH1"><label for="MH1" class="setLabel Supplimental Modern">Modern Horizons<br></label>
 						<input type="checkbox" name="set" class="set" value="SS2" disabled><label for="SS2" class="setLabel Supplimental">Signature Spellbook: Gideon<br></label>
-						<input type="checkbox" name="set" class="set" value="m20" disabled><label for="m20" class="setLabel Modern Core Set">Core Set 2020<br></label>
-						<input type="checkbox" name="set" class="set" value="C19" disabled><label for="C19" class="setLabel Supplimental Commander">Commander 2019<br></label>
+						<input type="checkbox" name="set" class="set" value="m20"><label for="m20" class="setLabel Modern Core Set">Core Set 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="C19"><label for="C19" class="setLabel Supplimental Commander">Commander 2019<br></label>
 						<input type="checkbox" name="set" class="set" value="ELD"><label for="ELD" class="setLabel Modern Pioneer Standard">Eldraine<br></label>
 						<input type="checkbox" name="set" class="set" value="MB1" disabled><label for="MB1" class="setLabel Supplimental">Mystery Booster<br></label>
 						<input type="checkbox" name="set" class="set" value="GN2" disabled><label for="GN2" class="setLabel Supplimental">Game Nights 2019<br></label>
@@ -316,8 +340,8 @@
 						<input type="checkbox" name="set" class="set" value="UND" disabled><label for="UND" class="setLabel Supplimental Silver Bordered">Unsanctioned<br></label>
 						<input type="checkbox" name="set" class="set" value="Q03" disabled><label for="Q03" class="setLabel Supplimental">Challenger Decks 2020<br></label>
 						<input type="checkbox" name="set" class="set" value="IKO"><label for="IKO" class="setLabel Modern Pioneer Standard">Ikoria<br></label>
-						<input type="checkbox" name="set" class="set" value="C20" disabled><label for="C20" class="setLabel Supplimental Commander">Commander 2020<br></label>
-						<input type="checkbox" name="set" class="set" value="m21" disabled><label for="m21" class="setLabel Modern Core Set">Core Set 2021<br></label>
+						<input type="checkbox" name="set" class="set" value="C20"><label for="C20" class="setLabel Supplimental Commander">Commander 2020<br></label>
+						<input type="checkbox" name="set" class="set" value="m21"><label for="m21" class="setLabel Modern Core Set">Core Set 2021<br></label>
 						<input type="checkbox" name="set" class="set" value="JMP"><label for="JMP" class="setLabel Supplimental">Jumpstart<br></label>
 						<input type="checkbox" name="set" class="set" value="DXM"><label for="DXM" class="setLabel Supplimental">Double Masters<br></label>
 						<input type="checkbox" name="set" class="set" value="ZNR"><label for="ZNR" class="setLabel Modern Pioneer Standard Zendikar">Zendikar Rising<br></label>
@@ -337,14 +361,17 @@
 		<!-- Standard-->
 		<script type="text/javascript" src="khm.js"> </script>
 		<script type="text/javascript" src="znr.js"> </script>
+		<script type="text/javascript" src="m21.js"> </script>
 		<script type="text/javascript" src="iko.js"> </script>
 		<script type="text/javascript" src="thb.js"> </script>
 		<script type="text/javascript" src="eld.js"> </script>
 		<!-- Standard-->
 		<!-- Pioneer-->
+		<script type="text/javascript" src="m20.js"> </script>
 		<script type="text/javascript" src="war.js"> </script>
 		<script type="text/javascript" src="rna.js"> </script>
 		<script type="text/javascript" src="grn.js"> </script>
+		<script type="text/javascript" src="m19.js"> </script>
 		<script type="text/javascript" src="dom.js"> </script>
 		<script type="text/javascript" src="xln.js"> </script>
 		<script type="text/javascript" src="rix.js"> </script>
@@ -367,19 +394,32 @@
 		<script type="text/javascript" src="rtr.js"> </script>
 		<!-- Pioneer-->
 		<!-- Modern-->
+		<script type="text/javascript" src="mm3.js"> </script>
+		<script type="text/javascript" src="mh1.js"> </script>
 		<!-- Modern-->
 		<!-- Legacy/Vintage-->
 		<!-- Legacy/Vintage-->
 		<!-- Commander-->
+		<script type="text/javascript" src="c16.js"> </script>
+		<script type="text/javascript" src="c17.js"> </script>
+		<script type="text/javascript" src="c18.js"> </script>
+		<script type="text/javascript" src="c19.js"> </script>
 		<script type="text/javascript" src="cmr.js"> </script>
 		<script type="text/javascript" src="znc.js"> </script>
+		<script type="text/javascript" src="c20.js"> </script>
 		<!-- Commander-->
 		<!-- Masters-->
+		<script type="text/javascript" src="ema.js"> </script>
+		<script type="text/javascript" src="ima.js"> </script>
+		<script type="text/javascript" src="a25.js"> </script>
+		<script type="text/javascript" src="uma.js"> </script>
 		<script type="text/javascript" src="dxm.js"> </script>
 		<!-- Masters-->
 		<!-- Other-->
 		<script type="text/javascript" src="tsr.js"> </script>
 		<script type="text/javascript" src="jmp.js"> </script>
+		<script type="text/javascript" src="bbd.js"> </script>
+<!-- 		<script type="text/javascript" src="mb1.js"> </script> -->
 		<!-- Other-->
 
 
